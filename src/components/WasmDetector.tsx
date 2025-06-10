@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 interface WasmFile {
@@ -11,6 +10,8 @@ interface WasmFile {
 }
 
 const WasmDetector = () => {
+  console.log('🔍 WasmDetector component is rendering!');
+  
   const [results, setResults] = useState<WasmFile[]>([]);
   const [isScanning, setIsScanning] = useState(false);
 
@@ -99,8 +100,10 @@ const WasmDetector = () => {
     return `${Math.round(bytes / (1024 * 1024))}MB`;
   };
 
+  console.log('🔍 WasmDetector about to return JSX');
+
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
+    <div className="bg-gray-50 p-6">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">

@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 
 const WasmRealityTest = () => {
+  console.log('🔮 WasmRealityTest component is rendering!');
+  
   const [testResults, setTestResults] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -73,6 +75,8 @@ const WasmRealityTest = () => {
       setIsLoading(false);
     }
   };
+
+  console.log('🔮 WasmRealityTest about to return JSX');
 
   return (
     <div className="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow">
