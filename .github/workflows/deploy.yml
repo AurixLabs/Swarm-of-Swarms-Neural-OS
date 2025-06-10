@@ -1,0 +1,75 @@
+
+name: Deploy to Vercel and Supabase
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  deploy-frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Run type check
+        run: npm run typecheck
+        
+      - name: Verify Deno files
+        run: |
+          echo "Checking for correct Deno files structure..."
+          [ -f "supabase/functions/openai-assistant/deps.ts" ] || echo "Warning: openai-assistant/deps.ts not found"
+          [ -f "supabase/functions/openai-chat/deps.ts" ] || echo "Warning: openai-chat/deps.ts not found"
+          [ -f "supabase/functions/qwen-chat/deps.ts" ] || echo "Warning: qwen-chat/deps.ts not found"
+        
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: '--prod'
+          working-directory: ./
+
+  deploy-functions:
+    runs-on: ubuntu-latest
+    needs: deploy-frontend
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      
+      - name: Setup Supabase CLI
+        run: |
+          curl -fsSL https://github.com/supabase/cli/releases/download/v1.112.0/supabase_1.112.0_linux_amd64.deb -o supabase.deb
+          sudo dpkg -i supabase.deb
+          rm supabase.deb
+          
+      - name: Login to Supabase
+        run: |
+          supabase login --token ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          
+      - name: Deploy Functions
+        env:
+          PROJECT_REF: sptoqlhgvfihhqknglvn
+        run: |
+          cd supabase/functions
+          supabase functions deploy qwen-chat --project-ref $PROJECT_REF --legacy-bundle false
+          supabase functions deploy qwen-assistant --project-ref $PROJECT_REF --legacy-bundle false
+          supabase functions deploy qwen-intent-detection --project-ref $PROJECT_REF --legacy-bundle false
+          supabase functions deploy tongyi-chat --project-ref $PROJECT_REF --legacy-bundle false
+          supabase functions deploy openai-chat --project-ref $PROJECT_REF --legacy-bundle false
+          supabase functions deploy openai-assistant --project-ref $PROJECT_REF --legacy-bundle false

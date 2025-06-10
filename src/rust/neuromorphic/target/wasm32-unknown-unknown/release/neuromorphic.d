@@ -1,0 +1,1 @@
+C:\Aurix\goodymorgan-temporal-computer-system\src\rust\neuromorphic\target\wasm32-unknown-unknown\release\neuromorphic.wasm: C:\Aurix\goodymorgan-temporal-computer-system\src\rust\neuromorphic\src\lib.rs
