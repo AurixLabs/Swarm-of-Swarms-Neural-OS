@@ -1,32 +1,31 @@
 
-import WasmDetector from './components/WasmDetector';
-import WasmRealityTest from './components/WasmRealityTest';
-import FamilyMemorialDashboard from './components/family/FamilyMemorialDashboard';
-
 function App() {
-  console.log('🚀 App component is rendering!');
+  console.log('🚀 Main: Starting CMA Neural OS...');
   
   return (
-    <div className="min-h-screen bg-gray-50 space-y-8">
-      <FamilyMemorialDashboard />
-      
-      <div className="p-4 space-y-8">
-        <div className="bg-red-500 text-white p-4 rounded">
-          DEBUG: If you can see this red box, React is working!
-        </div>
-        
-        <div className="bg-blue-500 text-white p-4 rounded">
-          DEBUG: About to render WasmDetector...
-        </div>
-        <WasmDetector />
-        
-        <div className="bg-green-500 text-white p-4 rounded">
-          DEBUG: About to render WasmRealityTest...
-        </div>
-        <WasmRealityTest />
-        
-        <div className="bg-purple-500 text-white p-4 rounded">
-          DEBUG: Finished rendering all components!
+    <div className="min-h-screen bg-background">
+      <div className="container mx-auto p-8">
+        <div className="text-center space-y-6">
+          <h1 className="text-4xl font-bold text-foreground">
+            CMA Neural OS
+          </h1>
+          <p className="text-xl text-muted-foreground">
+            Cognitive Modular Architecture - Development Workspace
+          </p>
+          
+          <div className="bg-card border rounded-lg p-6 text-left max-w-2xl mx-auto">
+            <h2 className="text-lg font-semibold mb-4">System Status</h2>
+            <div className="space-y-2 text-sm text-muted-foreground">
+              <div>🔧 Protocol Development Mode</div>
+              <div>⚡ WASM Integration: Pending</div>
+              <div>🧠 Neural Kernels: Standby</div>
+              <div>🔒 Ethics Core: Ready</div>
+            </div>
+          </div>
+          
+          <div className="text-sm text-muted-foreground">
+            Ready to build the future of cognitive computing.
+          </div>
         </div>
       </div>
     </div>
