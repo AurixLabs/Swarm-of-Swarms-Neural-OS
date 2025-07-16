@@ -44,5 +44,5 @@ If you use the software in violation of these terms, such use is not licensed an
 ### Modifications
 The licensor may modify these terms at any time by providing notice through the Software, documentation, website, or other reasonable means.
 
-For commercial licensing inquiries, please contact: [Contact Information]
+For commercial licensing inquiries, please contact: arthur@aurixlabs.ai
 
