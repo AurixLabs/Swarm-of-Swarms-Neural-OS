@@ -73,9 +73,13 @@ const HomePage = () => {
               Open Source Cognitive Computing
             </Badge>
             
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-              CMA Neural OS
+            <h1 className="text-5xl md:text-6xl font-bold mb-2 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+              GoodyMorgan
             </h1>
+            
+            <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-muted-foreground">
+              CMA Swarm of Swarms Neural AI Operating System
+            </h2>
             
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Revolutionary cognitive computing framework that enables AI systems to think, 

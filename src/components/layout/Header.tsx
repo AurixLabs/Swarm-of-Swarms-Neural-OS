@@ -21,9 +21,9 @@ const Header = () => {
         <div className="flex items-center gap-6">
           <Link to="/" className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">C</span>
+              <span className="text-primary-foreground font-bold text-sm">G</span>
             </div>
-            <span className="font-bold text-lg">CMA Neural OS</span>
+            <span className="font-bold text-lg">GoodyMorgan</span>
             <Badge variant="secondary" className="text-xs">
               v1.0.0
             </Badge>
