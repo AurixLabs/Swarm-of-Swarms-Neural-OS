@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Button } from '../ui/button';
 
 const LovableGitHubSyncChecker = () => {
   const [diagnostics, setDiagnostics] = useState<string[]>([]);
@@ -72,41 +73,41 @@ const LovableGitHubSyncChecker = () => {
   };
 
   return (
-    <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
+    <div className="bg-card border rounded-lg p-6">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-xl font-bold text-yellow-900">🔄 Lovable ↔ GitHub Sync Checker</h2>
-        <button
+        <h2 className="text-xl font-bold">GitHub Sync Checker</h2>
+        <Button
           onClick={checkLovableFiles}
           disabled={isChecking}
-          className="px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-700 disabled:bg-gray-400"
+          variant="default"
         >
-          {isChecking ? '🔄 Checking...' : '🔍 Check Lovable Files'}
-        </button>
+          {isChecking ? 'Checking...' : 'Check Files'}
+        </Button>
       </div>
 
-      <div className="mb-4 p-4 bg-yellow-100 border border-yellow-300 rounded">
-        <h3 className="font-semibold text-yellow-900 mb-2">🎯 The Issue</h3>
-        <p className="text-yellow-800 text-sm">
-          You pushed real WASM files to GitHub, but Lovable is still seeing 0-byte files.
-          This suggests a sync delay or issue between GitHub and Lovable's cloud environment.
+      <div className="mb-4 p-4 bg-muted rounded border">
+        <h3 className="font-semibold mb-2">Sync Status</h3>
+        <p className="text-muted-foreground text-sm">
+          Verify that WASM files pushed to GitHub are properly synced to the Lovable environment.
+          This helps identify sync delays or accessibility issues.
         </p>
       </div>
 
       {diagnostics.length > 0 && (
-        <div className="bg-gray-50 border border-gray-200 rounded p-4 max-h-96 overflow-y-auto">
-          <h3 className="font-semibold mb-2">🔍 Lovable Environment Check</h3>
-          <pre className="text-xs whitespace-pre-wrap font-mono">
+        <div className="bg-muted rounded p-4 max-h-96 overflow-y-auto">
+          <h3 className="font-semibold mb-2">Environment Check Results</h3>
+          <pre className="text-xs whitespace-pre-wrap font-mono text-muted-foreground">
             {diagnostics.join('\n')}
           </pre>
         </div>
       )}
 
-      <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded">
-        <h4 className="font-semibold text-blue-900 mb-2">🚀 If Sync Is Broken</h4>
-        <div className="text-blue-800 text-sm space-y-2">
-          <p>1. <strong>Force refresh:</strong> Try closing and reopening Lovable</p>
-          <p>2. <strong>Manual copy:</strong> We might need to copy from pkg/ to public/wasm/ inside Lovable</p>
-          <p>3. <strong>Rebuild:</strong> Compile the Rust code directly in Lovable's environment</p>
+      <div className="mt-4 p-4 bg-secondary rounded">
+        <h4 className="font-semibold mb-2">Troubleshooting</h4>
+        <div className="text-muted-foreground text-sm space-y-2">
+          <p>• <strong>Force refresh:</strong> Close and reopen Lovable</p>
+          <p>• <strong>Manual copy:</strong> Copy from pkg/ to public/wasm/</p>
+          <p>• <strong>Rebuild:</strong> Compile Rust code in Lovable environment</p>
         </div>
       </div>
     </div>
