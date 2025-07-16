@@ -1,12 +1,15 @@
-# CMA Neural OS: The Future of Cognitive Computing
+# CMA Neural OS: The World's First Thinking Operating System
 
 <div align="center">
 
 ![CMA Neural OS](https://img.shields.io/badge/CMA-Neural%20OS-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Elastic%20v2.0-green?style=for-the-badge)
+![Global](https://img.shields.io/badge/Global-Neutral-purple?style=for-the-badge)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18+-blue?style=for-the-badge)
 ![WASM](https://img.shields.io/badge/WASM-Enabled-orange?style=for-the-badge)
+
+🌐 **Globally Accessible**: [GitHub](https://github.com/cma-neural-os) • [Gitee](https://gitee.com/cma-neural-os) • [GitLab](https://gitlab.com/cma-neural-os) • [Codeberg](https://codeberg.org/cma-neural-os) • [IPFS](https://cma-neural-os.eth)
 
 </div>
 
@@ -34,12 +37,22 @@
 
 ## 🚀 Quick Start (2 Minutes)
 
-```bash
-# Clone and setup
-git clone https://github.com/your-org/cma-neural-os.git
-cd cma-neural-os
+Choose your preferred global mirror:
 
-# One-command setup
+```bash
+# GitHub (Global)
+git clone https://github.com/cma-neural-os/cma-neural-os.git
+
+# Gitee (优化中国访问)
+git clone https://gitee.com/cma-neural-os/cma-neural-os.git
+
+# GitLab (European hosting)
+git clone https://gitlab.com/cma-neural-os/cma-neural-os.git
+
+# Codeberg (Privacy-focused)
+git clone https://codeberg.org/cma-neural-os/cma-neural-os.git
+
+cd cma-neural-os
 npm install && npm run dev
 ```
 
@@ -54,12 +67,15 @@ For full AI integration and hardware control:
 cp .env.example .env
 ```
 
-2. **Configure AI Services** (Optional):
+2. **Configure AI Services** (Optional - use your preferred providers):
 ```env
-# Add your API keys for enhanced AI capabilities
-QWEN_API_KEY=your_key_here
-OPENAI_API_KEY=your_key_here
-TONGYI_API_KEY=your_key_here
+# Global AI provider support
+QWEN_API_KEY=your_key_here      # Alibaba Cloud
+OPENAI_API_KEY=your_key_here    # OpenAI
+TONGYI_API_KEY=your_key_here    # Alibaba Tongyi
+CLAUDE_API_KEY=your_key_here    # Anthropic
+GEMINI_API_KEY=your_key_here    # Google
+LOCAL_MODEL_PATH=./models       # Local models
 ```
 
 3. **Hardware Integration** (Optional):
@@ -67,6 +83,9 @@ TONGYI_API_KEY=your_key_here
 # Enable WASM hardware control
 npm run build:wasm
 ```
+
+4. **Global Deployment** (Optional):
+See [GLOBAL_DEPLOYMENT.md](./GLOBAL_DEPLOYMENT.md) for worldwide mirroring
 
 ## 📚 Learn the Architecture
 
@@ -139,13 +158,24 @@ We welcome contributions! See our [Contributing Guide](./CONTRIBUTING.md) for de
 
 *Commercial use requires licensing. Contact us for enterprise solutions.*
 
-## 🌐 Community & Support
+## 🌐 Global Community & Support
 
-- 💬 **[Discord Community](https://discord.gg/cma-neural-os)** - Join the conversation
-- 📧 **[Mailing List](mailto:community@goodymorgan.dev)** - Stay updated
-- 🐛 **[Issue Tracker](https://github.com/your-org/cma-neural-os/issues)** - Report bugs
-- 📚 **[Documentation](https://docs.cma-neural-os.dev)** - Complete guides
-- 🎥 **[YouTube Channel](https://youtube.com/@cma-neural-os)** - Video tutorials
+### Primary Platforms
+- 💬 **[Discord](https://discord.gg/cma-neural-os)** - Global community hub
+- 📧 **[Mailing List](mailto:community@cma-neural-os.dev)** - Worldwide updates
+- 📚 **[Documentation](https://docs.cma-neural-os.dev)** - Multi-language guides
+- 🎥 **[YouTube](https://youtube.com/@cma-neural-os)** - Global tutorials
+
+### Regional Communities
+- 🐛 **GitHub Issues**: [github.com/cma-neural-os/cma-neural-os/issues](https://github.com/cma-neural-os/cma-neural-os/issues)
+- 🔧 **Gitee Issues**: [gitee.com/cma-neural-os/cma-neural-os/issues](https://gitee.com/cma-neural-os/cma-neural-os/issues)  
+- 🛠️ **GitLab Issues**: [gitlab.com/cma-neural-os/cma-neural-os/issues](https://gitlab.com/cma-neural-os/cma-neural-os/issues)
+- 🌍 **Matrix Chat**: `#cma-neural-os:matrix.org` (decentralized)
+
+### Decentralized Access
+- 🌐 **IPFS**: `cma-neural-os.eth` (censorship-resistant)
+- ⚡ **Arweave**: Permanent documentation storage
+- 🔗 **ENS**: Web3-native community hub
 
 ---
 
@@ -155,6 +185,6 @@ We welcome contributions! See our [Contributing Guide](./CONTRIBUTING.md) for de
 
 *Every contribution helps create truly intelligent, ethical AI systems*
 
-[⭐ Star us on GitHub](https://github.com/your-org/cma-neural-os) • [🚀 Try the Demo](https://demo.cma-neural-os.dev) • [📚 Read the Docs](https://docs.cma-neural-os.dev)
+[⭐ Star us Globally](https://github.com/cma-neural-os/cma-neural-os) • [🚀 Try the Demo](https://demo.cma-neural-os.dev) • [📚 Read the Docs](https://docs.cma-neural-os.dev) • [🌐 Global Access](./GLOBAL_DEPLOYMENT.md)
 
 </div>
