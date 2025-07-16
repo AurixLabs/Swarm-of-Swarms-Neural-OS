@@ -2,7 +2,7 @@
 # Elastic License 2.0 (ELv2)
 
 Copyright (c) 2025 GoodyMorgan Founders
-- Original Creators: Arthur Leung
+- Original Creators: Arthur Wing-Kay Leung
 
 ## Terms of Use
 
