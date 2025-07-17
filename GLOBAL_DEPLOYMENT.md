@@ -81,10 +81,8 @@ Documentation is also hosted on IPFS for censorship resistance:
 4. **Codeberg**: Privacy-focused developer community
 
 ### Regional Community Building
-- **Discord**: Global community hub (English primary)
-- **WeChat**: Chinese developer community
-- **Telegram**: European developer community
-- **Matrix**: Decentralized community network
+- **Contact**: arthur@aurixlabs.ai for any global deployment questions
+- **Regional Communities**: Contact arthur@aurixlabs.ai for regional community information
 
 ### Academic Partnerships
 - **Global Universities**: MIT, Stanford, Tsinghua, Cambridge, TU Berlin

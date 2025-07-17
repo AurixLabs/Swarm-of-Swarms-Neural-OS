@@ -2,10 +2,14 @@
 
 **Status: Early Development** 🚧
 
-This project is in active development. For now:
+For any questions, support, or inquiries:
 
-- **GitHub Issues**: Report bugs or ask questions
-- **Documentation**: Check README.md and code comments
-- **Examples**: Review the demo components for usage patterns
+📧 **Contact**: arthur@aurixlabs.ai
 
-Support infrastructure is being built as the project grows. Thanks for your patience!
+- Bug reports
+- Feature requests  
+- General questions
+- Commercial licensing
+- Partnership inquiries
+
+All inquiries welcome - we respond within 24-48 hours.

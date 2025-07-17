@@ -102,4 +102,4 @@ For the neural aspects of the system:
 
 ---
 
-*This changelog is automatically updated with each release. For more detailed commit history, see the [GitHub releases page](https://github.com/your-org/cma-neural-os/releases).*
+*This changelog is automatically updated with each release. Contact arthur@aurixlabs.ai for detailed release information.*

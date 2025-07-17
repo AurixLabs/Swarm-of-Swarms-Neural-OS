@@ -254,10 +254,9 @@ sudo chown -R $(whoami) ~/.npm
 
 ## Getting Help
 
-- **Documentation**: Check `/docs` folder
-- **GitHub Issues**: Report bugs and ask questions
-- **Community Discord**: Real-time community support
-- **Email Support**: technical-support@aurixlabs.ai
+📧 **Contact**: arthur@aurixlabs.ai
+
+For installation issues, questions, or support.
 
 ## Next Steps
 
@@ -265,4 +264,4 @@ After successful installation:
 1. Read the [Quick Start Guide](QUICK_START_GUIDE.md)
 2. Follow the [Tutorial](docs/tutorial.md)
 3. Explore [Example Applications](docs/examples/)
-4. Join the [Community](COMMUNITY.md)
+4. Contact arthur@aurixlabs.ai for community information

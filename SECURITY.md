@@ -16,7 +16,7 @@ The CMA Neural OS project takes security seriously. As a cognitive computing pla
 **Please do not report security vulnerabilities through public GitHub issues.**
 
 ### Preferred Method: Email
-Send security reports to: **security@goodymorgan.dev**
+Send security reports to: **arthur@aurixlabs.ai**
 
 Include:
 - Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)

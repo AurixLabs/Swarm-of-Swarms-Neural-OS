@@ -40,7 +40,7 @@
 
 ```bash
 # Clone and run
-git clone https://github.com/[your-username]/cma-neuromorphic-platform.git
+git clone [your-github-repo-url]
 cd cma-neuromorphic-platform
 npm install && npm run dev
 ```
@@ -170,12 +170,9 @@ We welcome contributions! See our [Contributing Guide](./CONTRIBUTING.md) for de
 
 ## 🌐 Community & Support
 
-**Status: Early Development** 🚧
+**Contact**: arthur@aurixlabs.ai
 
-- **GitHub Issues**: Questions and bug reports
-- **GitHub Discussions**: Ideas and general discussion
-
-More community channels will be added based on actual demand and usage.
+All inquiries welcome - questions, bug reports, partnerships, commercial licensing.
 
 ---
 
@@ -185,6 +182,6 @@ More community channels will be added based on actual demand and usage.
 
 *From ESP32 to Quantum: Chip-Agnostic Neural Architecture*
 
-[⭐ Star us on GitHub](https://github.com/) • [🚀 Try the Demo](/) • [📚 Read the Docs](/)
+📧 **Contact**: arthur@aurixlabs.ai • 🚀 Try the Demo • 📚 Documentation
 
 </div>
