@@ -294,7 +294,7 @@ Monitors and manages emergent system behaviors and patterns.
 
 The system uses a hybrid multi-layer approach to ethical reasoning with tamper-resistant features:
 
-### 1. Global Immutable Ethics Kernel
+### 1. Global Robust Ethics Kernel
 
 The EthicalReasoningKernel serves as the primary ethics provider, offering:
 - Advanced ethical reasoning capabilities

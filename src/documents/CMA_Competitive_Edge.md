@@ -20,7 +20,7 @@ Unlike traditional monolithic AI systems, CMA employs multiple specialized cogni
 
 This multi-kernel approach enables strong resilience, as failure in one cognitive domain doesn't compromise the entire system.
 
-### 1.2 Immutable Ethical Foundation
+### 1.2 Robust Ethical Foundation
 CMA embeds ethics at the architectural level, not as an afterthought:
 
 - **Robust Ethics Core**: Cryptographically secured ethical constraints with strong protections
