@@ -788,7 +788,10 @@ const HomePage = () => {
         <div className="container mx-auto px-6 text-center">
           <div className="text-sm text-muted-foreground space-y-2">
             <p>
-              <span className="font-medium">License:</span> Check License of Use
+              © 2024 CMA Neural Platform Project. All rights reserved.
+            </p>
+            <p>
+              <span className="font-medium">License:</span> Elastic License v2.0 - Free for non-commercial use
             </p>
             <p>
               <span className="font-medium">Contact:</span>{' '}
