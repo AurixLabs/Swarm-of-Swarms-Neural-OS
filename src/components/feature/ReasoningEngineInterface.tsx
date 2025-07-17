@@ -102,7 +102,7 @@ const ReasoningEngineInterface = () => {
           <p className="font-bold">🔥 REAL TinyLlama WASM MODULE REQUIRED - NO FALLBACKS!</p>
           <p className="mt-2">Run the build script to compile REAL inference modules:</p>
           <code className="bg-red-200 px-2 py-1 rounded mt-2 block">bash build_real_modules.sh</code>
-          <p className="mt-2">This will build REAL TinyLlama inference, not fake stubs!</p>
+          <p className="mt-2">This will build TinyLlama inference capabilities</p>
         </div>
       </div>
     );
@@ -123,7 +123,7 @@ const ReasoningEngineInterface = () => {
           <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Enter text for REAL TinyLlama to process..."
+            placeholder="Enter text for TinyLlama to process..."
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             rows={3}
           />

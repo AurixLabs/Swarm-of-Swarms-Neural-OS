@@ -37,7 +37,7 @@ const RealWasmBuildStatus = () => {
         const text = await response.text();
         const preview = text.substring(0, 200);
         console.error(`🚨 [RealWASM] Got HTML instead of WASM! Preview:`, preview);
-        setBuildStatus(`❌ FAKE WASM DETECTED!\nContent-Type: ${contentType}\nContent-Length: ${contentLength}\n\nFirst 200 chars:\n${preview}\n\n🔧 THE SERVER IS RETURNING HTML INSTEAD OF WASM!\n\nThis means the file wasn't copied to public/wasm/ correctly!\n\nTO FIX:\n1. cd src/rust/reasoning_engine\n2. ls pkg/ (check if reasoning_engine_bg.wasm exists)\n3. mkdir -p ../../../public/wasm/\n4. cp pkg/reasoning_engine_bg.wasm ../../../public/wasm/reasoning_engine.wasm\n5. ls ../../../public/wasm/ (verify the file was copied)`);
+        setBuildStatus(`❌ INVALID WASM DETECTED!\nContent-Type: ${contentType}\nContent-Length: ${contentLength}\n\nFirst 200 chars:\n${preview}\n\n🔧 THE SERVER IS RETURNING HTML INSTEAD OF WASM!\n\nThis means the file wasn't copied to public/wasm/ correctly!\n\nTO FIX:\n1. cd src/rust/reasoning_engine\n2. ls pkg/ (check if reasoning_engine_bg.wasm exists)\n3. mkdir -p ../../../public/wasm/\n4. cp pkg/reasoning_engine_bg.wasm ../../../public/wasm/reasoning_engine.wasm\n5. ls ../../../public/wasm/ (verify the file was copied)`);
         return;
       }
 
@@ -50,7 +50,7 @@ const RealWasmBuildStatus = () => {
         const text = new TextDecoder().decode(firstBytes);
         if (text.includes('<!DOCTYPE') || text.includes('<html')) {
           console.error(`🚨 [RealWASM] Binary content is actually HTML! First 50 bytes:`, text);
-          setBuildStatus(`❌ FAKE WASM DETECTED!\nFile size: ${bytes.byteLength} bytes\nBut content is HTML!\n\nFirst 50 bytes as text:\n${text}\n\n🔧 THE FILE EXISTS BUT CONTAINS HTML!\n\nThis usually means:\n1. The build failed silently\n2. You copied the wrong file\n3. The server is serving a 404 page instead of the WASM\n\nTO DEBUG:\n1. cd src/rust/reasoning_engine\n2. cat pkg/reasoning_engine_bg.wasm | head -c 20 | xxd\n3. Should show: 00000000: 0061 736d 0100 0000 (WASM magic)\n4. If not, rebuild: wasm-pack build --target web --release`);
+          setBuildStatus(`❌ INVALID WASM DETECTED!\nFile size: ${bytes.byteLength} bytes\nBut content is HTML!\n\nFirst 50 bytes as text:\n${text}\n\n🔧 THE FILE EXISTS BUT CONTAINS HTML!\n\nThis usually means:\n1. The build failed silently\n2. You copied the wrong file\n3. The server is serving a 404 page instead of the WASM\n\nTO DEBUG:\n1. cd src/rust/reasoning_engine\n2. cat pkg/reasoning_engine_bg.wasm | head -c 20 | xxd\n3. Should show: 00000000: 0061 736d 0100 0000 (WASM magic)\n4. If not, rebuild: wasm-pack build --target web --release`);
           return;
         }
       }
@@ -69,12 +69,12 @@ const RealWasmBuildStatus = () => {
       
       for (let i = 0; i < 4; i++) {
         if (magicBytes[i] !== expectedMagic[i]) {
-          setBuildStatus(`❌ INVALID WASM MAGIC NUMBER!\nExpected: [${expectedHex}]\nActual:   [${magicHex}]\nSize: ${bytes.byteLength} bytes\nContent-Type: ${contentType}\n\n🔧 THE FILE IS CORRUPTED OR NOT REAL WASM!\n\nTO FIX:\n1. Delete the fake file: rm ../../../public/wasm/reasoning_engine.wasm\n2. Rebuild: wasm-pack build --target web --release\n3. Verify build: xxd -l 8 pkg/reasoning_engine_bg.wasm\n4. Should show: 00000000: 0061 736d 0100 0000\n5. Copy: cp pkg/reasoning_engine_bg.wasm ../../../public/wasm/reasoning_engine.wasm`);
+          setBuildStatus(`❌ INVALID WASM MAGIC NUMBER!\nExpected: [${expectedHex}]\nActual:   [${magicHex}]\nSize: ${bytes.byteLength} bytes\nContent-Type: ${contentType}\n\n🔧 THE FILE IS CORRUPTED OR NOT VALID WASM!\n\nTO FIX:\n1. Delete the invalid file: rm ../../../public/wasm/reasoning_engine.wasm\n2. Rebuild: wasm-pack build --target web --release\n3. Verify build: xxd -l 8 pkg/reasoning_engine_bg.wasm\n4. Should show: 00000000: 0061 736d 0100 0000\n5. Copy: cp pkg/reasoning_engine_bg.wasm ../../../public/wasm/reasoning_engine.wasm`);
           return;
         }
       }
 
-      setBuildStatus(`✅ REAL WASM FILE CONFIRMED!\n📊 Size: ${bytes.byteLength} bytes\n🔥 Magic number: [${magicHex}] ✓\n📋 Content-Type: ${contentType}\n🎯 Status: ${response.status} ${response.statusText}\n\n🎉 THIS IS THE REAL DEAL!\nNo more fake HTML bullshit!\nReady to test the reasoning engine!`);
+      setBuildStatus(`✅ VALID WASM FILE CONFIRMED!\n📊 Size: ${bytes.byteLength} bytes\n🔥 Magic number: [${magicHex}] ✓\n📋 Content-Type: ${contentType}\n🎯 Status: ${response.status} ${response.statusText}\n\n🎉 WASM file is valid and ready for testing!`);
       
     } catch (error) {
       console.error('❌ WASM file check failed:', error);

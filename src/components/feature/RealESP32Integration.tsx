@@ -153,7 +153,7 @@ const RealESP32Integration = () => {
         <p className="text-gray-700 mb-4">
           <strong>HONEST INTEGRATION:</strong> Real ESP32 at 192.168.1.2 + Real CMA software functions
           <br />
-          <strong>NO FAKE DATA:</strong> Only actual detected capabilities
+          <strong>ACCURATE DATA:</strong> Only actual detected capabilities
         </p>
         
         <div className="flex gap-3 mb-4">

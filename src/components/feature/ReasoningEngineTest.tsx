@@ -146,7 +146,7 @@ Last error: ${moduleDiagnostics.lastError || 'None'}
           value={input}
           onChange={(e) => setInput(e.target.value)}
           className="w-full px-3 py-2 border rounded-md"
-          placeholder="Enter something for REAL analysis..."
+          placeholder="Enter something for analysis..."
         />
       </div>
       

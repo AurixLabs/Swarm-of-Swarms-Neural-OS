@@ -41,7 +41,7 @@ const WasmCleanupManager = () => {
             results.push(`✅ VALID: ${module}.wasm (${Math.round(sizeNum/1024)}KB)`);
             foundValid++;
           } else {
-            results.push(`🎭 FAKE: ${module}.wasm (${sizeNum} bytes - empty/stub)`);
+            results.push(`❌ EMPTY: ${module}.wasm (${sizeNum} bytes - empty/stub)`);
             foundEmpty++;
           }
         } else {
@@ -57,7 +57,7 @@ const WasmCleanupManager = () => {
     results.push('');
     results.push('📊 WEB-SERVED FILES SUMMARY:');
     results.push(`✅ Valid WASM files: ${foundValid}`);
-    results.push(`🎭 Fake/Empty files: ${foundEmpty}`);
+    results.push(`❌ Empty/Invalid files: ${foundEmpty}`);
     results.push(`❌ Missing files: ${foundMissing}`);
     results.push('');
     
