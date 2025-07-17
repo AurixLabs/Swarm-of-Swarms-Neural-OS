@@ -359,6 +359,138 @@ const HomePage = () => {
               </div>
             </div>
           </div>
+
+          {/* Multi-Kernel Architecture Revolution Section */}
+          <div className="max-w-4xl mx-auto mt-16">
+            <h3 className="text-2xl font-bold mb-8 text-foreground">🧠 Multi-Kernel AI: The Future of Intelligence Systems</h3>
+            <div className="text-left space-y-6">
+              <p className="text-lg text-muted-foreground mb-6">
+                CMA implements a revolutionary multi-kernel architecture - the future standard for AI systems that current monolithic models cannot achieve:
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="bg-destructive/10 p-6 rounded-lg border border-destructive/20">
+                  <h4 className="font-bold text-destructive mb-3">❌ Current Monolithic AI Limitations</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• <strong>Single Point of Failure:</strong> Entire system crashes if one component fails</li>
+                    <li>• <strong>Resource Competition:</strong> All tasks compete for same computational resources</li>
+                    <li>• <strong>No Specialization:</strong> One model tries to handle everything poorly</li>
+                    <li>• <strong>Update Paralysis:</strong> Cannot update components without full system restart</li>
+                    <li>• <strong>Scale Inefficiency:</strong> Adding capabilities requires retraining entire model</li>
+                    <li>• <strong>Context Conflicts:</strong> Different task contexts interfere with each other</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
+                  <h4 className="font-bold text-primary mb-3">✅ CMA Multi-Kernel Advantages</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• <strong>Resilient Architecture:</strong> Individual kernel failures don't crash the system</li>
+                    <li>• <strong>Resource Isolation:</strong> Each kernel optimizes its own computational resources</li>
+                    <li>• <strong>Specialized Intelligence:</strong> Each kernel excels at specific cognitive tasks</li>
+                    <li>• <strong>Hot-Swappable Updates:</strong> Update individual kernels without system downtime</li>
+                    <li>• <strong>Modular Scaling:</strong> Add new capabilities by adding specialized kernels</li>
+                    <li>• <strong>Context Preservation:</strong> Each kernel maintains its specialized context</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="space-y-4">
+                <h4 className="font-bold text-foreground mb-4">🎯 CMA's Specialized Kernel Ecosystem</h4>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <div className="bg-blue-500/10 p-4 rounded border border-blue-500/20">
+                    <h5 className="font-semibold text-blue-400 mb-2">Core Intelligence Kernels</h5>
+                    <ul className="text-xs text-muted-foreground space-y-1">
+                      <li>• <strong>AI Kernel:</strong> Primary intelligence processing</li>
+                      <li>• <strong>Memory Kernel:</strong> Specialized memory management</li>
+                      <li>• <strong>Intelligence Kernel:</strong> Advanced reasoning</li>
+                      <li>• <strong>Collaborative Kernel:</strong> Multi-agent coordination</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-green-500/10 p-4 rounded border border-green-500/20">
+                    <h5 className="font-semibold text-green-400 mb-2">Cognitive Specialization</h5>
+                    <ul className="text-xs text-muted-foreground space-y-1">
+                      <li>• <strong>Creativity Kernel:</strong> Creative problem solving</li>
+                      <li>• <strong>Philosophical Kernel:</strong> Abstract reasoning</li>
+                      <li>• <strong>Epistemological Kernel:</strong> Knowledge validation</li>
+                      <li>• <strong>Domain Kernel:</strong> Domain-specific expertise</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-purple-500/10 p-4 rounded border border-purple-500/20">
+                    <h5 className="font-semibold text-purple-400 mb-2">System & Security</h5>
+                    <ul className="text-xs text-muted-foreground space-y-1">
+                      <li>• <strong>System Kernel:</strong> Core system management</li>
+                      <li>• <strong>Security Kernel:</strong> Security & threat detection</li>
+                      <li>• <strong>Ethics Kernel:</strong> Ethical reasoning & enforcement</li>
+                      <li>• <strong>UI Kernel:</strong> User interface optimization</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="mt-8 p-6 bg-gradient-to-r from-primary/20 via-secondary/10 to-accent/20 rounded-lg border-2 border-primary/30">
+                <h4 className="font-bold text-primary mb-4">🔮 Why Future AI MUST Be Multi-Kernel</h4>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">📈 Scalability Requirements:</h5>
+                    <ul className="text-sm text-muted-foreground space-y-1">
+                      <li>• Future AI needs specialized cognitive functions</li>
+                      <li>• Monolithic models hit computational ceilings</li>
+                      <li>• Real-time updates impossible with single models</li>
+                      <li>• Regulatory compliance requires isolated components</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">🧩 Cognitive Architecture Reality:</h5>
+                    <ul className="text-sm text-muted-foreground space-y-1">
+                      <li>• Human brain uses specialized regions, not one blob</li>
+                      <li>• Different tasks require different optimization strategies</li>
+                      <li>• Context switching requires isolated memory spaces</li>
+                      <li>• Fault tolerance demands distributed intelligence</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="mt-6 p-6 bg-accent/10 rounded-lg border border-accent/20">
+                <h4 className="font-bold text-accent mb-4">⚡ Multi-Kernel Connector: Event-Driven Intelligence</h4>
+                <div className="space-y-4">
+                  <p className="text-sm text-muted-foreground">
+                    CMA's Multi-Kernel Connector enables revolutionary <strong>philosophical event propagation</strong> where kernels don't just communicate - they create emergent intelligence through contextual transformation:
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div>
+                      <h5 className="font-semibold text-foreground mb-2">🌐 Cross-Kernel Communication:</h5>
+                      <ul className="text-xs text-muted-foreground space-y-1">
+                        <li>• Event broadcasting with causal chain tracking</li>
+                        <li>• Message queuing for asynchronous kernel loading</li>
+                        <li>• Probabilistic event transformation for emergence</li>
+                        <li>• Real-time ecosystem observation and analysis</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold text-foreground mb-2">🎭 Emergent Intelligence:</h5>
+                      <ul className="text-xs text-muted-foreground space-y-1">
+                        <li>• Non-linear causality creates unexpected solutions</li>
+                        <li>• Interconnectedness enables collective reasoning</li>
+                        <li>• Contextual emergence from kernel interactions</li>
+                        <li>• "Karmic trace" system tracks causal relationships</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="mt-6 p-4 bg-primary/10 rounded border border-primary/20">
+                <p className="text-sm text-muted-foreground">
+                  <strong className="text-primary">Bottom Line:</strong> While Google, OpenAI, and others struggle with monolithic model limitations, 
+                  CMA's multi-kernel architecture represents the evolutionary leap AI systems need. Each kernel specializes, communicates, 
+                  and creates emergent intelligence - the foundation for true AGI that scales without the bottlenecks of single-model systems.
+                </p>
+              </div>
+            </div>
+          </div>
         </motion.div>
       </div>
 
