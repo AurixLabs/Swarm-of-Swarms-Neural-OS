@@ -25,9 +25,6 @@ jobs:
         include:
         - language: javascript-typescript
           build-mode: none
-        # Uncomment when you have Rust source files
-        # - language: rust
-        #   build-mode: autobuild
 
     steps:
     - name: Checkout repository
