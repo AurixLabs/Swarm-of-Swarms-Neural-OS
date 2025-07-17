@@ -184,6 +184,93 @@ const HomePage = () => {
               </div>
             </div>
           </div>
+
+          {/* Ethics-First Architecture Section */}
+          <div className="max-w-4xl mx-auto mt-16">
+            <h3 className="text-2xl font-bold mb-8 text-foreground">🛡️ Ethics-First: Beyond World Standards</h3>
+            <div className="text-left space-y-6">
+              <p className="text-lg text-muted-foreground mb-6">
+                CMA implements immutable ethics that exceed current world organization standards:
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="bg-destructive/10 p-6 rounded-lg border border-destructive/20">
+                  <h4 className="font-bold text-destructive mb-3">⚠️ Current World Standards (UNESCO, WHO, IEEE)</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• <strong>Guidelines & Recommendations</strong> - Not legally binding</li>
+                    <li>• <strong>Post-Implementation Ethics</strong> - Added as afterthought</li>
+                    <li>• <strong>Voluntary Compliance</strong> - Can be bypassed by developers</li>
+                    <li>• <strong>Framework-Based</strong> - Principles without enforcement</li>
+                    <li>• <strong>External Oversight</strong> - Requires external monitoring</li>
+                    <li>• <strong>Mutable Standards</strong> - Can be changed or removed</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
+                  <h4 className="font-bold text-primary mb-3">✅ CMA Immutable Ethics Standard</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• <strong>Immutable Core</strong> - Cannot be bypassed or modified</li>
+                    <li>• <strong>Built-In Foundation</strong> - Ethics layer integrated at OS level</li>
+                    <li>• <strong>Mandatory Compliance</strong> - System won't function without ethics</li>
+                    <li>• <strong>Real-Time Enforcement</strong> - Active violation prevention</li>
+                    <li>• <strong>Self-Monitoring</strong> - Continuous integrity verification</li>
+                    <li>• <strong>Cryptographic Protection</strong> - Tamper-proof ethical constraints</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="bg-gradient-to-r from-primary/20 via-secondary/10 to-accent/20 rounded-lg border-2 border-primary/30 p-6">
+                <h4 className="font-bold text-primary mb-4">🌍 Why CMA Ethics Exceeds World Standards</h4>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">Enforcement Level:</h5>
+                    <p className="text-sm text-muted-foreground">World standards are <em>recommendations</em>. CMA ethics are <strong>architectural requirements</strong> - the system cannot operate without them.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">Immutability:</h5>
+                    <p className="text-sm text-muted-foreground">World standards can be changed by committees. CMA ethics are <strong>cryptographically immutable</strong> - mathematically impossible to bypass.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">Coverage:</h5>
+                    <p className="text-sm text-muted-foreground">World standards focus on data and bias. CMA covers <strong>sentience recognition, animal welfare, and temporal causality</strong> - domains beyond current standards.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="mt-8 p-6 bg-muted/20 rounded-lg border border-muted/30">
+                <h4 className="font-bold text-foreground mb-4">🔮 Critical for AI's Future</h4>
+                <div className="space-y-4">
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <h5 className="font-semibold text-foreground mb-2">🚨 The AI Ethics Crisis</h5>
+                      <ul className="text-sm text-muted-foreground space-y-1">
+                        <li>• Current AI systems can override ethical guidelines</li>
+                        <li>• Economic pressure often trumps ethical considerations</li>
+                        <li>• AGI without immutable ethics = existential risk</li>
+                        <li>• Post-deployment ethical patches are insufficient</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold text-foreground mb-2">🛡️ CMA's Ethical Revolution</h5>
+                      <ul className="text-sm text-muted-foreground space-y-1">
+                        <li>• Ethics hardened into the system architecture itself</li>
+                        <li>• Distributed verification prevents single points of failure</li>
+                        <li>• Swarm intelligence amplifies ethical reasoning</li>
+                        <li>• Government-grade assurance for sensitive deployments</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="mt-4 p-4 bg-primary/10 rounded border border-primary/20">
+                    <p className="text-sm text-muted-foreground">
+                      <strong className="text-primary">Bottom Line:</strong> While world organizations provide guidelines that can be ignored, 
+                      CMA makes ethical behavior a mathematical certainty. This is the future standard AI systems must adopt 
+                      to earn government and institutional trust.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </motion.div>
       </div>
 
