@@ -14,8 +14,8 @@ This guide provides practical steps for implementing applications using the Cogn
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/your-project.git
-   cd your-project
+   git clone https://github.com/AurixLabs/Swarm-of-Swarms-Neural-OS.git
+   cd Swarm-of-Swarms-Neural-OS
    ```
 
 2. **Install dependencies**

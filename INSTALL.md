@@ -18,8 +18,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-org/cma-neural-os.git
-cd cma-neural-os
+git clone https://github.com/AurixLabs/Swarm-of-Swarms-Neural-OS.git
+cd Swarm-of-Swarms-Neural-OS
 ```
 
 ### 2. Install Dependencies
@@ -57,8 +57,8 @@ cargo install wasm-pack
 
 #### 3. Clone and Setup Project
 ```bash
-git clone https://github.com/your-org/cma-neural-os.git
-cd cma-neural-os
+git clone https://github.com/AurixLabs/Swarm-of-Swarms-Neural-OS.git
+cd Swarm-of-Swarms-Neural-OS
 npm install
 ```
 

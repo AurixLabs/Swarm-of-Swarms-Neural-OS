@@ -9,7 +9,7 @@
 ![React](https://img.shields.io/badge/React-18+-blue?style=for-the-badge)
 ![WASM](https://img.shields.io/badge/WASM-Enabled-orange?style=for-the-badge)
 
-🌐 **Open Source**: Available on [GitHub](https://github.com/)
+🌐 **Open Source**: Available on [GitHub](https://github.com/AurixLabs/Swarm-of-Swarms-Neural-OS)
 
 </div>
 
@@ -40,8 +40,8 @@
 
 ```bash
 # Clone and run
-git clone [your-github-repo-url]
-cd cma-neuromorphic-platform
+git clone https://github.com/AurixLabs/Swarm-of-Swarms-Neural-OS.git
+cd Swarm-of-Swarms-Neural-OS
 npm install && npm run dev
 ```
 

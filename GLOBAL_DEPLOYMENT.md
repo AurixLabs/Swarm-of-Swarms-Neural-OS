@@ -5,10 +5,9 @@
 To ensure worldwide accessibility and data sovereignty neutrality, CMA Neural OS is mirrored across multiple platforms:
 
 ### Primary Repositories
-- **GitHub** (Primary): `https://github.com/cma-neural-os/cma-neural-os`
-- **Gitee** (China): `https://gitee.com/cma-neural-os/cma-neural-os`
-- **GitLab** (Europe): `https://gitlab.com/cma-neural-os/cma-neural-os`
-- **Codeberg** (Decentralized): `https://codeberg.org/cma-neural-os/cma-neural-os`
+- **GitHub** (Primary): `https://github.com/AurixLabs/Swarm-of-Swarms-Neural-OS`
+
+*Note: Multiple platform mirroring will be established based on community demand and contribution patterns.*
 
 ### Automatic Synchronization
 
@@ -96,13 +95,10 @@ Documentation is also hosted on IPFS for censorship resistance:
 #!/bin/bash
 # Global mirror sync script
 
-# GitHub to Gitee
-git clone --mirror https://github.com/cma-neural-os/cma-neural-os.git
-cd cma-neural-os.git
-git remote set-url --push origin https://gitee.com/cma-neural-os/cma-neural-os.git
-git push --mirror
+# GitHub repository management script
+git clone --mirror https://github.com/AurixLabs/Swarm-of-Swarms-Neural-OS.git
 
-# GitHub to GitLab
+# Additional mirroring will be implemented based on community needs
 git remote set-url --push origin https://gitlab.com/cma-neural-os/cma-neural-os.git
 git push --mirror
 
