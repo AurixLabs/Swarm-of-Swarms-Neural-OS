@@ -76,7 +76,7 @@ export class CollaborativeKernel extends UniversalKernel {
    * Create a new collaborative session
    */
   createSession(participants: string[]): string {
-    const sessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    const sessionId = `session_${Date.now()}_${crypto.randomUUID().replace(/-/g, '').substr(0, 9)}`;
     const session: CollaborativeSession = {
       id: sessionId,
       participants,

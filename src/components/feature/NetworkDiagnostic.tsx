@@ -119,7 +119,7 @@ const NetworkDiagnostic = () => {
           resolve(true);
         };
 
-        script.src = 'http://192.168.1.7/api/status?' + Date.now();
+        script.src = `${window.location.protocol}//${window.location.hostname}:80/api/status?${Date.now()}`;
         document.head.appendChild(script);
       });
     } catch (error) {

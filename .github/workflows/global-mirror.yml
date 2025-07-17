@@ -10,6 +10,8 @@ on:
 jobs:
   mirror-to-platforms:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     strategy:
       matrix:
         platform:
@@ -30,7 +32,9 @@ jobs:
       - name: Mirror to ${{ matrix.platform.name }}
         env:
           TARGET_URL: ${{ matrix.platform.url }}
-          MIRROR_TOKEN: ${{ secrets[format('{0}_TOKEN', matrix.platform.name)] }}
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+          CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
         run: |
           git config --global user.name "CMA Neural OS Bot"
           git config --global user.email "bot@cma-neural-os.dev"
@@ -55,6 +59,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: mirror-to-platforms
     if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
     
     steps:
       - name: Checkout repository
@@ -81,6 +87,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: [mirror-to-platforms, update-ipfs]
     if: github.event_name == 'release'
+    permissions:
+      contents: read
     
     steps:
       - name: Announce on multiple platforms
