@@ -25,19 +25,15 @@ const QuickStartPage = () => {
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-start">
                     <span className="text-primary mr-3">•</span>
-                    <strong>Node.js 18+</strong> - Required for development environment
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-3">•</span>
                     <strong>Modern Browser</strong> - Chrome, Firefox, Safari, or Edge with WASM support
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-3">•</span>
-                    <strong>Git</strong> - For cloning the repository
+                    <strong>Development Environment</strong> - This is a development preview system
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-3">•</span>
-                    <strong>Basic TypeScript/React knowledge</strong> - Helpful for customization
+                    <strong>React/TypeScript knowledge</strong> - Required for working with the current codebase
                   </li>
                 </ul>
               </div>
@@ -48,33 +44,16 @@ const QuickStartPage = () => {
               <h2 className="text-2xl font-bold mb-6 text-foreground">Installation</h2>
               <div className="space-y-6">
                 <div className="bg-muted/20 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-4 text-foreground">1. Clone the Repository</h3>
+                  <h3 className="text-lg font-semibold mb-4 text-foreground">Current Status</h3>
                   <div className="bg-background p-4 rounded border">
                     <code className="text-sm text-muted-foreground">
-                      git clone https://github.com/goodymorgan/cma-neural-os.git<br/>
-                      cd cma-neural-os
-                    </code>
-                  </div>
-                </div>
-
-                <div className="bg-muted/20 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-4 text-foreground">2. Install Dependencies</h3>
-                  <div className="bg-background p-4 rounded border">
-                    <code className="text-sm text-muted-foreground">
-                      npm install
-                    </code>
-                  </div>
-                </div>
-
-                <div className="bg-muted/20 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold mb-4 text-foreground">3. Start Development Server</h3>
-                  <div className="bg-background p-4 rounded border">
-                    <code className="text-sm text-muted-foreground">
-                      npm run dev
+                      This is a development preview of CMA Neural OS.<br/>
+                      The system demonstrates cognitive kernel architecture<br/>
+                      and ethics-first design principles.
                     </code>
                   </div>
                   <p className="text-sm text-muted-foreground mt-3">
-                    The application will be available at <strong>http://localhost:5173</strong>
+                    The application is accessible at your current URL
                   </p>
                 </div>
               </div>
@@ -121,20 +100,20 @@ const QuickStartPage = () => {
               <h2 className="text-2xl font-bold mb-6 text-foreground">Basic Configuration</h2>
               <div className="bg-muted/20 p-6 rounded-lg">
                 <p className="text-muted-foreground mb-4">
-                  CMA Neural OS works out of the box with sensible defaults. For basic customization:
+                  CMA Neural OS is currently a development preview showcasing the cognitive architecture concepts:
                 </p>
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-start">
                     <span className="text-primary mr-3">•</span>
-                    Configure kernel settings in <code className="bg-background px-2 py-1 rounded">src/core/config.ts</code>
+                    Explore the developer tools at <code className="bg-background px-2 py-1 rounded">/developer</code>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-3">•</span>
-                    Adjust UI themes in <code className="bg-background px-2 py-1 rounded">src/index.css</code>
+                    Review the codebase structure in <code className="bg-background px-2 py-1 rounded">src/core/</code>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-3">•</span>
-                    Add custom kernels in <code className="bg-background px-2 py-1 rounded">src/core/kernels/</code>
+                    Examine ethics implementations in <code className="bg-background px-2 py-1 rounded">src/core/ethics/</code>
                   </li>
                 </ul>
               </div>
