@@ -18,7 +18,7 @@ const HomePage = () => {
     "Chipped Modules - Each module is an operating system within an operating system",
     "Ultra-Lightweight AI - Compact AI agents (MB not GB) vs competitors' multi-GB models, optimized for low-resource regions",
     "Collective Intelligence - Distributed users create emergent intelligence through agent communication networks",
-    "Asymmetrical Architecture - Small distributed nodes can outperform massive centralized systems",
+    "Asymmetrical Architecture - Small distributed nodes can work efficiently alongside massive centralized systems",
     "Decentralized Power - Distributed architecture following decentralized principles",
     "Temporal Computing Foundation - Modular time-state management enabling distributed temporal reasoning and causality preservation",
     "Quantum-Ready Temporal Modules - Architecture supports quantum temporal computing through distributed quantum state management",
@@ -137,7 +137,7 @@ const HomePage = () => {
                 <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
                   <h4 className="font-bold text-primary mb-3">🚀 Rust WASM Advantages</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• <strong>Near-Native Speed:</strong> Significantly faster than interpreted languages in browser environments</li>
+                    <li>• <strong>Near-Native Speed:</strong> Generally faster performance than interpreted languages in browser environments</li>
                     <li>• <strong>Memory Safety:</strong> Zero-cost abstractions prevent crashes/exploits</li>
                     <li>• <strong>Compact Binaries:</strong> MB-sized AI models vs GB Python frameworks</li>
                     <li>• <strong>Universal Execution:</strong> Identical behavior on any device/platform</li>
@@ -225,7 +225,7 @@ const HomePage = () => {
                 </ul>
                 <div className="mt-4 p-4 bg-primary/20 rounded border border-primary/30">
                   <p className="text-sm text-foreground font-semibold">
-                    Result: AI systems that are faster, safer, smaller, and more accessible than anything possible with traditional approaches.
+                    Result: AI systems that aim to be faster, safer, smaller, and more accessible than traditional approaches.
                   </p>
                 </div>
               </div>

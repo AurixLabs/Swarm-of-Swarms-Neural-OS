@@ -158,7 +158,9 @@ We welcome contributions! See our [Contributing Guide](./CONTRIBUTING.md) for de
 
 *Commercial use requires licensing. Contact us for enterprise solutions.*
 
-**Important**: Please review [LEGAL_DISCLAIMERS.md](./LEGAL_DISCLAIMERS.md) for important disclaimers and limitations before using this software.
+**Important Legal Information**: Please review these documents before using this software:
+- [LEGAL_DISCLAIMERS.md](./LEGAL_DISCLAIMERS.md) - General legal disclaimers and limitations
+- [TECHNOLOGY_DISCLAIMERS.md](./TECHNOLOGY_DISCLAIMERS.md) - Performance and technical disclaimers
 
 ## 🌐 Global Community & Support
 

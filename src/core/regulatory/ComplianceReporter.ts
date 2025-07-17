@@ -143,7 +143,7 @@ export class ComplianceReporter {
    */
   private calculateComplianceScore(activePolicies: RegulatoryPolicy[]): number {
     if (activePolicies.length === 0) {
-      return 100; // Perfect score if no policies to comply with
+      return 100; // High score if no policies to comply with
     }
     
     // Basic implementation - can be enhanced with weights and more complex scoring

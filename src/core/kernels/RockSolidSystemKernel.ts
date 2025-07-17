@@ -22,7 +22,7 @@ export interface SystemKernelMetrics {
 
 /**
  * Rock-solid System Kernel integration layer
- * Provides bulletproof communication with the Rust WASM kernel
+ * Provides robust communication with the Rust WASM kernel
  */
 export class RockSolidSystemKernel {
   private wasmKernel: any = null;
