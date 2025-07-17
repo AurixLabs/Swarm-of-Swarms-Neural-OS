@@ -9,7 +9,7 @@
 ![React](https://img.shields.io/badge/React-18+-blue?style=for-the-badge)
 ![WASM](https://img.shields.io/badge/WASM-Enabled-orange?style=for-the-badge)
 
-🌐 **Globally Accessible**: [GitHub](https://github.com/cma-neural-os) • [Gitee](https://gitee.com/cma-neural-os) • [GitLab](https://gitlab.com/cma-neural-os) • [Codeberg](https://codeberg.org/cma-neural-os) • [IPFS](https://cma-neural-os.eth)
+🌐 **Open Source**: Available on [GitHub](https://github.com/)
 
 </div>
 
@@ -21,6 +21,7 @@
 
 - **🧠 Neural by Design**: Multiple AI kernels communicate like neurons in a brain
 - **🔒 Robust Ethics**: Cryptographically verified ethical constraints with strong security
+- **🔧 Chip Agnostic**: Compatible with ESP32 (testing), neuromorphic, photonic, and quantum chips
 - **⚙️ Hardware Integration**: Direct WASM control of chips, sensors, and IoT devices
 - **🔄 Self-Healing**: Autonomous error detection and recovery across the entire system
 - **🎯 Intent-Driven UI**: Interfaces that adapt to user intentions, not just inputs
@@ -33,30 +34,35 @@
 | Static interfaces | Adaptive, intent-driven UI |
 | Manual error handling | Self-healing architecture |
 | Separate ethics layer | Robust, verified ethics core |
-| Software-only | Direct hardware integration |
+| Hardware-specific | Chip agnostic (ESP32 to quantum) |
 
 ## 🚀 Quick Start (2 Minutes)
 
-Choose your preferred global mirror:
-
 ```bash
-# GitHub (Global)
-git clone https://github.com/cma-neural-os/cma-neural-os.git
-
-# Gitee (优化中国访问)
-git clone https://gitee.com/cma-neural-os/cma-neural-os.git
-
-# GitLab (European hosting)
-git clone https://gitlab.com/cma-neural-os/cma-neural-os.git
-
-# Codeberg (Privacy-focused)
-git clone https://codeberg.org/cma-neural-os/cma-neural-os.git
-
-cd cma-neural-os
+# Clone and run
+git clone https://github.com/[your-username]/cma-neuromorphic-platform.git
+cd cma-neuromorphic-platform
 npm install && npm run dev
 ```
 
 **That's it!** 🎉 Your cognitive system is running at `http://localhost:5173`
+
+## 🔧 Hardware Compatibility
+
+**Chip Agnostic Design**: CMA works across the entire spectrum of computing hardware:
+
+### 🔋 Development & Testing (Current)
+- **ESP32-S3**: Cost-effective testing platform
+- **Arduino**: Rapid prototyping and education
+- **Raspberry Pi**: Edge computing validation
+
+### 🚀 Production Ready
+- **Neuromorphic Chips**: Intel Loihi, IBM TrueNorth
+- **Photonic Processors**: Light-based quantum computing
+- **Quantum Chips**: IBM Quantum, Google Sycamore
+- **Custom ASICs**: Domain-specific implementations
+
+*We start with ESP32 for cost and accessibility, then scale to any chip architecture.*
 
 ### 🔧 Advanced Setup
 
@@ -162,24 +168,14 @@ We welcome contributions! See our [Contributing Guide](./CONTRIBUTING.md) for de
 - [LEGAL_DISCLAIMERS.md](./LEGAL_DISCLAIMERS.md) - General legal disclaimers and limitations
 - [TECHNOLOGY_DISCLAIMERS.md](./TECHNOLOGY_DISCLAIMERS.md) - Performance and technical disclaimers
 
-## 🌐 Global Community & Support
+## 🌐 Community & Support
 
-### Primary Platforms
-- 💬 **[Discord](https://discord.gg/cma-neural-os)** - Global community hub
-- 📧 **[Mailing List](mailto:community@cma-neural-os.dev)** - Worldwide updates
-- 📚 **[Documentation](https://docs.cma-neural-os.dev)** - Multi-language guides
-- 🎥 **[YouTube](https://youtube.com/@cma-neural-os)** - Global tutorials
+**Status: Early Development** 🚧
 
-### Regional Communities
-- 🐛 **GitHub Issues**: [github.com/cma-neural-os/cma-neural-os/issues](https://github.com/cma-neural-os/cma-neural-os/issues)
-- 🔧 **Gitee Issues**: [gitee.com/cma-neural-os/cma-neural-os/issues](https://gitee.com/cma-neural-os/cma-neural-os/issues)  
-- 🛠️ **GitLab Issues**: [gitlab.com/cma-neural-os/cma-neural-os/issues](https://gitlab.com/cma-neural-os/cma-neural-os/issues)
-- 🌍 **Matrix Chat**: `#cma-neural-os:matrix.org` (decentralized)
+- **GitHub Issues**: Questions and bug reports
+- **GitHub Discussions**: Ideas and general discussion
 
-### Decentralized Access
-- 🌐 **IPFS**: `cma-neural-os.eth` (censorship-resistant)
-- ⚡ **Arweave**: Permanent documentation storage
-- 🔗 **ENS**: Web3-native community hub
+More community channels will be added based on actual demand and usage.
 
 ---
 
@@ -187,8 +183,8 @@ We welcome contributions! See our [Contributing Guide](./CONTRIBUTING.md) for de
 
 **🧠 Building the Future of Cognitive Computing**
 
-*Every contribution helps create truly intelligent, ethical AI systems*
+*From ESP32 to Quantum: Chip-Agnostic Neural Architecture*
 
-[⭐ Star us Globally](https://github.com/cma-neural-os/cma-neural-os) • [🚀 Try the Demo](https://demo.cma-neural-os.dev) • [📚 Read the Docs](https://docs.cma-neural-os.dev) • [🌐 Global Access](./GLOBAL_DEPLOYMENT.md)
+[⭐ Star us on GitHub](https://github.com/) • [🚀 Try the Demo](/) • [📚 Read the Docs](/)
 
 </div>
