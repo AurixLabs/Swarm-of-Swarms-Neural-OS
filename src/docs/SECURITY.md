@@ -9,7 +9,7 @@
 - Always use environment variables for sensitive data
 - Environment variables should be loaded through the `import.meta.env` object in Vite
 - Use the `getEnvVariable` helper function from `src/config/appConfig.ts`
-- Include entries for all required variables in `.env.example` without actual values
+- Document all required environment variables for your deployment
 
 ### Secrets and Tokens
 

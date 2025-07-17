@@ -5,7 +5,7 @@ This guide explains how to properly set up environment variables for secure deve
 
 ## Local Development
 
-1. Copy the `.env.example` file to a new file named `.env`
+1. Configure environment variables as needed for your deployment platform
 2. Fill in your actual values for each environment variable
 3. **NEVER** commit your `.env` file to version control
 4. **NEVER** hardcode secrets in source files

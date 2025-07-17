@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Settings, Code } from 'lucide-react';
+import { Settings, Code } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '../ui/button';
 import { Badge } from '../ui/badge';
@@ -117,11 +117,6 @@ const Header = () => {
               <Code className="w-4 h-4 mr-2" />
               Developer Tools
             </Link>
-          </Button>
-          
-          <Button variant="ghost" size="sm">
-            <Github className="w-4 h-4" />
-            <span className="sr-only">GitHub</span>
           </Button>
           
           <Button variant="ghost" size="sm">
