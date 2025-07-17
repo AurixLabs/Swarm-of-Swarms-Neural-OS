@@ -13,7 +13,7 @@ const HomePage = () => {
     "Distributed Intelligence - More users online = stronger, smarter system through swarm collective intelligence",
     "Swarm of Swarms Architecture - AI chatbots communicate with each other creating AGI effects",
     "Chip Agnostic - Works on Raspberry Pi, ESP32, Neuromorphic, Photonic, and Quantum chips ($20 to enterprise)",
-    "Privacy First - Each user is a mesh network node with local data storage and optional cloud backup",
+    "Privacy Focused - Each user is a mesh network node with local data storage and optional cloud backup",
     "Rust WASM Compilation - Optimized computational performance with reduced data footprint compared to traditional multi-GB models",
     "Chipped Modules - Each module is an operating system within an operating system",
     "Ultra-Lightweight AI - Compact AI agents (MB not GB) vs competitors' multi-GB models, optimized for low-resource regions",
@@ -24,7 +24,7 @@ const HomePage = () => {
     "Quantum-Ready Temporal Modules - Architecture supports quantum temporal computing through distributed quantum state management",
     "Causal Consistency Engine - Robust ethics layer ensures temporal paradox prevention and causality enforcement",
     "Multi-Timeline Processing - Swarm intelligence can simulate and process multiple temporal branches simultaneously",
-    "Meta-Kernel Architecture - Universal protective shell that orchestrates and safeguards all system kernels with self-healing capabilities",
+    "Meta-Kernel Architecture - Protective shell that orchestrates and safeguards system kernels with self-healing capabilities",
     "Multi-Kernel Intelligence - 12+ specialized cognitive kernels (AI, Memory, Ethics, Security) vs traditional single-kernel monolithic systems",
     
     // TECHNICAL INNOVATIONS
@@ -68,12 +68,12 @@ const HomePage = () => {
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">✅ Core Technologies (All MIT/Apache Licensed):</h4>
+                  <h4 className="font-semibold text-foreground mb-2">✅ Core Technologies (MIT/Apache Licensed):</h4>
                   <ul className="text-sm text-muted-foreground space-y-1">
                     <li>• <strong>React + TypeScript:</strong> MIT License - Free forever</li>
                     <li>• <strong>Rust + WebAssembly:</strong> Apache/MIT - No licensing costs for core runtime</li>
                     <li>• <strong>Tailwind CSS:</strong> MIT License - No restrictions</li>
-                    <li>• <strong>All UI Components:</strong> MIT Licensed (Radix, Framer Motion)</li>
+                    <li>• <strong>UI Components:</strong> MIT Licensed (Radix, Framer Motion)</li>
                   </ul>
                 </div>
                 <div>
@@ -142,7 +142,7 @@ const HomePage = () => {
                     <li>• <strong>Compact Binaries:</strong> MB-sized AI models vs GB Python frameworks</li>
                     <li>• <strong>Universal Execution:</strong> Identical behavior on any device/platform</li>
                     <li>• <strong>Pre-Compiled:</strong> No runtime compilation overhead</li>
-                    <li>• <strong>Offline-First:</strong> Full AI processing without internet dependency</li>
+                    <li>• <strong>Offline-Capable:</strong> AI processing without constant internet dependency</li>
                   </ul>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const HomePage = () => {
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Memory Architecture:</h5>
-                    <p className="text-sm text-muted-foreground">Shared WASM memory allows multiple cognitive modules to communicate at native speeds - enabling true parallel cognitive processing.</p>
+                    <p className="text-sm text-muted-foreground">Shared WASM memory allows multiple cognitive modules to communicate efficiently - enabling parallel cognitive processing.</p>
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Edge Computing:</h5>
@@ -265,8 +265,8 @@ const HomePage = () => {
               <div className="mt-8 p-6 bg-primary/10 rounded-lg border border-primary/20">
                 <h4 className="font-semibold text-primary mb-2">💡 Real-World Impact</h4>
                 <ul className="text-sm text-muted-foreground space-y-2">
-                  <li>• $100 smartphones running full AI capabilities locally</li>
-                  <li>• Offline-first design with mesh networking for connectivity</li>
+                  <li>• $100 smartphones running substantial AI capabilities locally</li>
+                  <li>• Offline-capable design with mesh networking for connectivity</li>
                   <li>• Local data privacy - no need to send sensitive information to distant servers</li>
                   <li>• Collective intelligence grows stronger as more local users join</li>
                   <li>• Solar-powered ESP32 nodes for rural deployment</li>
@@ -319,7 +319,7 @@ const HomePage = () => {
                   <ul className="text-sm text-muted-foreground space-y-2">
                     <li>• Robust ethics layer prevents temporal paradoxes</li>
                     <li>• Built-in causality enforcement algorithms</li>
-                    <li>• Temporal integrity verification across all time states</li>
+                    <li>• Temporal integrity verification across time states</li>
                     <li>• Automatic rollback on causal violation detection</li>
                   </ul>
                 </div>
@@ -351,9 +351,9 @@ const HomePage = () => {
             </div>
           </div>
 
-          {/* Ethics-First Architecture Section */}
+          {/* Ethics-Focused Architecture Section */}
           <div className="max-w-4xl mx-auto mt-16">
-            <h3 className="text-2xl font-bold mb-8 text-foreground">🛡️ Ethics-First: Beyond World Standards</h3>
+            <h3 className="text-2xl font-bold mb-8 text-foreground">🛡️ Ethics-Focused: Advanced Standards Approach</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
                 CMA implements robust ethics that exceed current world organization standards:
@@ -394,7 +394,7 @@ const HomePage = () => {
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Immutability:</h5>
-                    <p className="text-sm text-muted-foreground">World standards can be changed by committees. CMA ethics are <strong>cryptographically secured</strong> - extremely difficult to bypass without detection.</p>
+                    <p className="text-sm text-muted-foreground">World standards can be changed by committees. CMA ethics are <strong>cryptographically secured</strong> - designed to be difficult to bypass without detection.</p>
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Coverage:</h5>
@@ -443,7 +443,7 @@ const HomePage = () => {
             <h3 className="text-2xl font-bold mb-8 text-foreground">🎯 Meta-Kernel: Universal System Orchestration</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                The Meta-Kernel is CMA's innovative system orchestrator - a protective shell that manages all kernels with self-healing intelligence:
+                The Meta-Kernel is CMA's system orchestrator - a protective shell that manages kernels with self-healing intelligence:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6">
@@ -470,7 +470,7 @@ const HomePage = () => {
                 <div className="bg-gradient-to-br from-accent/10 to-accent/5 p-6 rounded-lg border border-accent/20">
                   <h4 className="font-bold text-accent mb-3">📡 Event-Driven Orchestration</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• <strong>Meta Event Handler:</strong> Listens to all kernel events for security monitoring</li>
+                    <li>• <strong>Meta Event Handler:</strong> Listens to kernel events for security monitoring</li>
                     <li>• <strong>Critical Alert Processing:</strong> Instant response to security and ethics violations</li>
                     <li>• <strong>Cross-System Communication:</strong> Enables kernel-to-kernel secure messaging</li>
                     <li>• <strong>Priority Event Routing:</strong> Critical events get immediate verification</li>
@@ -505,7 +505,7 @@ const HomePage = () => {
                     <h5 className="font-semibold text-foreground mb-2">CMA Meta-Kernel Advantages:</h5>
                     <ul className="text-sm text-muted-foreground space-y-1">
                       <li>• Multiple kernel orchestration with resilience</li>
-                      <li>• Circular verification prevents all single points of failure</li>
+                      <li>• Circular verification helps prevent single points of failure</li>
                       <li>• Intelligent self-healing without human intervention</li>
                       <li>• Ethics kernel integrated at the Meta-Kernel level</li>
                       <li>• Dynamic protection adaptation to threat levels</li>
@@ -538,8 +538,8 @@ const HomePage = () => {
                   <h4 className="font-bold text-destructive mb-3">❌ Current Monolithic AI Limitations</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
                     <li>• <strong>Single Point of Failure:</strong> Entire system crashes if one component fails</li>
-                    <li>• <strong>Resource Competition:</strong> All tasks compete for same computational resources</li>
-                    <li>• <strong>No Specialization:</strong> One model tries to handle everything poorly</li>
+                      <li>• <strong>Resource Competition:</strong> Tasks compete for same computational resources</li>
+                      <li>• <strong>Limited Specialization:</strong> One model tries to handle many tasks</li>
                     <li>• <strong>Update Paralysis:</strong> Cannot update components without full system restart</li>
                     <li>• <strong>Scale Inefficiency:</strong> Adding capabilities requires retraining entire model</li>
                     <li>• <strong>Context Conflicts:</strong> Different task contexts interfere with each other</li>

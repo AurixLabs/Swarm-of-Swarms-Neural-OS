@@ -35,23 +35,29 @@ const Header = () => {
                 <NavigationMenuTrigger>Documentation</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <div className="grid gap-3 p-6 w-[400px]">
-                    <NavigationMenuLink className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                      <div className="text-sm font-medium leading-none">Quick Start</div>
-                      <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        Get up and running with CMA Neural OS in minutes
-                      </p>
+                    <NavigationMenuLink asChild>
+                      <Link to="/docs/quickstart" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
+                        <div className="text-sm font-medium leading-none">Quick Start</div>
+                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                          Get up and running with CMA Neural OS in minutes
+                        </p>
+                      </Link>
                     </NavigationMenuLink>
-                    <NavigationMenuLink className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                      <div className="text-sm font-medium leading-none">Architecture Guide</div>
-                      <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        Understanding cognitive modular architecture principles
-                      </p>
+                    <NavigationMenuLink asChild>
+                      <Link to="/docs/architecture" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
+                        <div className="text-sm font-medium leading-none">Architecture Guide</div>
+                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                          Understanding cognitive modular architecture principles
+                        </p>
+                      </Link>
                     </NavigationMenuLink>
-                    <NavigationMenuLink className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                      <div className="text-sm font-medium leading-none">API Reference</div>
-                      <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        Complete API documentation and examples
-                      </p>
+                    <NavigationMenuLink asChild>
+                      <Link to="/docs/api" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
+                        <div className="text-sm font-medium leading-none">API Reference</div>
+                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                          API documentation and examples
+                        </p>
+                      </Link>
                     </NavigationMenuLink>
                   </div>
                 </NavigationMenuContent>
@@ -61,31 +67,39 @@ const Header = () => {
                 <NavigationMenuTrigger>Examples</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <div className="grid gap-3 p-6 w-[400px]">
-                    <NavigationMenuLink className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                      <div className="text-sm font-medium leading-none">Personal AI Assistant</div>
-                      <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        Build your own cognitive AI assistant
-                      </p>
+                    <NavigationMenuLink asChild>
+                      <Link to="/examples/assistant" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
+                        <div className="text-sm font-medium leading-none">Personal AI Assistant</div>
+                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                          Build your own cognitive AI assistant
+                        </p>
+                      </Link>
                     </NavigationMenuLink>
-                    <NavigationMenuLink className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                      <div className="text-sm font-medium leading-none">Smart Home Control</div>
-                      <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        Cognitive home automation system
-                      </p>
+                    <NavigationMenuLink asChild>
+                      <Link to="/examples/smarthome" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
+                        <div className="text-sm font-medium leading-none">Smart Home Control</div>
+                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                          Cognitive home automation system
+                        </p>
+                      </Link>
                     </NavigationMenuLink>
-                    <NavigationMenuLink className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                      <div className="text-sm font-medium leading-none">Collaborative Development</div>
-                      <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        Multi-agent development environment
-                      </p>
+                    <NavigationMenuLink asChild>
+                      <Link to="/examples/collaboration" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
+                        <div className="text-sm font-medium leading-none">Collaborative Development</div>
+                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                          Multi-agent development environment
+                        </p>
+                      </Link>
                     </NavigationMenuLink>
                   </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
               
               <NavigationMenuItem>
-                <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
-                  Community
+                <NavigationMenuLink asChild>
+                  <Link to="/community" className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50">
+                    Community
+                  </Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
             </NavigationMenuList>
