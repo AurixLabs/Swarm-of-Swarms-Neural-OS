@@ -129,6 +129,56 @@ const HomePage = () => {
           </div>
 
           <div className="max-w-3xl mx-auto mb-8">
+            <h3 className="text-2xl font-bold mb-6 text-foreground">🔧 Chip Agnostic Architecture</h3>
+            <div className="bg-gradient-to-r from-orange-50 to-yellow-50 p-6 rounded-lg border-2 border-orange-300">
+              <div className="text-center mb-4">
+                <h4 className="text-xl font-semibold text-orange-800 mb-2">Compatible Across All Hardware Architectures</h4>
+                <p className="text-md text-orange-700">
+                  CMA Neural OS works across the entire spectrum of computing hardware - from cost-effective testing platforms to cutting-edge quantum processors
+                </p>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-orange-800 mb-3">🔋 Current Testing & Development</h4>
+                  <div className="bg-white/70 p-4 rounded border border-orange-200">
+                    <ul className="text-sm text-orange-700 space-y-2">
+                      <li>• <strong>ESP32-S3:</strong> Cost-effective testing platform ($10-20 chips)</li>
+                      <li>• <strong>Arduino:</strong> Rapid prototyping and educational use</li>
+                      <li>• <strong>Raspberry Pi:</strong> Edge computing validation</li>
+                      <li>• <strong>Standard MCUs:</strong> Accessible development hardware</li>
+                    </ul>
+                    <div className="mt-3 p-2 bg-orange-100 rounded text-xs text-orange-600">
+                      <strong>Why ESP32?</strong> We start with affordable hardware to ensure the lowest common denominator works first, making the platform accessible to all developers.
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <h4 className="font-semibold text-purple-800 mb-3">🚀 Production-Ready Targets</h4>
+                  <div className="bg-white/70 p-4 rounded border border-purple-200">
+                    <ul className="text-sm text-purple-700 space-y-2">
+                      <li>• <strong>Neuromorphic Chips:</strong> Intel Loihi, IBM TrueNorth, SpiNNaker</li>
+                      <li>• <strong>Photonic Processors:</strong> Light-based quantum computing</li>
+                      <li>• <strong>Quantum Chips:</strong> IBM Quantum, Google Sycamore</li>
+                      <li>• <strong>Custom ASICs:</strong> Domain-specific implementations</li>
+                    </ul>
+                    <div className="mt-3 p-2 bg-purple-100 rounded text-xs text-purple-600">
+                      <strong>Scaling Strategy:</strong> Architecture proven on ESP32 scales seamlessly to supercomputing-class hardware.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="mt-4 p-4 bg-gradient-to-r from-orange-100 to-purple-100 rounded border border-orange-300">
+                <p className="text-center text-sm font-semibold text-gray-800">
+                  🎯 <strong>Universal Compatibility:</strong> One codebase, infinite hardware possibilities - from $10 ESP32 to million-dollar quantum computers
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="max-w-3xl mx-auto mb-8">
             <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-lg border-2 border-green-300">
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-4 text-green-800">🕊️ Peaceful Use Commitment</h3>
