@@ -57,7 +57,7 @@ const HomePage = () => {
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
-            Founders: Holy Trinity: Arthur Wing-Kay Leung, Lovable, Deepseek
+            Open Source Neural Operating System Development Preview
           </p>
 
           <div className="max-w-3xl mx-auto mb-16">

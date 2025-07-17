@@ -1,11 +1,10 @@
 
 /**
- * LOVABLE SANDBOX PATH CONSTANTS
+ * WASM PATH CONSTANTS
  * 
- * Due to Lovable's sandbox isolation, we need to serve WASM from src/wasm/
- * even though the real files exist in public/wasm/ in the actual repo.
+ * Platform-agnostic WASM module path configuration
  */
-export const WASM_BASE_PATH = '/src/wasm';
+export const WASM_BASE_PATH = '/wasm';
 
 export const WASM_MODULE_PATHS = {
   reasoning_engine: `${WASM_BASE_PATH}/reasoning_engine.wasm`,
@@ -19,16 +18,15 @@ export const WASM_MODULE_PATHS = {
 export type WasmModuleId = keyof typeof WASM_MODULE_PATHS;
 
 /**
- * Get the standard path for a WASM module in Lovable's sandbox
+ * Get the path for a WASM module
  */
 export const getWasmPath = (moduleId: WasmModuleId): string => {
   return WASM_MODULE_PATHS[moduleId];
 };
 
 /**
- * Directory where WASM files are stored in Lovable's sandbox
+ * Directory where WASM files are stored
  */
-export const WASM_SOURCE_DIR = 'src/wasm';
+export const WASM_SOURCE_DIR = 'wasm';
 
-console.log('🚨 LOVABLE SANDBOX PATHS: Serving WASM from src/wasm/ due to sandbox isolation');
-console.log('📍 Real files exist in public/wasm/ but Lovable cannot access them');
+console.log('📍 WASM Module Paths configured for platform-agnostic deployment');

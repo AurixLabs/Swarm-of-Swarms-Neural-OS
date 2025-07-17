@@ -1,9 +1,12 @@
 import React from 'react';
 import { Badge } from '../components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs';
-import LovableGitHubSyncChecker from '../components/feature/LovableGitHubSyncChecker';
 import WasmCleanupManager from '../components/feature/WasmCleanupManager';
-import LovableFileSystemDiagnostic from '../components/feature/LovableFileSystemDiagnostic';
+import ReasoningEngineInterface from '../components/feature/ReasoningEngineInterface';
+import RealESP32Integration from '../components/feature/RealESP32Integration';
+import ComprehensiveWasmTester from '../components/feature/ComprehensiveWasmTester';
+import RealWasmBuildStatus from '../components/feature/RealWasmBuildStatus';
+import AgentSwarmSpawner from '../components/feature/AgentSwarmSpawner';
 
 const DeveloperPage = () => {
   return (
@@ -11,33 +14,22 @@ const DeveloperPage = () => {
       <div className="container mx-auto px-6 py-8">
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-4">
-            <h1 className="text-3xl font-bold">Developer Tools</h1>
-            <Badge variant="secondary">Internal Use</Badge>
+            <h1 className="text-3xl font-bold">Development Environment</h1>
+            <Badge variant="secondary">Research & Testing</Badge>
           </div>
           <p className="text-muted-foreground">
-            Diagnostic and development tools for CMA Neural OS contributors
+            Development tools and testing environment for CMA Neural OS research
           </p>
         </div>
 
-        <Tabs defaultValue="sync" className="space-y-6">
-          <TabsList className="grid w-full grid-cols-3">
-            <TabsTrigger value="sync">GitHub Sync</TabsTrigger>
-            <TabsTrigger value="wasm">WASM Files</TabsTrigger>
-            <TabsTrigger value="filesystem">File System</TabsTrigger>
-          </TabsList>
-          
-          <TabsContent value="sync">
-            <LovableGitHubSyncChecker />
-          </TabsContent>
-          
-          <TabsContent value="wasm">
-            <WasmCleanupManager />
-          </TabsContent>
-          
-          <TabsContent value="filesystem">
-            <LovableFileSystemDiagnostic />
-          </TabsContent>
-        </Tabs>
+        <div className="space-y-6">
+          <ReasoningEngineInterface />
+          <RealESP32Integration />
+          <ComprehensiveWasmTester />
+          <WasmCleanupManager />
+          <RealWasmBuildStatus />
+          <AgentSwarmSpawner />
+        </div>
       </div>
     </div>
   );
