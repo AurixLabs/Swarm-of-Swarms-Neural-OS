@@ -8,7 +8,18 @@ const HomePage = () => {
     "Hardware Integration - Native WASM support for high-performance cognitive computing",
     "Self-Healing - Automatic recovery and adaptation to system failures",
     "Intent-Driven UI - Interface that adapts to user intentions and cognitive patterns",
-    "Open Source - MIT licensed with full transparency and community contributions"
+    "Open Source - MIT licensed with full transparency and community contributions",
+    "Modular Runtime - Modules can be added or removed during runtime without cascade system failure",
+    "Distributed Intelligence - More users online = stronger, smarter system through swarm collective intelligence",
+    "Swarm of Swarms Architecture - AI chatbots communicate with each other creating AGI effects",
+    "Chip Agnostic - Works on Raspberry Pi, ESP32, Neuromorphic, Photonic, and Quantum chips ($20 to enterprise)",
+    "Privacy First - Each user is a mesh network node with local data storage and optional cloud backup",
+    "Rust WASM Compilation - Maximum computational power with smallest data footprint (10KB vs 100GB competitors)",
+    "Chipped Modules - Each module is an operating system within an operating system",
+    "Ultra-Lightweight AI - 10KB AI agents vs Google's 100GB Gemini, perfect for low-resource regions like Kenya",
+    "Collective AGI - 1M users create distributed AGI infinitely smarter than ChatGPT/Claude through agent communication",
+    "Asymmetrical Architecture - Small distributed nodes outperform massive monolithic data centers (drone warfare principle)",
+    "Decentralized Power - Power to the people, not corporations (Bitcoin-inspired architecture)"
   ];
 
   return (
