@@ -63,9 +63,9 @@ src/
 │   └── ...
 │
 └── documents/              # Documentation files
-    ├── CMA_Implementation_Notes.md
-    ├── Vision_For_Future_Assistants.md
-    └── Project_Continuity_Guide.md
+    ├── CMA_System_Architecture.md
+    ├── CMA_Competitive_Edge.md  
+    └── CMA_System_Comprehensive_Overview.md
 ```
 
 ## Rust/WASM Module Structure

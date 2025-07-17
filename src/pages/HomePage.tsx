@@ -342,7 +342,7 @@ const HomePage = () => {
                     <ul className="text-sm text-muted-foreground space-y-1">
                       <li>• Modular design enables temporal component isolation</li>
                       <li>• Distributed architecture processes parallel timelines</li>
-                      <li>• Robust ethics = unbreakable causality laws</li>
+                      <li>• Robust ethics = strong causality laws</li>
                       <li>• Swarm intelligence simulates quantum temporal effects</li>
                     </ul>
                   </div>

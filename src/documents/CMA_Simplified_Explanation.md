@@ -15,7 +15,7 @@ Most computer systems are like a single person trying to do everything. If that 
 
 1. If one part has a problem, the others can keep working
 2. Each part can focus on what it does best
-3. They can work together in ways that create better results than any could achieve alone
+3. They can work together in ways that create better results than each could achieve alone
 
 ## The Helper Brains (Kernels)
 
