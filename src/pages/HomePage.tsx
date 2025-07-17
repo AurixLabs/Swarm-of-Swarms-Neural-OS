@@ -23,7 +23,8 @@ const HomePage = () => {
     "Temporal Computing Foundation - Modular time-state management enabling distributed temporal reasoning and causality preservation",
     "Quantum-Ready Temporal Modules - Architecture supports quantum temporal computing through distributed quantum state management",
     "Causal Consistency Engine - Immutable ethics layer ensures temporal paradox prevention and causality enforcement",
-    "Multi-Timeline Processing - Swarm intelligence can simulate and process multiple temporal branches simultaneously"
+    "Multi-Timeline Processing - Swarm intelligence can simulate and process multiple temporal branches simultaneously",
+    "Meta-Kernel Architecture - Universal protective shell that orchestrates and safeguards all system kernels with self-healing capabilities"
   ];
 
   return (
@@ -267,6 +268,93 @@ const HomePage = () => {
                       to earn government and institutional trust.
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Meta-Kernel Architecture Section */}
+          <div className="max-w-4xl mx-auto mt-16">
+            <h3 className="text-2xl font-bold mb-8 text-foreground">🎯 Meta-Kernel: Universal System Orchestration</h3>
+            <div className="text-left space-y-6">
+              <p className="text-lg text-muted-foreground mb-6">
+                The Meta-Kernel is CMA's revolutionary system orchestrator - a protective shell that manages all kernels with self-healing intelligence:
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-gradient-to-br from-primary/10 to-primary/5 p-6 rounded-lg border border-primary/20">
+                  <h4 className="font-bold text-primary mb-3">🛡️ Universal Protection System</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• <strong>Cross-Kernel Verification:</strong> Each kernel validates adjacent kernels in circular protection</li>
+                    <li>• <strong>Cryptographic Fingerprinting:</strong> Unique instance identity prevents tampering</li>
+                    <li>• <strong>Heartbeat Monitoring:</strong> Continuous system health detection with jitter protection</li>
+                    <li>• <strong>Emergency Mode:</strong> Automatic safe mode activation on critical failures</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-gradient-to-br from-secondary/10 to-secondary/5 p-6 rounded-lg border border-secondary/20">
+                  <h4 className="font-bold text-secondary mb-3">🔄 Self-Healing Intelligence</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• <strong>Automatic Recovery:</strong> Detects kernel failures and attempts restoration</li>
+                    <li>• <strong>Re-Registration:</strong> Missing kernels are automatically re-initialized</li>
+                    <li>• <strong>Integrity Verification:</strong> Continuous verification of system components</li>
+                    <li>• <strong>Protection Re-initialization:</strong> Automatically rebuilds protection mechanisms</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-gradient-to-br from-accent/10 to-accent/5 p-6 rounded-lg border border-accent/20">
+                  <h4 className="font-bold text-accent mb-3">📡 Event-Driven Orchestration</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• <strong>Meta Event Handler:</strong> Listens to all kernel events for security monitoring</li>
+                    <li>• <strong>Critical Alert Processing:</strong> Instant response to security and ethics violations</li>
+                    <li>• <strong>Cross-System Communication:</strong> Enables kernel-to-kernel secure messaging</li>
+                    <li>• <strong>Priority Event Routing:</strong> Critical events get immediate verification</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-gradient-to-br from-destructive/10 to-destructive/5 p-6 rounded-lg border border-destructive/20">
+                  <h4 className="font-bold text-destructive mb-3">🔒 Security Level Management</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• <strong>Dynamic Security Levels:</strong> Standard, Enhanced, Maximum protection modes</li>
+                    <li>• <strong>Ethics-Gated Protection:</strong> Ethics check required to disable protection</li>
+                    <li>• <strong>Environment Authorization:</strong> Authorized deployment fingerprinting</li>
+                    <li>• <strong>Immutable Shutdown Sequence:</strong> Secure system termination protocols</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="mt-8 p-6 bg-gradient-to-r from-primary/20 via-secondary/10 to-accent/20 rounded-lg border-2 border-primary/30">
+                <h4 className="font-bold text-primary mb-4">🚀 Why Meta-Kernel is Revolutionary for CMA</h4>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">Traditional OS Problems:</h5>
+                    <ul className="text-sm text-muted-foreground space-y-1">
+                      <li>• Single-kernel architecture = single point of failure</li>
+                      <li>• No cross-component verification</li>
+                      <li>• Manual recovery from system failures</li>
+                      <li>• No built-in ethics integration</li>
+                      <li>• Static security models</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">CMA Meta-Kernel Advantages:</h5>
+                    <ul className="text-sm text-muted-foreground space-y-1">
+                      <li>• Multiple kernel orchestration with resilience</li>
+                      <li>• Circular verification prevents all single points of failure</li>
+                      <li>• Intelligent self-healing without human intervention</li>
+                      <li>• Ethics kernel integrated at the Meta-Kernel level</li>
+                      <li>• Dynamic protection adaptation to threat levels</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div className="mt-6 p-4 bg-accent/10 rounded border border-accent/20">
+                  <p className="text-sm text-muted-foreground">
+                    <strong className="text-accent">Critical Insight:</strong> The Meta-Kernel enables CMA's modular runtime swapping, 
+                    distributed intelligence coordination, and temporal computing by providing a stable protective foundation 
+                    that can orchestrate multiple AI kernels, ethics systems, and hardware interfaces simultaneously - 
+                    something impossible with traditional single-kernel architectures.
+                  </p>
                 </div>
               </div>
             </div>
