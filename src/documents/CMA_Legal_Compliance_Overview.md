@@ -59,7 +59,7 @@ Unlike many systems where ethical guidelines are implemented as afterthoughts or
 
 - **Ethics Kernel**: A specialized component that evaluates all system operations against established ethical principles.
 - **Distributed Ethical Guards**: Ethical validation occurs at multiple points throughout the system.
-- **Immutable Ethical Constraints**: Core ethical principles cannot be bypassed by system operations.
+- **Robust Ethical Constraints**: Core ethical principles have strong protections against bypass by system operations.
 - **Evolutionary Ethics**: The system can adapt to evolving ethical standards while maintaining core principles.
 
 ### 2.2 Core Ethical Principles

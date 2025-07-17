@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const HomePage = () => {
   const features = [
     "Neural Architecture - Cognitive modular design with emergent intelligence capabilities",
-    "Immutable Ethics - Built-in ethical safeguards that cannot be bypassed or modified", 
+    "Robust Ethics - Built-in ethical safeguards with strong security protections", 
     "Hardware Integration - Native WASM support for high-performance cognitive computing",
     "Self-Healing - Automatic recovery and adaptation to system failures",
     "Intent-Driven UI - Interface that adapts to user intentions and cognitive patterns",
@@ -96,7 +96,7 @@ const HomePage = () => {
           </div>
 
           <div className="max-w-3xl mx-auto">
-            <h3 className="text-2xl font-bold mb-8 text-foreground">Revolutionary Features</h3>
+            <h3 className="text-2xl font-bold mb-8 text-foreground">Key Features</h3>
             <ul className="text-left space-y-4">
               {features.map((feature, index) => (
                 <motion.li
@@ -280,7 +280,7 @@ const HomePage = () => {
             <h3 className="text-2xl font-bold mb-8 text-foreground">🕐 Temporal Computing Foundation</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                CMA provides the perfect foundation for revolutionary temporal computing - computation across time dimensions:
+                CMA provides the foundation for advanced temporal computing - computation across time dimensions:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6">
@@ -375,7 +375,7 @@ const HomePage = () => {
                 <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
                   <h4 className="font-bold text-primary mb-3">✅ CMA Immutable Ethics Standard</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• <strong>Immutable Core</strong> - Cannot be bypassed or modified</li>
+                    <li>• <strong>Robust Core</strong> - Strong protections against bypass or modification</li>
                     <li>• <strong>Built-In Foundation</strong> - Ethics layer integrated at OS level</li>
                     <li>• <strong>Mandatory Compliance</strong> - System won't function without ethics</li>
                     <li>• <strong>Real-Time Enforcement</strong> - Active violation prevention</li>
@@ -443,7 +443,7 @@ const HomePage = () => {
             <h3 className="text-2xl font-bold mb-8 text-foreground">🎯 Meta-Kernel: Universal System Orchestration</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                The Meta-Kernel is CMA's revolutionary system orchestrator - a protective shell that manages all kernels with self-healing intelligence:
+                The Meta-Kernel is CMA's innovative system orchestrator - a protective shell that manages all kernels with self-healing intelligence:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6">
@@ -489,7 +489,7 @@ const HomePage = () => {
               </div>
               
               <div className="mt-8 p-6 bg-gradient-to-r from-primary/20 via-secondary/10 to-accent/20 rounded-lg border-2 border-primary/30">
-                <h4 className="font-bold text-primary mb-4">🚀 Why Meta-Kernel is Revolutionary for CMA</h4>
+                <h4 className="font-bold text-primary mb-4">🚀 Why Meta-Kernel is Important for CMA</h4>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Traditional OS Problems:</h5>
@@ -530,7 +530,7 @@ const HomePage = () => {
             <h3 className="text-2xl font-bold mb-8 text-foreground">🧠 Multi-Kernel AI: The Future of Intelligence Systems</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                CMA implements a revolutionary multi-kernel architecture - the future standard for AI systems that current monolithic models cannot achieve:
+                CMA implements an innovative multi-kernel architecture - an advanced approach for AI systems that current monolithic models cannot achieve:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -622,7 +622,7 @@ const HomePage = () => {
                 <h4 className="font-bold text-accent mb-4">⚡ Multi-Kernel Connector: Event-Driven Intelligence</h4>
                 <div className="space-y-4">
                   <p className="text-sm text-muted-foreground">
-                    CMA's Multi-Kernel Connector enables revolutionary <strong>philosophical event propagation</strong> where kernels don't just communicate - they create emergent intelligence through contextual transformation:
+                    CMA's Multi-Kernel Connector enables advanced <strong>philosophical event propagation</strong> where kernels don't just communicate - they create emergent intelligence through contextual transformation:
                   </p>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
@@ -741,7 +741,7 @@ const HomePage = () => {
               </div>
               
               <div className="mt-8 p-6 bg-gradient-to-r from-primary/20 via-secondary/10 to-accent/20 rounded-lg border-2 border-primary/30">
-                <h4 className="font-bold text-primary mb-4">🚀 Revolutionary Launch Position</h4>
+                <h4 className="font-bold text-primary mb-4">🚀 Strong Launch Position</h4>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">📈 Beyond Typical Launch Standards:</h5>

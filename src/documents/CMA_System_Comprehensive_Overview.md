@@ -321,7 +321,7 @@ These principles are implemented through:
 2. **Distributed Ethical Guards**:
    - Each kernel includes ethical validation
    - Cross-kernel ethical validation ensures comprehensive coverage
-   - Ethical constraints cannot be bypassed
+   - Ethical constraints have strong protections against bypass
    - Ethics are implemented at the architectural level, not just as policies
 
 3. **Ethical Decision Framework**:

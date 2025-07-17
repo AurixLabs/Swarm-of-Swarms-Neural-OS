@@ -8,7 +8,7 @@ import * as crypto from 'crypto-js';
  * SecureEthicalBridge
  * 
  * This component creates a secure bridge between the ethical reasoning system
- * and the protection system, ensuring that ethics cannot be bypassed or modified.
+ * and the protection system, providing strong protections for ethical constraints.
  */
 export class SecureEthicalBridge {
   private static instance: SecureEthicalBridge;
