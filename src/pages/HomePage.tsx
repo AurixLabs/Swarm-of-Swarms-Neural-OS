@@ -61,6 +61,49 @@ const HomePage = () => {
               ))}
             </ul>
           </div>
+
+          {/* Regional Use Cases Section */}
+          <div className="max-w-3xl mx-auto mt-16">
+            <h3 className="text-2xl font-bold mb-8 text-foreground">Empowering Resource-Limited Regions</h3>
+            <div className="text-left space-y-6">
+              <p className="text-lg text-muted-foreground mb-6">
+                Designed specifically for regions with limited internet, infrastructure, and capital resources:
+              </p>
+              
+              <div className="space-y-4">
+                <div className="bg-muted/20 p-4 rounded-lg">
+                  <h4 className="font-semibold text-foreground mb-2">🌍 Sub-Saharan Africa (Kenya, Nigeria, Ghana, Tanzania)</h4>
+                  <p className="text-sm text-muted-foreground">Low-cost smartphones, intermittent internet, local AI processing for agriculture, healthcare, and education</p>
+                </div>
+                
+                <div className="bg-muted/20 p-4 rounded-lg">
+                  <h4 className="font-semibold text-foreground mb-2">🇮🇳 Rural India & Southeast Asia</h4>
+                  <p className="text-sm text-muted-foreground">Village-level distributed computing, local language processing, agricultural optimization, micro-finance</p>
+                </div>
+                
+                <div className="bg-muted/20 p-4 rounded-lg">
+                  <h4 className="font-semibold text-foreground mb-2">🌎 Rural Latin America (Bolivia, Peru, Guatemala)</h4>
+                  <p className="text-sm text-muted-foreground">Indigenous language support, remote healthcare diagnostics, agricultural planning, disaster response</p>
+                </div>
+                
+                <div className="bg-muted/20 p-4 rounded-lg">
+                  <h4 className="font-semibold text-foreground mb-2">🏝️ Island Nations & Remote Communities</h4>
+                  <p className="text-sm text-muted-foreground">Pacific Islands, Caribbean, Arctic communities - mesh networks for isolated populations</p>
+                </div>
+              </div>
+              
+              <div className="mt-8 p-6 bg-primary/10 rounded-lg border border-primary/20">
+                <h4 className="font-semibold text-primary mb-2">💡 Real-World Impact</h4>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li>• $100 smartphones running full AI capabilities locally</li>
+                  <li>• Offline-first design with mesh networking for connectivity</li>
+                  <li>• Local data privacy - no need to send sensitive information to distant servers</li>
+                  <li>• Collective intelligence grows stronger as more local users join</li>
+                  <li>• Solar-powered ESP32 nodes for rural deployment</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </motion.div>
       </div>
 
