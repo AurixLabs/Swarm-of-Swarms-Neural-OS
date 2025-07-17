@@ -14,7 +14,7 @@ const HomePage = () => {
     "Swarm of Swarms Architecture - AI chatbots communicate with each other creating AGI effects",
     "Chip Agnostic - Works on Raspberry Pi, ESP32, Neuromorphic, Photonic, and Quantum chips ($20 to enterprise)",
     "Privacy First - Each user is a mesh network node with local data storage and optional cloud backup",
-    "Rust WASM Compilation - Maximum computational power with optimized data footprint vs competitors' multi-GB models",
+    "Rust WASM Compilation - Optimized computational performance with reduced data footprint compared to traditional multi-GB models",
     "Chipped Modules - Each module is an operating system within an operating system",
     "Ultra-Lightweight AI - Compact AI agents (MB not GB) vs competitors' multi-GB models, optimized for low-resource regions",
     "Collective Intelligence - Distributed users create emergent intelligence through agent communication networks",
@@ -71,7 +71,7 @@ const HomePage = () => {
                   <h4 className="font-semibold text-foreground mb-2">✅ Core Technologies (All MIT/Apache Licensed):</h4>
                   <ul className="text-sm text-muted-foreground space-y-1">
                     <li>• <strong>React + TypeScript:</strong> MIT License - Free forever</li>
-                    <li>• <strong>Rust + WebAssembly:</strong> Apache/MIT - Zero licensing costs</li>
+                    <li>• <strong>Rust + WebAssembly:</strong> Apache/MIT - No licensing costs for core runtime</li>
                     <li>• <strong>Tailwind CSS:</strong> MIT License - No restrictions</li>
                     <li>• <strong>All UI Components:</strong> MIT Licensed (Radix, Framer Motion)</li>
                   </ul>
@@ -113,12 +113,12 @@ const HomePage = () => {
             </ul>
           </div>
 
-          {/* Rust WASM Revolution Section - Moved to prominent position */}
+          {/* Rust WASM Innovation Section - Moved to prominent position */}
           <div className="max-w-4xl mx-auto mt-16">
-            <h3 className="text-2xl font-bold mb-8 text-foreground">⚡ Rust WASM Revolution: The Future of Cognitive Computing</h3>
+            <h3 className="text-2xl font-bold mb-8 text-foreground">⚡ Rust WASM Innovation: Advanced Cognitive Computing</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                Why CMA's Rust WebAssembly approach revolutionizes AI computing compared to traditional JavaScript/Python AI:
+                Why CMA's Rust WebAssembly approach offers advantages for AI computing compared to traditional JavaScript/Python AI:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -138,7 +138,7 @@ const HomePage = () => {
                   <h4 className="font-bold text-primary mb-3">🚀 Rust WASM Advantages</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
                     <li>• <strong>Near-Native Speed:</strong> Generally faster performance than interpreted languages in browser environments</li>
-                    <li>• <strong>Memory Safety:</strong> Zero-cost abstractions prevent crashes/exploits</li>
+                    <li>• <strong>Memory Safety:</strong> Low-cost abstractions help reduce crashes/exploits</li>
                     <li>• <strong>Compact Binaries:</strong> MB-sized AI models vs GB Python frameworks</li>
                     <li>• <strong>Universal Execution:</strong> Identical behavior on any device/platform</li>
                     <li>• <strong>Pre-Compiled:</strong> No runtime compilation overhead</li>
@@ -152,7 +152,7 @@ const HomePage = () => {
                 <div className="grid md:grid-cols-3 gap-4">
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Neuromorphic Processing:</h5>
-                    <p className="text-sm text-muted-foreground">Rust's zero-cost abstractions enable real-time spike pattern processing with precision difficult to achieve in JavaScript. Critical for brain-like computing.</p>
+                    <p className="text-sm text-muted-foreground">Rust's low-cost abstractions enable efficient spike pattern processing with improved precision compared to JavaScript. Beneficial for brain-like computing approaches.</p>
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Memory Architecture:</h5>
@@ -167,7 +167,7 @@ const HomePage = () => {
 
               <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-muted/20 p-6 rounded-lg">
-                  <h4 className="font-bold text-foreground mb-3">⚡ Performance Revolution</h4>
+                  <h4 className="font-bold text-foreground mb-3">⚡ Performance Improvements</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Execution Speed:</span>
@@ -189,7 +189,7 @@ const HomePage = () => {
                 </div>
 
                 <div className="bg-muted/20 p-6 rounded-lg">
-                  <h4 className="font-bold text-foreground mb-3">🛡️ Security & Safety Revolution</h4>
+                  <h4 className="font-bold text-foreground mb-3">🛡️ Security & Safety Improvements</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Memory Safety:</span>
@@ -218,7 +218,7 @@ const HomePage = () => {
                 </p>
                 <ul className="text-sm text-muted-foreground space-y-2">
                   <li>• <strong>Hybrid Architecture:</strong> High-performance Rust cognitive kernels + responsive React interfaces</li>
-                  <li>• <strong>Shared Memory Pools:</strong> Multiple WASM modules sharing memory space for zero-copy data transfer</li>
+                  <li>• <strong>Shared Memory Pools:</strong> Multiple WASM modules sharing memory space for efficient data transfer</li>
                   <li>• <strong>Dynamic Module Loading:</strong> Hot-swappable cognitive capabilities without system restart</li>
                   <li>• <strong>Universal Deployment:</strong> Same binary runs on web browsers, mobile devices, and embedded systems</li>
                   <li>• <strong>Neuromorphic Integration:</strong> Rust's fine-grained control enables spike timing precision difficult to achieve in higher-level languages</li>
@@ -417,7 +417,7 @@ const HomePage = () => {
                       </ul>
                     </div>
                     <div>
-                      <h5 className="font-semibold text-foreground mb-2">🛡️ CMA's Ethical Revolution</h5>
+                      <h5 className="font-semibold text-foreground mb-2">🛡️ CMA's Ethical Approach</h5>
                       <ul className="text-sm text-muted-foreground space-y-1">
                         <li>• Ethics hardened into the system architecture itself</li>
                         <li>• Distributed verification prevents single points of failure</li>
@@ -480,7 +480,7 @@ const HomePage = () => {
                 <div className="bg-gradient-to-br from-destructive/10 to-destructive/5 p-6 rounded-lg border border-destructive/20">
                   <h4 className="font-bold text-destructive mb-3">🔒 Security Level Management</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• <strong>Dynamic Security Levels:</strong> Standard, Enhanced, Maximum protection modes</li>
+                    <li>• <strong>Dynamic Security Levels:</strong> Standard, Enhanced, High protection modes</li>
                     <li>• <strong>Ethics-Gated Protection:</strong> Ethics check required to disable protection</li>
                     <li>• <strong>Environment Authorization:</strong> Authorized deployment fingerprinting</li>
                     <li>• <strong>Immutable Shutdown Sequence:</strong> Secure system termination protocols</li>
@@ -518,14 +518,14 @@ const HomePage = () => {
                     <strong className="text-accent">Critical Insight:</strong> The Meta-Kernel enables CMA's modular runtime swapping, 
                     distributed intelligence coordination, and temporal computing by providing a stable protective foundation 
                     that can orchestrate multiple AI kernels, ethics systems, and hardware interfaces simultaneously - 
-                    something impossible with traditional single-kernel architectures.
+                    something difficult to achieve with traditional single-kernel architectures.
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Multi-Kernel Architecture Revolution Section */}
+          {/* Multi-Kernel Architecture Innovation Section */}
           <div className="max-w-4xl mx-auto mt-16">
             <h3 className="text-2xl font-bold mb-8 text-foreground">🧠 Multi-Kernel AI: The Future of Intelligence Systems</h3>
             <div className="text-left space-y-6">
@@ -602,7 +602,7 @@ const HomePage = () => {
                     <ul className="text-sm text-muted-foreground space-y-1">
                       <li>• Future AI needs specialized cognitive functions</li>
                       <li>• Monolithic models hit computational ceilings</li>
-                      <li>• Real-time updates impossible with single models</li>
+                      <li>• Real-time updates challenging with single models</li>
                       <li>• Regulatory compliance requires isolated components</li>
                     </ul>
                   </div>
@@ -662,7 +662,7 @@ const HomePage = () => {
             <h3 className="text-2xl font-bold mb-8 text-foreground">🌍 Production-Ready for Global Open Source Impact</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                CMA Neural OS exceeds the launch standards of major open source projects that revolutionized technology:
+                CMA Neural OS aims to meet the standards of successful major open source projects:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -734,7 +734,7 @@ const HomePage = () => {
                     <li>• Resource-limited region optimization</li>
                     <li>• Decentralized intelligence networks</li>
                     <li>• Government-grade ethical assurance</li>
-                    <li>• Asymmetrical computing revolution</li>
+                    <li>• Asymmetrical computing innovation</li>
                     <li>• Foundation for temporal computing</li>
                   </ul>
                 </div>
@@ -765,10 +765,10 @@ const HomePage = () => {
                 
                 <div className="mt-6 p-4 bg-accent/10 rounded border border-accent/20">
                   <p className="text-sm text-muted-foreground">
-                    <strong className="text-accent">Strategic Assessment:</strong> While major tech companies struggle with 
-                    monolithic AI limitations and ethics afterthoughts, CMA Neural OS launches with architectural 
-                    sophistication that exceeds what Docker, React, Kubernetes, and TensorFlow achieved at their debuts. 
-                    The timing is optimal for an ethics-first, hardware-integrated, multi-kernel AI revolution.
+                    <strong className="text-accent">Strategic Assessment:</strong> As major tech companies face 
+                    monolithic AI limitations and ethics challenges, CMA Neural OS offers an alternative approach with 
+                    modular architecture principles. The timing appears favorable for ethics-first, hardware-integrated, 
+                    multi-kernel AI systems.
                   </p>
                 </div>
               </div>
