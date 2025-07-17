@@ -18,7 +18,7 @@ const HomePage = () => {
     "Chipped Modules - Each module is an operating system within an operating system",
     "Ultra-Lightweight AI - Compact AI agents (MB not GB) vs competitors' multi-GB models, optimized for low-resource regions",
     "Collective Intelligence - Distributed users create emergent intelligence through agent communication networks",
-    "Asymmetrical Architecture - Small distributed nodes can work efficiently alongside massive centralized systems",
+    "Asymmetrical Architecture - Small distributed nodes can work efficiently alongside larger centralized systems",
     "Decentralized Power - Distributed architecture following decentralized principles",
     "Temporal Computing Foundation - Modular time-state management enabling distributed temporal reasoning and causality preservation",
     "Quantum-Ready Temporal Modules - Architecture supports quantum temporal computing through distributed quantum state management",
@@ -64,7 +64,7 @@ const HomePage = () => {
             <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
               <h3 className="text-xl font-bold text-primary mb-4">💎 Open Source Technology Stack</h3>
               <p className="text-base text-muted-foreground mb-4">
-                CMA is built on open-source technologies, subject to our Elastic License v2.0 for the complete system:
+                CMA is built on open-source technologies, subject to our Elastic License v2.0 for the integrated system:
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
@@ -89,7 +89,7 @@ const HomePage = () => {
               <div className="mt-4 p-4 bg-primary/20 rounded border border-primary/30">
                 <p className="text-sm text-foreground font-semibold">
                   🎯 <strong>Open Source Foundation:</strong> Built on standard open-source libraries with 
-                  Elastic License v2.0 for the complete CMA system - free for non-commercial use.
+                  Elastic License v2.0 for the integrated CMA system - free for non-commercial use.
                 </p>
               </div>
             </div>
@@ -160,7 +160,7 @@ const HomePage = () => {
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Edge Computing:</h5>
-                    <p className="text-sm text-muted-foreground">Rust WASM runs identically on $20 Raspberry Pi or enterprise servers - democratizing AI for resource-limited regions.</p>
+                    <p className="text-sm text-muted-foreground">Rust WASM runs consistently on $20 Raspberry Pi or enterprise servers - democratizing AI for resource-limited regions.</p>
                   </div>
                 </div>
               </div>
@@ -193,7 +193,7 @@ const HomePage = () => {
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Memory Safety:</span>
-                      <span className="text-sm font-semibold text-primary">Mathematically Based</span>
+                      <span className="text-sm font-semibold text-primary">Math-Based Approach</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Buffer Overflows:</span>
@@ -237,7 +237,7 @@ const HomePage = () => {
             <h3 className="text-2xl font-bold mb-8 text-foreground">Empowering Resource-Limited Regions</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                Designed specifically for regions with limited internet, infrastructure, and capital resources:
+                Designed for regions with limited internet, infrastructure, and capital resources:
               </p>
               
               <div className="space-y-4">
@@ -461,9 +461,9 @@ const HomePage = () => {
                   <h4 className="font-bold text-secondary mb-3">🔄 Self-Healing Intelligence</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
                     <li>• <strong>Automatic Recovery:</strong> Detects kernel failures and attempts restoration</li>
-                    <li>• <strong>Re-Registration:</strong> Missing kernels are automatically re-initialized</li>
+                    <li>• <strong>Re-Registration:</strong> Missing kernels can be re-initialized</li>
                     <li>• <strong>Integrity Verification:</strong> Continuous verification of system components</li>
-                    <li>• <strong>Protection Re-initialization:</strong> Automatically rebuilds protection mechanisms</li>
+                    <li>• <strong>Protection Re-initialization:</strong> Can rebuild protection mechanisms</li>
                   </ul>
                 </div>
                 
