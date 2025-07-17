@@ -35,6 +35,13 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
+        config: |
+          disable-default-path-filters: true
+          paths-ignore:
+            - "**/*.rs"
+            - "**/Cargo.toml"
+            - "**/Cargo.lock"
+            - "src/rust/**"
 
     - if: matrix.build-mode == 'autobuild'
       name: Autobuild
