@@ -3,14 +3,14 @@ import { motion } from 'framer-motion';
 
 const HomePage = () => {
   const features = [
-    "Modular Architecture - Cognitive modular design research system",
+    "Modular Architecture - Cognitive modular neural platform design",
     "Ethics-First Design - Built-in ethical considerations as architectural principle", 
     "Hardware Integration - Planned WASM support for computational efficiency",
     "Resilient Design - Architecture designed for fault tolerance and recovery",
     "Adaptive Interface - UI concepts for intention-driven user interactions",
     "Open Source Foundation - Built on MIT licensed technologies with transparent development",
     "Runtime Modularity - Architectural design for dynamic module management",
-    "Research System - Implementation of distributed intelligence concepts",
+    "Neural Platform - Implementation of distributed intelligence concepts",
     "Multi-Agent Architecture - Conceptual framework for agent communication patterns",
     "Platform Flexibility - Architecture designed for various hardware platforms",
     "Privacy-First Design - Local-first processing principles built into architecture",
@@ -53,11 +53,11 @@ const HomePage = () => {
           </h1>
           
           <h2 className="text-2xl md:text-4xl font-semibold mb-8 text-foreground">
-            CMA Neural OS - Research System
+            CMA Neural OS - Neural Platform
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
-            Open Source Neural Operating System Research Platform
+            Open Source Neural Operating System Platform
           </p>
 
           <div className="max-w-3xl mx-auto mb-16">
@@ -277,7 +277,7 @@ const HomePage = () => {
 
           {/* Development Architecture Section */}
           <div className="max-w-4xl mx-auto mt-16">
-            <h3 className="text-2xl font-bold mb-8 text-foreground">🏗️ Research Architecture System</h3>
+            <h3 className="text-2xl font-bold mb-8 text-foreground">🏗️ Neural Platform Architecture</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
                 Current development preview showcases foundational architecture concepts:
