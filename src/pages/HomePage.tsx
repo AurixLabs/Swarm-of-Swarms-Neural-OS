@@ -101,6 +101,32 @@ const HomePage = () => {
             </div>
           </div>
 
+          <div className="max-w-3xl mx-auto mb-8">
+            <h3 className="text-2xl font-bold mb-6 text-foreground">🌊 Swarm of Swarms Architecture</h3>
+            <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg border border-blue-200">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-blue-800 mb-3">🔧 Hardware Chip Coordination</h4>
+                  <ul className="text-sm text-blue-700 space-y-2">
+                    <li>• ESP32 mesh networking implementation</li>
+                    <li>• Distributed task assignment across hardware nodes</li>
+                    <li>• Load balancing between physical devices</li>
+                    <li>• Real-time telemetry and health monitoring</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-purple-800 mb-3">🤖 AI Agent Swarm Systems</h4>
+                  <ul className="text-sm text-purple-700 space-y-2">
+                    <li>• Fractal agent hierarchies with multi-level coordination</li>
+                    <li>• Event-driven communication between agent clusters</li>
+                    <li>• Dynamic task distribution and result aggregation</li>
+                    <li>• Hybrid intelligence orchestration capabilities</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold mb-8 text-foreground">Key Features</h3>
             <ul className="text-left space-y-4">
@@ -117,6 +143,78 @@ const HomePage = () => {
                 </motion.li>
               ))}
             </ul>
+          </div>
+
+          <div className="max-w-4xl mx-auto mt-16">
+            <h3 className="text-2xl font-bold mb-8 text-foreground text-center">🏭 Industry Applications</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="bg-green-50 p-6 rounded-lg border border-green-200">
+                <h4 className="font-semibold text-green-800 mb-3">🌾 Smart Agriculture</h4>
+                <ul className="text-sm text-green-700 space-y-1">
+                  <li>• Sensor mesh networks across farmland</li>
+                  <li>• Coordinated irrigation and monitoring</li>
+                  <li>• Distributed crop analysis agents</li>
+                  <li>• Weather pattern coordination</li>
+                </ul>
+              </div>
+              
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <h4 className="font-semibold text-blue-800 mb-3">🏭 Manufacturing</h4>
+                <ul className="text-sm text-blue-700 space-y-1">
+                  <li>• Coordinated robot swarms</li>
+                  <li>• Quality control agent networks</li>
+                  <li>• Supply chain optimization</li>
+                  <li>• Predictive maintenance systems</li>
+                </ul>
+              </div>
+              
+              <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
+                <h4 className="font-semibold text-purple-800 mb-3">🏥 Healthcare</h4>
+                <ul className="text-sm text-purple-700 space-y-1">
+                  <li>• Distributed patient monitoring</li>
+                  <li>• Coordinated diagnostic agents</li>
+                  <li>• Hospital resource optimization</li>
+                  <li>• Emergency response coordination</li>
+                </ul>
+              </div>
+              
+              <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
+                <h4 className="font-semibold text-orange-800 mb-3">🚗 Transportation</h4>
+                <ul className="text-sm text-orange-700 space-y-1">
+                  <li>• Fleet coordination systems</li>
+                  <li>• Traffic optimization networks</li>
+                  <li>• Autonomous vehicle swarms</li>
+                  <li>• Route planning coordination</li>
+                </ul>
+              </div>
+              
+              <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+                <h4 className="font-semibold text-yellow-800 mb-3">⚡ Energy</h4>
+                <ul className="text-sm text-yellow-700 space-y-1">
+                  <li>• Smart grid coordination</li>
+                  <li>• Distributed energy storage</li>
+                  <li>• Solar panel optimization</li>
+                  <li>• Load balancing networks</li>
+                </ul>
+              </div>
+              
+              <div className="bg-red-50 p-6 rounded-lg border border-red-200">
+                <h4 className="font-semibold text-red-800 mb-3">🛡️ Security</h4>
+                <ul className="text-sm text-red-700 space-y-1">
+                  <li>• Distributed surveillance systems</li>
+                  <li>• Threat detection networks</li>
+                  <li>• Coordinated response agents</li>
+                  <li>• Perimeter monitoring swarms</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="mt-8 p-6 bg-gray-50 rounded-lg border">
+              <p className="text-sm text-gray-700 text-center">
+                <strong>Architecture Foundation:</strong> The platform provides the coordination framework and communication protocols. 
+                Developers implement domain-specific logic using the swarm coordination APIs and hardware integration capabilities.
+              </p>
+            </div>
           </div>
 
           {/* Rust WASM Innovation Section - Moved to prominent position */}
