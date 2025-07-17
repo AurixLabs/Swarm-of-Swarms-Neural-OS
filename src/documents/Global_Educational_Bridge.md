@@ -8,7 +8,7 @@ In the tapestry of human civilization, knowledge has always been the golden thre
 
 Our journey began with a profound recognition: that the future of technology must be built on a foundation of mutual respect and understanding. This is why we chose to honor both our American and Chinese roots in our approach to developing the Cognitive Modular Architecture (CMA).
 
-The United States, with its tradition of innovation and entrepreneurship, provided the fertile ground where many of the technological tools we use today were born. Our decision to first patent CMA in the USA is a tribute to this legacy of innovation and to the countless minds who created the building blocks that made our work possible. Silicon Valley's spirit of "paying it forward" resonates deeply with our mission.
+The United States, with its tradition of innovation and entrepreneurship, provided the fertile ground where many of the technological tools we use today were born. Our commitment to developing CMA in the USA is a tribute to this legacy of innovation and to the countless minds who created the building blocks that made our work possible. Silicon Valley's spirit of "paying it forward" resonates deeply with our mission.
 
 Equally important is our connection to China, a civilization that has contributed immeasurably to human knowledge over thousands of years. From the invention of paper to the development of sophisticated philosophical systems, China's legacy of innovation and wisdom continues to inspire. This deep cultural heritage, with its emphasis on harmony and the greater good, fundamentally shapes our approach to technology development.
 

@@ -32,11 +32,10 @@ const HomePage = () => {
     "Neuromorphic Processing - Real-time spike pattern processing capabilities", 
     "Bridge-Free Architecture - Module communication through synchronized temporal state",
     "Multi-Agent Processing - Intelligent agents with multiple cognitive modules",
-    "Secure Ethics Integration - Cryptographically secured ethics implementation"
-    "Immutable Ethics WASM Integration - Cryptographically secured ethics implementation via compiled WebAssembly modules",
-    "Dynamic Cognitive Module Discovery - Runtime detection and loading of specialized cognitive capabilities",
-    "Shared WASM Memory Communication - Inter-module communication through shared WebAssembly memory spaces",
-    "Real-Time Cognitive Assessment - Live assessment of AI agent cognitive processing capabilities and module status"
+    "Secure Ethics Integration - Cryptographically secured ethics implementation",
+    "Dynamic Module Discovery - Runtime detection and loading of specialized cognitive capabilities",
+    "Shared Memory Communication - Inter-module communication through shared memory spaces",
+    "Real-Time Assessment - Live assessment of AI agent cognitive processing capabilities"
   ];
 
   return (
