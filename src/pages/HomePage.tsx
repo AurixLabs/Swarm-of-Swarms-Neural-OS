@@ -284,6 +284,147 @@ const HomePage = () => {
             </div>
           </div>
 
+          {/* Rust WASM Revolution Section */}
+          <div className="max-w-4xl mx-auto mt-16">
+            <h3 className="text-2xl font-bold mb-8 text-foreground">⚡ Rust WASM Revolution: The Future of Cognitive Computing</h3>
+            <div className="text-left space-y-6">
+              <p className="text-lg text-muted-foreground mb-6">
+                Why CMA's Rust WebAssembly approach revolutionizes AI computing compared to traditional JavaScript/Python AI:
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="bg-destructive/10 p-6 rounded-lg border border-destructive/20">
+                  <h4 className="font-bold text-destructive mb-3">⚠️ Traditional AI Limitations</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• <strong>JavaScript AI:</strong> 10-100x slower execution, memory leaks, GC pauses</li>
+                    <li>• <strong>Python Dependencies:</strong> Massive runtime overhead (GB-scale models)</li>
+                    <li>• <strong>Memory Unsafe:</strong> Buffer overflows, use-after-free vulnerabilities</li>
+                    <li>• <strong>Platform Dependent:</strong> Different behavior across devices/browsers</li>
+                    <li>• <strong>Interpreted Code:</strong> Runtime parsing overhead kills performance</li>
+                    <li>• <strong>Network Dependent:</strong> Requires cloud APIs for serious AI processing</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
+                  <h4 className="font-bold text-primary mb-3">🚀 Rust WASM Advantages</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• <strong>Near-Native Speed:</strong> 95-98% of native C++ performance in browser</li>
+                    <li>• <strong>Memory Safety:</strong> Zero-cost abstractions prevent crashes/exploits</li>
+                    <li>• <strong>Compact Binaries:</strong> MB-sized AI models vs GB Python frameworks</li>
+                    <li>• <strong>Universal Execution:</strong> Identical behavior on any device/platform</li>
+                    <li>• <strong>Pre-Compiled:</strong> No runtime compilation overhead</li>
+                    <li>• <strong>Offline-First:</strong> Full AI processing without internet dependency</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-primary/20 via-secondary/10 to-accent/20 rounded-lg border-2 border-primary/30 p-6 mb-6">
+                <h4 className="font-bold text-primary mb-4">🧠 Why Rust WASM for Cognitive AI</h4>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">Neuromorphic Processing:</h5>
+                    <p className="text-sm text-muted-foreground">Rust's zero-cost abstractions enable real-time spike pattern processing that would be impossible in JavaScript. Critical for brain-like computing.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">Memory Architecture:</h5>
+                    <p className="text-sm text-muted-foreground">Shared WASM memory allows multiple cognitive modules to communicate at native speeds - enabling true parallel cognitive processing.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">Edge Computing:</h5>
+                    <p className="text-sm text-muted-foreground">Rust WASM runs identically on $20 Raspberry Pi or enterprise servers - democratizing AI for resource-limited regions.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-muted/20 p-6 rounded-lg">
+                  <h4 className="font-bold text-foreground mb-3">⚡ Performance Revolution</h4>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">Execution Speed:</span>
+                      <span className="text-sm font-semibold text-primary">~95% Native Performance</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">Memory Usage:</span>
+                      <span className="text-sm font-semibold text-primary">10-100x Less than Python</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">Binary Size:</span>
+                      <span className="text-sm font-semibold text-primary">KB-MB vs GB Models</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">Cold Start Time:</span>
+                      <span className="text-sm font-semibold text-primary">Instant vs Minutes</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-muted/20 p-6 rounded-lg">
+                  <h4 className="font-bold text-foreground mb-3">🛡️ Security & Safety Revolution</h4>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">Memory Safety:</span>
+                      <span className="text-sm font-semibold text-primary">Mathematically Guaranteed</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">Buffer Overflows:</span>
+                      <span className="text-sm font-semibold text-primary">Impossible by Design</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">Concurrency Bugs:</span>
+                      <span className="text-sm font-semibold text-primary">Compile-Time Prevention</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">Sandboxing:</span>
+                      <span className="text-sm font-semibold text-primary">Native WASM Isolation</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-accent/20 to-accent/10 rounded-lg border border-accent/30 p-6">
+                <h4 className="font-bold text-accent mb-4">🌍 Real-World Impact: Why This Matters</h4>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">🏥 Rural Healthcare</h5>
+                    <p className="text-sm text-muted-foreground">AI diagnostics running on $50 tablets in remote clinics - impossible with traditional cloud-dependent AI requiring high-speed internet.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">🌾 Precision Agriculture</h5>
+                    <p className="text-sm text-muted-foreground">Real-time crop analysis on farmer's smartphones without internet dependency - Rust WASM enables on-device neuromorphic processing.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">🎓 Education Access</h5>
+                    <p className="text-sm text-muted-foreground">Personalized AI tutoring working offline on low-cost devices - bridging the digital divide through efficient computing.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-foreground mb-2">🏭 Industrial IoT</h5>
+                    <p className="text-sm text-muted-foreground">Edge AI processing on factory equipment without cloud latency - critical for real-time safety and quality control.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-6 p-6 bg-primary/10 rounded-lg border border-primary/20">
+                <h4 className="font-bold text-primary mb-3">🔮 The Technical Innovation</h4>
+                <p className="text-sm text-muted-foreground mb-4">
+                  CMA pioneers the integration of Rust's systems programming power with frontend accessibility:
+                </p>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li>• <strong>Hybrid Architecture:</strong> High-performance Rust cognitive kernels + responsive React interfaces</li>
+                  <li>• <strong>Shared Memory Pools:</strong> Multiple WASM modules sharing memory space for zero-copy data transfer</li>
+                  <li>• <strong>Dynamic Module Loading:</strong> Hot-swappable cognitive capabilities without system restart</li>
+                  <li>• <strong>Universal Deployment:</strong> Same binary runs on web browsers, mobile devices, and embedded systems</li>
+                  <li>• <strong>Neuromorphic Integration:</strong> Rust's fine-grained control enables spike timing precision impossible in higher-level languages</li>
+                </ul>
+                <div className="mt-4 p-4 bg-primary/20 rounded border border-primary/30">
+                  <p className="text-sm text-foreground font-semibold">
+                    Result: AI systems that are faster, safer, smaller, and more accessible than anything possible with traditional approaches.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Meta-Kernel Architecture Section */}
           <div className="max-w-4xl mx-auto mt-16">
             <h3 className="text-2xl font-bold mb-8 text-foreground">🎯 Meta-Kernel: Universal System Orchestration</h3>
