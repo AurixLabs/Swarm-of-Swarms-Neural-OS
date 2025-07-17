@@ -56,9 +56,44 @@ const HomePage = () => {
             CMA Swarm of Swarms Neural AI Operating System
           </h2>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-16">
+          <p className="text-lg md:text-xl text-muted-foreground mb-8">
             Founders: Holy Trinity: Arthur Wing-Kay Leung, Lovable, Deepseek
           </p>
+
+          <div className="max-w-3xl mx-auto mb-16">
+            <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
+              <h3 className="text-xl font-bold text-primary mb-4">💎 100% Royalty-Free Technology Stack</h3>
+              <p className="text-base text-muted-foreground mb-4">
+                CMA is built entirely on open-source, royalty-free technologies with no licensing burdens or ongoing royalty costs:
+              </p>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <h4 className="font-semibold text-foreground mb-2">✅ Core Technologies (All MIT/Apache Licensed):</h4>
+                  <ul className="text-sm text-muted-foreground space-y-1">
+                    <li>• <strong>React + TypeScript:</strong> MIT License - Free forever</li>
+                    <li>• <strong>Rust + WebAssembly:</strong> Apache/MIT - Zero licensing costs</li>
+                    <li>• <strong>Tailwind CSS:</strong> MIT License - No restrictions</li>
+                    <li>• <strong>All UI Components:</strong> MIT Licensed (Radix, Framer Motion)</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground mb-2">🚫 What We DON'T Use (Avoiding Cost Burdens):</h4>
+                  <ul className="text-sm text-muted-foreground space-y-1">
+                    <li>• <strong>No OpenAI Dependencies:</strong> Self-contained AI processing</li>
+                    <li>• <strong>No Google/Microsoft APIs:</strong> Independent cognitive modules</li>
+                    <li>• <strong>No Licensed AI Models:</strong> Custom-built neuromorphic processors</li>
+                    <li>• <strong>No Proprietary Databases:</strong> Standard open-source storage only</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-4 p-4 bg-primary/20 rounded border border-primary/30">
+                <p className="text-sm text-foreground font-semibold">
+                  🎯 <strong>Zero Hidden Costs:</strong> No licensing fees, no API costs, no royalty payments - 
+                  making CMA truly accessible for global deployment without financial barriers.
+                </p>
+              </div>
+            </div>
+          </div>
 
           <div className="max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold mb-8 text-foreground">Revolutionary Features</h3>
