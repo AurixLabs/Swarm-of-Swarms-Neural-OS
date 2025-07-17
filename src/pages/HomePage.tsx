@@ -3,29 +3,21 @@ import { motion } from 'framer-motion';
 
 const HomePage = () => {
   const features = [
-    "🌊 Swarm of Swarms Architecture - Multi-level coordination between hardware chips and AI agents",
-    "🔧 Hardware Mesh Networks - ESP32 coordination with distributed processing and load balancing", 
-    "🤖 Fractal Agent Systems - Hierarchical agent coordination for complex task management",
-    "⚡ Real-time Coordination - Event-driven communication between distributed components",
-    "🛡️ Ethics-First Design - Built-in ethical reasoning for responsible AI development",
-    "🏗️ Modular Architecture - Cognitive modular neural platform design",
-    "🚀 WebAssembly Performance - High-performance cognitive modules with near-native speed",
-    "🔄 Dynamic Load Balancing - Intelligent task distribution across hardware and software nodes",
-    "📡 Mesh Networking - WiFi mesh capabilities for chip-to-chip communication",
-    "🎯 Multi-Agent Intelligence - Coordinated agent swarms with hierarchical task management",
-    "🔒 Privacy-First Design - Distributed processing with local data sovereignty",
-    "⚙️ Hardware Integration - Direct ESP32 and IoT device coordination capabilities",
-    "🧠 Hybrid Intelligence - Orchestrated coordination between human and AI agents",
-    "📊 Real-time Telemetry - Distributed monitoring and health tracking across all nodes",
+    "🌊 Swarm of Swarms Architecture - Multi-level coordination framework between hardware chips and AI agents",
+    "🔧 Hardware Mesh Networks - ESP32 coordination capabilities with distributed processing architecture", 
+    "🤖 Fractal Agent Systems - Hierarchical agent coordination framework for complex task management",
+    "⚡ Real-time Coordination - Event-driven communication architecture between distributed components",
+    "🛡️ Ethics-First Design - Built-in ethical reasoning framework for responsible AI development",
+    "🏗️ Modular Architecture - Cognitive modular neural platform design foundation",
+    "🚀 WebAssembly Integration - High-performance cognitive module support with efficient execution",
+    "🔄 Dynamic Load Balancing - Intelligent task distribution framework across hardware and software nodes",
+    "📡 Mesh Networking - WiFi mesh networking capabilities for chip-to-chip communication",
+    "🎯 Multi-Agent Intelligence - Coordinated agent swarm framework with hierarchical task management",
+    "🔒 Privacy-First Design - Distributed processing architecture with local data sovereignty principles",
+    "⚙️ Hardware Integration - ESP32 and IoT device coordination framework and APIs",
+    "🧠 Hybrid Intelligence - Orchestration framework for coordination between human and AI agents",
+    "📊 Real-time Telemetry - Distributed monitoring and health tracking architecture across nodes",
     "🌐 Platform Flexibility - Architecture designed for various hardware and deployment scenarios",
-    "Asymmetrical Design - Architecture supporting varied node configurations",
-    "Decentralized Principles - Built following distributed system design patterns",
-    "Temporal Architecture - Modular time-state management design concepts",
-    "Future-Ready Design - Architecture planning for advanced computing paradigms",
-    "Causal Architecture - Ethics layer designed for logical consistency",
-    "Multi-Timeline Concepts - Architectural support for complex temporal reasoning",
-    "Meta-Kernel Design - Protective orchestration layer for system components",
-    "Multi-Kernel Concepts - Specialized kernel architecture vs monolithic systems",
     
     // TECHNICAL CONCEPTS
     "Unified WASM Planning - Shared memory architecture for module communication",
@@ -91,7 +83,7 @@ const HomePage = () => {
               </div>
               <div className="mt-4 p-4 bg-primary/20 rounded border border-primary/30">
                 <p className="text-sm text-foreground font-semibold">
-                  🎯 <strong>Production Neural Platform:</strong> Built on open-source foundations with 
+                  🎯 <strong>Neural Platform:</strong> Built on open-source foundations with 
                   Elastic License v2.0 for the integrated CMA system - ready for commercial deployment.
                 </p>
               </div>
@@ -115,21 +107,21 @@ const HomePage = () => {
             <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg border border-blue-200">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-semibold text-blue-800 mb-3">🔧 Hardware Chip Coordination</h4>
+                  <h4 className="font-semibold text-blue-800 mb-3">🔧 Hardware Coordination Framework</h4>
                   <ul className="text-sm text-blue-700 space-y-2">
-                    <li>• ESP32 mesh networking implementation</li>
-                    <li>• Distributed task assignment across hardware nodes</li>
-                    <li>• Load balancing between physical devices</li>
-                    <li>• Real-time telemetry and health monitoring</li>
+                    <li>• ESP32 mesh networking support and APIs</li>
+                    <li>• Distributed task assignment framework across hardware nodes</li>
+                    <li>• Load balancing architecture between physical devices</li>
+                    <li>• Real-time telemetry and health monitoring capabilities</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-purple-800 mb-3">🤖 AI Agent Swarm Systems</h4>
+                  <h4 className="font-semibold text-purple-800 mb-3">🤖 AI Agent Coordination Framework</h4>
                   <ul className="text-sm text-purple-700 space-y-2">
-                    <li>• Fractal agent hierarchies with multi-level coordination</li>
-                    <li>• Event-driven communication between agent clusters</li>
-                    <li>• Dynamic task distribution and result aggregation</li>
-                    <li>• Hybrid intelligence orchestration capabilities</li>
+                    <li>• Fractal agent hierarchy framework with multi-level coordination</li>
+                    <li>• Event-driven communication architecture between agent clusters</li>
+                    <li>• Dynamic task distribution and result aggregation framework</li>
+                    <li>• Hybrid intelligence orchestration architecture and APIs</li>
                   </ul>
                 </div>
               </div>
@@ -407,8 +399,11 @@ const HomePage = () => {
               </div>
               <div className="mt-4 p-4 bg-white rounded border text-center">
                 <p className="text-sm text-gray-700">
-                  <strong>Developer Foundation:</strong> The platform provides coordination APIs, mesh networking capabilities, and agent communication protocols. 
-                  Industry-specific logic and business rules are implemented by developers using these foundational tools.
+                  <strong>Development Framework:</strong> The platform provides coordination APIs, mesh networking capabilities, and agent communication protocols. 
+                  Industry-specific logic and business rules are implemented by developers using these foundational framework components.
+                  <br /><br />
+                  <strong>Implementation Note:</strong> Applications require developer implementation of domain-specific business logic. 
+                  Platform provides architectural foundation and coordination frameworks.
                 </p>
               </div>
             </div>
@@ -1077,6 +1072,69 @@ const HomePage = () => {
           </div>
         </motion.div>
       </div>
+
+      {/* Legal Disclaimers and Terms */}
+      <section className="bg-muted/50 py-12">
+        <div className="container mx-auto px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold mb-6 text-foreground text-center">📋 Important Information & Disclaimers</h2>
+            
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white p-6 rounded-lg border">
+                <h3 className="font-bold text-lg mb-3 text-blue-800">🏗️ Platform Framework</h3>
+                <ul className="text-sm text-gray-700 space-y-2">
+                  <li>• CMA provides coordination frameworks and APIs</li>
+                  <li>• Applications require developer implementation</li>
+                  <li>• Business logic and domain-specific features not included</li>
+                  <li>• Performance depends on implementation and hardware</li>
+                  <li>• Testing and validation required for production use</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg border">
+                <h3 className="font-bold text-lg mb-3 text-green-800">✅ Use Compliance</h3>
+                <ul className="text-sm text-gray-700 space-y-2">
+                  <li>• Peaceful applications only - no military/weapons use</li>
+                  <li>• Commercial licensing verification required</li>
+                  <li>• Users responsible for regulatory compliance</li>
+                  <li>• Ethics guidelines must be followed</li>
+                  <li>• License terms supersede all other agreements</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg border">
+                <h3 className="font-bold text-lg mb-3 text-orange-800">⚠️ Limitations & Scope</h3>
+                <ul className="text-sm text-gray-700 space-y-2">
+                  <li>• Platform provides architectural foundation only</li>
+                  <li>• No warranty or guarantee of specific outcomes</li>
+                  <li>• Hardware integration requires technical expertise</li>
+                  <li>• Demonstrations show theoretical capabilities</li>
+                  <li>• Results may vary based on implementation</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg border">
+                <h3 className="font-bold text-lg mb-3 text-purple-800">🔒 Responsibility & Liability</h3>
+                <ul className="text-sm text-gray-700 space-y-2">
+                  <li>• Users responsible for their implementations</li>
+                  <li>• No liability for misuse or violations</li>
+                  <li>• Technical support subject to licensing terms</li>
+                  <li>• Safety and security validation required</li>
+                  <li>• Compliance with local laws required</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="mt-6 p-4 bg-yellow-50 rounded border border-yellow-200">
+              <p className="text-sm text-yellow-800 text-center">
+                <strong>Important:</strong> This platform provides development frameworks and coordination APIs. 
+                All applications, performance claims, and use cases require developer implementation and validation. 
+                Users are solely responsible for compliance with applicable laws and regulations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="border-t bg-muted/30 py-8">

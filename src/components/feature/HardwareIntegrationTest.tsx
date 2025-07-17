@@ -176,7 +176,7 @@ const HardwareIntegrationTest = () => {
   return (
     <div className="p-6 bg-white rounded-lg shadow-lg max-w-6xl mx-auto">
       <h2 className="text-3xl font-bold mb-4 text-orange-600">
-        🔥 HARDWARE INTEGRATION SIMULATION - CHIP IT UP!
+        🔥 HARDWARE INTEGRATION FRAMEWORK - COORDINATION DEMO
       </h2>
       
       <div className="mb-6">
@@ -271,7 +271,7 @@ const HardwareIntegrationTest = () => {
       <div className="mt-6 p-4 bg-red-50 rounded">
         <div className="text-sm font-medium mb-1">🔥 READY TO CHIP IT?</div>
         <div className="text-xs text-gray-700">
-          This simulation shows what happens when you add REAL ESP32-S3 chips to your existing software stack.
+          This demonstration shows the framework capabilities when you integrate ESP32-S3 chips with the coordination architecture.
           <br />• ✅ Your 5,385 software functions remain intact
           <br />• ✅ Each chip adds ~{chipCapabilities[0]?.totalFunctions || 150}+ hardware-specific functions
           <br />• ✅ Mesh networking enables swarm coordination

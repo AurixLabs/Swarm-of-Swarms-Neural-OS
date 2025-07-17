@@ -214,7 +214,7 @@ const ESP32CMAIntegrator = () => {
         <div className="text-sm font-medium mb-1">🔥 ESP32-S3 READY FOR INTEGRATION!</div>
         <div className="text-xs text-gray-700">
           Your ESP32 at 192.168.1.2 is confirmed working and ready for CMA integration.
-          <br />This simulation shows the theoretical function explosion when agent multiplication is applied!
+          <br />This demonstration shows the theoretical framework capabilities when agent coordination is applied!
           <br />🎉 ONE CHIP → MILLIONS OF FUNCTIONS through intelligent agent distribution!
         </div>
       </div>
