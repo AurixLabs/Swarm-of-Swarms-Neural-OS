@@ -98,6 +98,12 @@ const HomePage = () => {
                   research contributions, and educational use. Build upon our architecture for your research projects.
                 </p>
               </div>
+              <div className="mt-3 p-4 bg-green-50 rounded border border-green-300">
+                <p className="text-sm text-green-800 font-semibold">
+                  🕊️ <strong>Peaceful Use Only:</strong> This platform is exclusively for beneficial applications. 
+                  Military, weapons, surveillance, or harmful use cases are strictly prohibited.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -122,6 +128,43 @@ const HomePage = () => {
                     <li>• Dynamic task distribution and result aggregation</li>
                     <li>• Hybrid intelligence orchestration capabilities</li>
                   </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="max-w-3xl mx-auto mb-8">
+            <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-lg border-2 border-green-300">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold mb-4 text-green-800">🕊️ Peaceful Use Commitment</h3>
+                <div className="bg-white/70 p-4 rounded-md border border-green-200 mb-4">
+                  <p className="text-lg font-semibold text-green-900 mb-2">
+                    This Neural Platform is designed exclusively for beneficial applications
+                  </p>
+                  <p className="text-md text-green-800">
+                    <strong>Prohibited Uses:</strong> Military applications, weapons systems, surveillance for oppression, 
+                    or any technology that could cause harm to individuals or communities.
+                  </p>
+                </div>
+                <div className="grid md:grid-cols-3 gap-4 text-sm">
+                  <div className="bg-green-100 p-3 rounded border border-green-200">
+                    <div className="font-semibold text-green-800">✅ Encouraged Uses</div>
+                    <div className="text-green-700 mt-1">Healthcare, Education, Environmental Protection, Research</div>
+                  </div>
+                  <div className="bg-blue-100 p-3 rounded border border-blue-200">
+                    <div className="font-semibold text-blue-800">🌍 Global Benefit</div>
+                    <div className="text-blue-700 mt-1">Solutions for humanity's greatest challenges</div>
+                  </div>
+                  <div className="bg-purple-100 p-3 rounded border border-purple-200">
+                    <div className="font-semibold text-purple-800">🤝 Ethical AI</div>
+                    <div className="text-purple-700 mt-1">Built-in ethical reasoning and responsible development</div>
+                  </div>
+                </div>
+                <div className="mt-4 p-3 bg-yellow-50 rounded border border-yellow-200">
+                  <p className="text-sm text-yellow-800">
+                    <strong>License Enforcement:</strong> Commercial licensing includes use-case verification. 
+                    Applications violating peaceful use principles will have licenses revoked.
+                  </p>
                 </div>
               </div>
             </div>

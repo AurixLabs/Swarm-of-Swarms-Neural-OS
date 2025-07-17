@@ -33,6 +33,7 @@ This neural platform implements cognitive modular architecture for commercial AI
 - This is a **production-ready** cognitive AI architecture platform for commercial deployment
 - Platform components are designed for enterprise scalability and reliability
 - Open to academic research and educational use
+- **Peaceful Use Only**: Prohibited for military, weapons, or harmful applications
 - The system prioritizes ethics, privacy, and safety by design
 
 ## Getting Started
