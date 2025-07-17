@@ -232,7 +232,7 @@ const ArchitecturePage = () => {
                   </div>
                 </Link>
 
-                <Link to="/examples/assistant" className="group">
+                <Link to="/developer" className="group">
                   <div className="bg-muted/20 p-6 rounded-lg border hover:border-primary/50 transition-colors">
                     <h3 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary">
                       Examples

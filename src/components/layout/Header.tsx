@@ -55,7 +55,7 @@ const Header = () => {
                       <Link to="/docs/api" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
                         <div className="text-sm font-medium leading-none">API Reference</div>
                         <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                          API documentation and examples
+                          API documentation and reference
                         </p>
                       </Link>
                     </NavigationMenuLink>
@@ -63,37 +63,6 @@ const Header = () => {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               
-              <NavigationMenuItem>
-                <NavigationMenuTrigger>Examples</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <div className="grid gap-3 p-6 w-[400px]">
-                    <NavigationMenuLink asChild>
-                      <Link to="/examples/assistant" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                        <div className="text-sm font-medium leading-none">Personal AI Assistant</div>
-                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                          Build your own cognitive AI assistant
-                        </p>
-                      </Link>
-                    </NavigationMenuLink>
-                    <NavigationMenuLink asChild>
-                      <Link to="/examples/smarthome" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                        <div className="text-sm font-medium leading-none">Smart Home Control</div>
-                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                          Cognitive home automation system
-                        </p>
-                      </Link>
-                    </NavigationMenuLink>
-                    <NavigationMenuLink asChild>
-                      <Link to="/examples/collaboration" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                        <div className="text-sm font-medium leading-none">Collaborative Development</div>
-                        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                          Multi-agent development environment
-                        </p>
-                      </Link>
-                    </NavigationMenuLink>
-                  </div>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
               
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>

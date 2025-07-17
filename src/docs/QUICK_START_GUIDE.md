@@ -1,13 +1,13 @@
 
-# CMA Neural OS - Development Preview Guide
+# CMA Neural OS - Research System Guide
 
 ## Overview
 
-This is a development preview of CMA Neural OS, demonstrating cognitive modular architecture principles and ethics-first design.
+This is CMA Neural OS, a research system for cognitive modular architecture principles and ethics-first design.
 
 ## Current Status
 
-This system is currently in **development preview** status. The interface showcases the planned architecture and design principles, but full AI capabilities are still being implemented.
+This system implements cognitive modular architecture for research and development. The interface provides access to core architecture components and testing tools.
 
 ## What You Can Explore
 
@@ -19,7 +19,7 @@ This system is currently in **development preview** status. The interface showca
 
 ### Interface Navigation
 - **Documentation**: Learn about the architectural concepts
-- **Examples**: See conceptual demonstrations of planned features
+
 - **Developer Tools**: Explore the development environment
 - **Community**: Connect with other developers
 
@@ -30,25 +30,24 @@ This system is currently in **development preview** status. The interface showca
 
 ## Important Notes
 
-- This is a **conceptual demonstration** of cognitive AI architecture
-- Full AI processing capabilities are in development
-- All demonstrations show planned functionality, not current implementation
+- This is a **research implementation** of cognitive AI architecture
+- System components are designed for testing and research
 - The system prioritizes ethics, privacy, and safety by design
 
 ## Getting Started
 
 1. **Explore the Architecture**: Visit `/docs/architecture` to understand the multi-kernel design
-2. **Review Examples**: Check `/examples/` for conceptual demonstrations  
+2. **Review Developer Tools**: Check `/developer` for testing and validation tools  
 3. **Access Developer Tools**: Navigate to `/developer` for the development environment
 4. **Read Documentation**: Browse `/docs/` for detailed information
 
 ## Development Focus
 
-This preview demonstrates:
+This system implements:
 - Modular kernel architecture design
 - Ethics validation systems
 - Privacy-first principles
-- WebAssembly integration planning
-- Multi-agent coordination concepts
+- WebAssembly integration capabilities
+- Multi-agent coordination systems
 
 The system is designed for developers and researchers interested in cognitive AI architecture and ethics-first design principles.

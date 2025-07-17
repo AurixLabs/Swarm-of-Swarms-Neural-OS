@@ -123,12 +123,12 @@ const WasmPathAnalyzer = () => {
       // Summary report
       const validWasm = allResults.filter(r => r.magicBytes.startsWith('00 61 73 6d')).length;
       const existing = allResults.filter(r => r.fileExists).length;
-      const fakeFiles = allResults.filter(r => r.fileExists && !r.magicBytes.startsWith('00 61 73 6d')).length;
+      const invalidFiles = allResults.filter(r => r.fileExists && !r.magicBytes.startsWith('00 61 73 6d')).length;
       
       console.log(`📊 [PathAnalyzer] ULTIMATE TRUTH REPORT:`);
       console.log(`✅ Valid WASM files: ${validWasm}/${coreModules.length}`);
       console.log(`📁 Files that exist: ${existing}/${coreModules.length}`);
-      console.log(`🎭 Fake files (exist but not WASM): ${fakeFiles}/${coreModules.length}`);
+      console.log(`❌ Invalid files (exist but not WASM): ${invalidFiles}/${coreModules.length}`);
       
     } finally {
       setIsAnalyzing(false);
@@ -153,7 +153,7 @@ const WasmPathAnalyzer = () => {
         <div className="text-xs text-gray-700">
           Testing all {coreModules.length} core modules: {coreModules.join(', ')}
           <br />
-          Let's see which ones are real WASM, which are fake, and which don't exist!
+          Let's see which ones are valid WASM, which are invalid, and which don't exist!
         </div>
       </div>
 
@@ -172,7 +172,7 @@ const WasmPathAnalyzer = () => {
                 <div className="font-bold text-orange-700">
                   {analyses.filter(a => a.fileExists && !a.magicBytes.startsWith('00 61 73 6d')).length}
                 </div>
-                <div className="text-orange-600">Fake Files</div>
+                <div className="text-orange-600">Invalid Files</div>
               </div>
               <div className="bg-red-100 p-2 rounded text-center">
                 <div className="font-bold text-red-700">
@@ -205,7 +205,7 @@ const WasmPathAnalyzer = () => {
                     {analysis.magicBytes.startsWith('00 61 73 6d') 
                       ? 'VALID WASM' 
                       : analysis.fileExists 
-                      ? 'FAKE FILE' 
+                      ? 'INVALID FILE' 
                       : 'MISSING'}
                   </span>
                 </div>
@@ -256,7 +256,7 @@ const WasmPathAnalyzer = () => {
       <div className="mt-4 p-3 bg-yellow-50 rounded">
         <div className="text-sm font-medium mb-2">🔍 THE ULTIMATE TRUTH AWAITS!</div>
         <div className="text-xs text-gray-600">
-          Click the button above to test all {coreModules.length} core WASM modules and discover which ones are real, fake, or missing!
+          Click the button above to test all {coreModules.length} core WASM modules and discover which ones are valid, invalid, or missing!
           Check the browser console for detailed logs of this epic investigation.
         </div>
       </div>

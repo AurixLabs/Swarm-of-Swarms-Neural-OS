@@ -124,7 +124,7 @@ export const saveAIProviders = (providers: any): void => {
   }
 };
 
-// Project settings with placeholders
+// Project settings
 export const projectSettings = {
   vercelProjectId: getEnvVariable('VITE_VERCEL_PROJECT_ID', ''),
   vercelOrgId: getEnvVariable('VITE_VERCEL_ORG_ID', ''),

@@ -293,7 +293,7 @@ console.log('Processed result:', result);`
             <section>
               <h2 className="text-2xl font-bold mb-6 text-foreground">Next Steps</h2>
               <div className="grid md:grid-cols-2 gap-6">
-                <Link to="/examples/assistant" className="group">
+                <Link to="/developer" className="group">
                   <div className="bg-muted/20 p-6 rounded-lg border hover:border-primary/50 transition-colors">
                     <div className="flex items-center mb-3">
                       <Code className="w-5 h-5 text-primary mr-2" />

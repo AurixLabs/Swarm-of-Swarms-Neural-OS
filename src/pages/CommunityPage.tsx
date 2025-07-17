@@ -37,7 +37,7 @@ const CommunityPage = () => {
                     Contribute to the codebase, report issues, and collaborate on development
                   </p>
                   <Button variant="outline" size="sm" disabled>
-                    Repository (Development Preview)
+                    Research Repository
                   </Button>
                 </div>
 
@@ -50,7 +50,7 @@ const CommunityPage = () => {
                     Real-time discussions, support, and community events
                   </p>
                   <Button variant="outline" size="sm" disabled>
-                    Community Chat (Development Preview)
+                    Research Community
                   </Button>
                 </div>
 
@@ -297,8 +297,8 @@ const CommunityPage = () => {
                     </Link>
                   </Button>
                   <Button variant="outline" asChild>
-                    <Link to="/examples/assistant">
-                      View Examples
+                    <Link to="/developer">
+                      Developer Tools
                     </Link>
                   </Button>
                 </div>

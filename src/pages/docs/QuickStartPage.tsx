@@ -84,11 +84,11 @@ const QuickStartPage = () => {
                     <h3 className="text-lg font-semibold text-foreground">Try Examples</h3>
                   </div>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Start with pre-built examples to understand the system capabilities
+                    Access developer tools to test and validate system capabilities
                   </p>
                   <Button variant="outline" size="sm" asChild>
-                    <Link to="/examples/assistant">
-                      View Examples <ArrowRight className="w-4 h-4 ml-2" />
+                    <Link to="/developer">
+                      Developer Tools <ArrowRight className="w-4 h-4 ml-2" />
                     </Link>
                   </Button>
                 </div>

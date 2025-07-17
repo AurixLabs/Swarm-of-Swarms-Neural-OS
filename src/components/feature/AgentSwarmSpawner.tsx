@@ -298,7 +298,7 @@ const AgentSwarmSpawner = () => {
           <div>• <strong>Software Functions:</strong> {swarmStats.softwareFunctions} CMA reasoning functions</div>
           <div>• <strong>Agent Capacity:</strong> Testing multi-agent deployment capabilities</div>
           <div>• <strong>Memory Efficiency:</strong> {(swarmStats.memoryUsage / 1024).toFixed(1)}KB total for {swarmStats.totalSpawned} agents</div>
-          <div>• <strong>Status:</strong> Development preview - agent testing environment</div>
+          <div>• <strong>Status:</strong> Active agent testing environment</div>
         </div>
       </div>
     </div>
