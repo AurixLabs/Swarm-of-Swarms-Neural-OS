@@ -14,12 +14,12 @@ const HomePage = () => {
     "Swarm of Swarms Architecture - AI chatbots communicate with each other creating AGI effects",
     "Chip Agnostic - Works on Raspberry Pi, ESP32, Neuromorphic, Photonic, and Quantum chips ($20 to enterprise)",
     "Privacy First - Each user is a mesh network node with local data storage and optional cloud backup",
-    "Rust WASM Compilation - Maximum computational power with smallest data footprint (10KB vs 100GB competitors)",
+    "Rust WASM Compilation - Maximum computational power with optimized data footprint vs competitors' multi-GB models",
     "Chipped Modules - Each module is an operating system within an operating system",
-    "Ultra-Lightweight AI - 10KB AI agents vs Google's 100GB Gemini, perfect for low-resource regions like Kenya",
-    "Collective AGI - 1M users create distributed AGI infinitely smarter than ChatGPT/Claude through agent communication",
-    "Asymmetrical Architecture - Small distributed nodes outperform massive monolithic data centers (drone warfare principle)",
-    "Decentralized Power - Power to the people, not corporations (Bitcoin-inspired architecture)"
+    "Ultra-Lightweight AI - Compact AI agents (MB not GB) vs competitors' multi-GB models, optimized for low-resource regions",
+    "Collective Intelligence - Distributed users create emergent intelligence through agent communication networks",
+    "Asymmetrical Architecture - Small distributed nodes can outperform massive centralized systems",
+    "Decentralized Power - Distributed architecture following decentralized principles"
   ];
 
   return (
