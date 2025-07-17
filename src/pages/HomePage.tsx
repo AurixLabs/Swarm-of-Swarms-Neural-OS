@@ -62,9 +62,9 @@ const HomePage = () => {
 
           <div className="max-w-3xl mx-auto mb-16">
             <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
-              <h3 className="text-xl font-bold text-primary mb-4">💎 100% Royalty-Free Technology Stack</h3>
+              <h3 className="text-xl font-bold text-primary mb-4">💎 Open Source Technology Stack</h3>
               <p className="text-base text-muted-foreground mb-4">
-                CMA is built entirely on open-source, royalty-free technologies with no licensing burdens or ongoing royalty costs:
+                CMA is built on open-source technologies, subject to our Elastic License v2.0 for the complete system:
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
@@ -88,8 +88,8 @@ const HomePage = () => {
               </div>
               <div className="mt-4 p-4 bg-primary/20 rounded border border-primary/30">
                 <p className="text-sm text-foreground font-semibold">
-                  🎯 <strong>Zero Hidden Costs:</strong> No licensing fees, no API costs, no royalty payments - 
-                  making CMA truly accessible for global deployment without financial barriers.
+                  🎯 <strong>Open Source Foundation:</strong> Built on standard open-source libraries with 
+                  Elastic License v2.0 for the complete CMA system - free for non-commercial use.
                 </p>
               </div>
             </div>
@@ -137,7 +137,7 @@ const HomePage = () => {
                 <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
                   <h4 className="font-bold text-primary mb-3">🚀 Rust WASM Advantages</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• <strong>Near-Native Speed:</strong> 95-98% of native C++ performance in browser</li>
+                    <li>• <strong>Near-Native Speed:</strong> Significantly faster than interpreted languages in browser environments</li>
                     <li>• <strong>Memory Safety:</strong> Zero-cost abstractions prevent crashes/exploits</li>
                     <li>• <strong>Compact Binaries:</strong> MB-sized AI models vs GB Python frameworks</li>
                     <li>• <strong>Universal Execution:</strong> Identical behavior on any device/platform</li>
@@ -152,7 +152,7 @@ const HomePage = () => {
                 <div className="grid md:grid-cols-3 gap-4">
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Neuromorphic Processing:</h5>
-                    <p className="text-sm text-muted-foreground">Rust's zero-cost abstractions enable real-time spike pattern processing that would be impossible in JavaScript. Critical for brain-like computing.</p>
+                    <p className="text-sm text-muted-foreground">Rust's zero-cost abstractions enable real-time spike pattern processing with precision difficult to achieve in JavaScript. Critical for brain-like computing.</p>
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Memory Architecture:</h5>
@@ -171,11 +171,11 @@ const HomePage = () => {
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Execution Speed:</span>
-                      <span className="text-sm font-semibold text-primary">~95% Native Performance</span>
+                      <span className="text-sm font-semibold text-primary">Near-Native Performance</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Memory Usage:</span>
-                      <span className="text-sm font-semibold text-primary">10-100x Less than Python</span>
+                      <span className="text-sm font-semibold text-primary">Significantly Lower than Python</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Binary Size:</span>
@@ -197,7 +197,7 @@ const HomePage = () => {
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Buffer Overflows:</span>
-                      <span className="text-sm font-semibold text-primary">Impossible by Design</span>
+                      <span className="text-sm font-semibold text-primary">Prevented by Design</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Concurrency Bugs:</span>
@@ -221,7 +221,7 @@ const HomePage = () => {
                   <li>• <strong>Shared Memory Pools:</strong> Multiple WASM modules sharing memory space for zero-copy data transfer</li>
                   <li>• <strong>Dynamic Module Loading:</strong> Hot-swappable cognitive capabilities without system restart</li>
                   <li>• <strong>Universal Deployment:</strong> Same binary runs on web browsers, mobile devices, and embedded systems</li>
-                  <li>• <strong>Neuromorphic Integration:</strong> Rust's fine-grained control enables spike timing precision impossible in higher-level languages</li>
+                  <li>• <strong>Neuromorphic Integration:</strong> Rust's fine-grained control enables spike timing precision difficult to achieve in higher-level languages</li>
                 </ul>
                 <div className="mt-4 p-4 bg-primary/20 rounded border border-primary/30">
                   <p className="text-sm text-foreground font-semibold">
@@ -394,7 +394,7 @@ const HomePage = () => {
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Immutability:</h5>
-                    <p className="text-sm text-muted-foreground">World standards can be changed by committees. CMA ethics are <strong>cryptographically immutable</strong> - mathematically impossible to bypass.</p>
+                    <p className="text-sm text-muted-foreground">World standards can be changed by committees. CMA ethics are <strong>cryptographically secured</strong> - extremely difficult to bypass without detection.</p>
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Coverage:</h5>
