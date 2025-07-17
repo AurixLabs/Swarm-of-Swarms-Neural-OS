@@ -25,7 +25,7 @@ const MessageInput: React.FC<MessageInputProps> = ({
   return (
     <div className="border-t bg-white p-4 rounded-b-lg">
       {!selectedAgent && (
-        <p className="text-sm text-gray-500 mb-3 text-center">Select a real agent above to start testing</p>
+        <p className="text-sm text-gray-500 mb-3 text-center">Select an agent above to start interaction</p>
       )}
       
       <div className="flex gap-2">
@@ -33,7 +33,7 @@ const MessageInput: React.FC<MessageInputProps> = ({
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           onKeyPress={onKeyPress}
-          placeholder={selectedAgent ? `Test real ${selectedAgent.name} processing...` : "Select an agent first..."}
+          placeholder={selectedAgent ? `Interact with ${selectedAgent.name}...` : "Select an agent first..."}
           disabled={!selectedAgent || isLoading || !agentsInitialized}
           className="flex-1 resize-none border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100"
           rows={2}

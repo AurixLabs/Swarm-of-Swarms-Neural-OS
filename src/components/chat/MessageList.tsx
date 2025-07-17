@@ -14,8 +14,8 @@ const MessageList: React.FC<MessageListProps> = ({ messages, isLoading }) => {
       {messages.length === 0 && (
         <div className="text-center text-gray-500 py-8">
           <Brain className="w-12 h-12 mx-auto mb-3 text-gray-400" />
-          <p>Select a real agent above to test actual AI processing!</p>
-          <p className="text-sm text-red-600 mt-2">No simulations - agents will fail if not properly loaded</p>
+          <p>Select an agent above to start interaction</p>
+          <p className="text-sm text-muted-foreground mt-2">Development preview - agent responses may vary</p>
         </div>
       )}
       
@@ -51,12 +51,12 @@ const MessageList: React.FC<MessageListProps> = ({ messages, isLoading }) => {
             
             <div className="whitespace-pre-wrap text-sm">{message.content}</div>
             
-            {/* Real Neural Activity Display */}
+            {/* Neural Activity Display */}
             {message.spikingActivity && message.spikingActivity.length > 0 && (
               <div className="mt-3 p-2 bg-gray-50 rounded text-xs">
                 <div className="flex items-center gap-2 mb-1">
                   <Activity className="w-3 h-3" />
-                  <span className="font-medium">Real Neural Activity</span>
+                  <span className="font-medium">Neural Activity</span>
                 </div>
                 <div className="flex gap-1">
                   {message.spikingActivity.slice(0, 12).map((activity, i) => (
@@ -74,12 +74,12 @@ const MessageList: React.FC<MessageListProps> = ({ messages, isLoading }) => {
               </div>
             )}
 
-            {/* Real Reasoning Steps */}
+            {/* Reasoning Steps */}
             {message.reasoningSteps && message.reasoningSteps.length > 0 && (
               <div className="mt-3 p-2 bg-gray-50 rounded text-xs">
                 <div className="flex items-center gap-2 mb-1">
                   <Brain className="w-3 h-3" />
-                  <span className="font-medium">Real Reasoning Steps</span>
+                  <span className="font-medium">Reasoning Steps</span>
                 </div>
                 <ul className="list-disc list-inside space-y-1">
                   {message.reasoningSteps.map((step, i) => (
@@ -104,7 +104,7 @@ const MessageList: React.FC<MessageListProps> = ({ messages, isLoading }) => {
           <div className="bg-white border rounded-lg p-3">
             <div className="flex items-center gap-2 text-gray-600">
               <Brain className="w-4 h-4 animate-pulse" />
-              <span>Processing through real neural pathways...</span>
+              <span>Processing...</span>
             </div>
           </div>
         </div>

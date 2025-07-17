@@ -27,7 +27,7 @@ const AgentSwarmSpawner = () => {
   const [spawnedAgents, setSpawnedAgents] = useState<SpawnedAgent[]>([]);
   const [isSpawning, setIsSpawning] = useState(false);
   const [spawnCount, setSpawnCount] = useState(10);
-  const [testMessage, setTestMessage] = useState("What's the meaning of life, the universe, and debugging?");
+  const [testMessage, setTestMessage] = useState("Analyze system architecture patterns");
   const [swarmStats, setSwarmStats] = useState<SwarmStats>({
     totalSpawned: 0,
     activeAgents: 0,
@@ -40,15 +40,15 @@ const AgentSwarmSpawner = () => {
 
   const spawnAgentSwarm = async () => {
     setIsSpawning(true);
-    console.log(`🚀 Spawning ${spawnCount} PhD comedian agents!`);
+    console.log(`🚀 Spawning ${spawnCount} agents for testing...`);
     
     const newAgents: SpawnedAgent[] = [];
     
     for (let i = 0; i < spawnCount; i++) {
       const personality = getRandomPersonality();
-      const agentId = `comedy_agent_${Date.now()}_${i}`;
+      const agentId = `test_agent_${Date.now()}_${i}`;
       
-      console.log(`🎭 Spawning ${personality.name}...`);
+      console.log(`🎯 Spawning ${personality.name}...`);
       
       const agent = new TinyLlamaAgent(agentId, ['reasoning_engine', 'neuromorphic']);
       
@@ -68,7 +68,7 @@ const AgentSwarmSpawner = () => {
       try {
         await agent.initialize();
         spawnedAgent.status = 'ready';
-        console.log(`✅ ${personality.name} is ready for comedy!`);
+        console.log(`✅ ${personality.name} is ready for testing`);
       } catch (error) {
         spawnedAgent.status = 'error';
         console.error(`❌ ${personality.name} failed to initialize:`, error);
@@ -89,11 +89,11 @@ const AgentSwarmSpawner = () => {
     }));
     
     setIsSpawning(false);
-    console.log(`🎉 Swarm spawning complete! ${newAgents.length} agents ready for PhD comedy!`);
+    console.log(`🎉 Swarm spawning complete! ${newAgents.length} agents ready for testing`);
   };
 
   const testAllAgents = async () => {
-    console.log('🧪 Testing all agents with comedy prompt...');
+    console.log('🧪 Testing all agents with test prompt...');
     
     const activeAgents = spawnedAgents.filter(a => a.status === 'ready');
     let totalResponseTime = 0;
@@ -121,7 +121,7 @@ const AgentSwarmSpawner = () => {
         totalResponseTime += responseTime;
         completedResponses++;
         
-        console.log(`🎭 ${spawnedAgent.personality.name} responded in ${responseTime}ms`);
+        console.log(`🤖 ${spawnedAgent.personality.name} responded in ${responseTime}ms`);
         
       } catch (error) {
         console.error(`❌ ${spawnedAgent.personality.name} failed:`, error);
@@ -158,14 +158,14 @@ const AgentSwarmSpawner = () => {
   return (
     <div className="p-6 bg-white rounded-lg shadow-xl max-w-6xl mx-auto">
       <h2 className="text-3xl font-bold mb-4 text-purple-600">
-        🎭 PhD COMEDIAN AGENT SWARM SPAWNER! 🎭
+        🤖 Agent Swarm Testing Environment
       </h2>
       
       <div className="mb-6 p-4 bg-purple-50 rounded-lg">
         <p className="text-gray-700 mb-4">
-          <strong>THE EXPERIMENT:</strong> Spawn multiple personality-driven agents with PhD-level humor!
+          <strong>EXPERIMENT:</strong> Test multiple agent instances with different personalities
           <br />
-          <strong>THE GOAL:</strong> Test how many hilarious genius agents our CMA + ESP32 system can handle!
+          <strong>PURPOSE:</strong> Evaluate system capacity and agent response patterns
         </p>
         
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center mb-4">
@@ -207,7 +207,7 @@ const AgentSwarmSpawner = () => {
             disabled={isSpawning}
             className="px-6 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 disabled:bg-gray-400 font-bold"
           >
-            {isSpawning ? '🚀 SPAWNING...' : '🎭 SPAWN COMEDY AGENTS!'}
+            {isSpawning ? '🚀 SPAWNING...' : '🤖 SPAWN AGENTS'}
           </button>
           
           <button
@@ -233,14 +233,14 @@ const AgentSwarmSpawner = () => {
             value={testMessage}
             onChange={(e) => setTestMessage(e.target.value)}
             className="w-full px-3 py-2 border rounded"
-            placeholder="Ask something hilarious..."
+            placeholder="Enter test prompt..."
           />
         </div>
       </div>
 
       {/* Available Personalities */}
       <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-        <h3 className="text-lg font-bold mb-3">🎯 Available PhD Comedian Personalities:</h3>
+        <h3 className="text-lg font-bold mb-3">🎯 Available Agent Personalities:</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           {AGENT_PERSONALITIES.map((personality) => (
             <div key={personality.id} className="p-3 bg-white rounded border">
@@ -256,7 +256,7 @@ const AgentSwarmSpawner = () => {
       {/* Active Agents */}
       {spawnedAgents.length > 0 && (
         <div className="space-y-4">
-          <h3 className="text-xl font-bold">🤖 Active Comedy Agents ({spawnedAgents.length}):</h3>
+          <h3 className="text-xl font-bold">🤖 Active Agents ({spawnedAgents.length}):</h3>
           
           <div className="grid grid-cols-1 gap-4 max-h-96 overflow-y-auto">
             {spawnedAgents.map((spawnedAgent) => (
@@ -279,7 +279,7 @@ const AgentSwarmSpawner = () => {
                 
                 {spawnedAgent.lastResponse && (
                   <details className="mt-2">
-                    <summary className="cursor-pointer text-sm font-medium">🎭 Latest Comedy Response</summary>
+                    <summary className="cursor-pointer text-sm font-medium">🤖 Latest Response</summary>
                     <div className="mt-2 max-h-32 overflow-y-auto text-xs bg-white p-2 rounded border">
                       <pre className="whitespace-pre-wrap">{spawnedAgent.lastResponse}</pre>
                     </div>
@@ -292,13 +292,13 @@ const AgentSwarmSpawner = () => {
       )}
       
       <div className="mt-6 p-4 bg-blue-50 rounded border border-blue-200">
-        <h4 className="font-bold mb-2">🔥 CMA SWARM INTEGRATION STATUS:</h4>
+        <h4 className="font-bold mb-2">🔧 System Integration Status:</h4>
         <div className="text-sm text-gray-700 space-y-1">
           <div>• <strong>Hardware Functions:</strong> {swarmStats.hardwareFunctions} ESP32 functions available</div>
           <div>• <strong>Software Functions:</strong> {swarmStats.softwareFunctions} CMA reasoning functions</div>
-          <div>• <strong>Agent Spawning:</strong> Unlimited PhD comedians ready for deployment!</div>
+          <div>• <strong>Agent Capacity:</strong> Testing multi-agent deployment capabilities</div>
           <div>• <strong>Memory Efficiency:</strong> {(swarmStats.memoryUsage / 1024).toFixed(1)}KB total for {swarmStats.totalSpawned} agents</div>
-          <div>• <strong>Comedy Level:</strong> Maximum academic hilarity achieved! 🎭</div>
+          <div>• <strong>Status:</strong> Development preview - agent testing environment</div>
         </div>
       </div>
     </div>
