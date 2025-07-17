@@ -3,11 +3,11 @@
 
 ## Overview
 
-This is CMA Neural OS, a neural platform for cognitive modular architecture and ethics-first design.
+This is CMA Neural OS, a production neural platform for cognitive modular architecture and ethics-first AI design.
 
 ## Current Status
 
-This neural platform implements cognitive modular architecture for advanced AI applications. The interface provides access to core architecture components and testing tools.
+This neural platform implements cognitive modular architecture for commercial AI applications and enterprise deployment. The interface provides access to core architecture components, testing tools, and production APIs. Universities and researchers are welcome to study and contribute to the platform.
 
 ## What You Can Explore
 
@@ -30,8 +30,9 @@ This neural platform implements cognitive modular architecture for advanced AI a
 
 ## Important Notes
 
-- This is a **production-ready** cognitive AI architecture platform
-- Platform components are designed for deployment and scalability
+- This is a **production-ready** cognitive AI architecture platform for commercial deployment
+- Platform components are designed for enterprise scalability and reliability
+- Open to academic research and educational use
 - The system prioritizes ethics, privacy, and safety by design
 
 ## Getting Started

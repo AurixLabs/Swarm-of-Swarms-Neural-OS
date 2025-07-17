@@ -57,7 +57,7 @@ const HomePage = () => {
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
-            Open Source Neural Operating System Platform
+            Production Neural Platform for Enterprise AI Applications
           </p>
 
           <div className="max-w-3xl mx-auto mb-16">
@@ -88,8 +88,14 @@ const HomePage = () => {
               </div>
               <div className="mt-4 p-4 bg-primary/20 rounded border border-primary/30">
                 <p className="text-sm text-foreground font-semibold">
-                  🎯 <strong>Open Source Foundation:</strong> Built on standard open-source libraries with 
-                  Elastic License v2.0 for the integrated CMA system - free for non-commercial use.
+                  🎯 <strong>Production Neural Platform:</strong> Built on open-source foundations with 
+                  Elastic License v2.0 for the integrated CMA system - ready for commercial deployment.
+                </p>
+              </div>
+              <div className="mt-3 p-4 bg-blue-50 rounded border border-blue-200">
+                <p className="text-sm text-blue-800">
+                  🎓 <strong>Welcome Universities & Researchers:</strong> This platform is open for academic study, 
+                  research contributions, and educational use. Build upon our architecture for your research projects.
                 </p>
               </div>
             </div>
