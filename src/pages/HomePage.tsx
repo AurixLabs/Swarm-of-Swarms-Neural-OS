@@ -24,7 +24,8 @@ const HomePage = () => {
     "Quantum-Ready Temporal Modules - Architecture supports quantum temporal computing through distributed quantum state management",
     "Causal Consistency Engine - Immutable ethics layer ensures temporal paradox prevention and causality enforcement",
     "Multi-Timeline Processing - Swarm intelligence can simulate and process multiple temporal branches simultaneously",
-    "Meta-Kernel Architecture - Universal protective shell that orchestrates and safeguards all system kernels with self-healing capabilities"
+    "Meta-Kernel Architecture - Universal protective shell that orchestrates and safeguards all system kernels with self-healing capabilities",
+    "Multi-Kernel Intelligence - 12+ specialized cognitive kernels (AI, Memory, Ethics, Security) vs traditional single-kernel monolithic systems"
   ];
 
   return (
