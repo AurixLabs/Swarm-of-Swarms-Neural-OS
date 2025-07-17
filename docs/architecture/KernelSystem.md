@@ -84,7 +84,7 @@ The kernel system processes events through a sophisticated pipeline:
    - Type-safe message channels
    - Priority-based message queues
    - Message transformation pipeline
-   - Guaranteed delivery system
+   - Reliable delivery system
    - Dead letter handling
 
 2. **State Synchronization**

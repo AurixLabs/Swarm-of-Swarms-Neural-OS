@@ -193,7 +193,7 @@ const HomePage = () => {
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Memory Safety:</span>
-                      <span className="text-sm font-semibold text-primary">Mathematically Guaranteed</span>
+                      <span className="text-sm font-semibold text-primary">Mathematically Based</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">Buffer Overflows:</span>
@@ -380,7 +380,7 @@ const HomePage = () => {
                     <li>• <strong>Mandatory Compliance</strong> - System won't function without ethics</li>
                     <li>• <strong>Real-Time Enforcement</strong> - Active violation prevention</li>
                     <li>• <strong>Self-Monitoring</strong> - Continuous integrity verification</li>
-                    <li>• <strong>Cryptographic Protection</strong> - Tamper-proof ethical constraints</li>
+                    <li>• <strong>Cryptographic Protection</strong> - Strong ethical constraints</li>
                   </ul>
                 </div>
               </div>

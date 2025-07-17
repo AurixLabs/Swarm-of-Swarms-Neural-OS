@@ -108,7 +108,7 @@ To establish clear boundaries of responsibility:
 - **Explicit Capability Definitions**: The system's capabilities and limitations are clearly documented.
 - **Service Level Definitions**: Expected performance and reliability metrics are explicitly stated.
 - **Limitation of Liability**: Clear statements delineate the boundaries of system responsibility.
-- **Distinction of Guidance vs. Guarantees**: The system clearly differentiates between suggestions and guaranteed outcomes.
+- **Distinction of Guidance vs. Promises**: The system clearly differentiates between suggestions and committed outcomes.
 
 ## 4. Security Compliance
 

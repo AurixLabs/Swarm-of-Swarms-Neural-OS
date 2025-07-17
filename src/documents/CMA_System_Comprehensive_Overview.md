@@ -195,7 +195,7 @@ The CMA's neural signal system (event bus) forms the communication backbone that
 4. **Query Pattern**:
    - Queries request specific information
    - Query handlers retrieve and return data
-   - Results maintain consistency guarantees
+   - Results maintain consistency design
    - Caching improves performance
 
 ## Layered Design Pattern
@@ -575,7 +575,7 @@ The system addresses liability through:
    - Clear service level definitions
    - Explicit limitation of liability
    - Defined scope of system capabilities
-   - Distinction between suggestions and guarantees
+   - Distinction between suggestions and commitments
 
 ## Future Extensibility
 

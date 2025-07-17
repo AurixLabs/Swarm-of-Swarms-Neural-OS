@@ -13,7 +13,7 @@ import { ImmutableConstraint, EthicalProgressVector } from '@/core/regulatory/ty
  * 1. Self-validating cryptographic chains
  * 2. Distributed integrity checks across multiple system components
  * 3. Tamper detection with redundant verification
- * 4. Ethical forward-motion guarantees (ethical progress can only improve)
+ * 4. Ethical forward-motion design (ethical progress aims to improve)
  */
 
 // Base root integrity seed - in production would be distributed across multiple secure locations

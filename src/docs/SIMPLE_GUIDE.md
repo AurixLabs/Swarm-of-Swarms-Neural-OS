@@ -3,7 +3,7 @@
 
 ## Hello there! 👋
 
-Welcome to our Neural System! This guide will help you understand how our system works, even if you've never seen anything like it before.
+Welcome to our Neural System! This guide will help you understand how our system works, even if you're new to this type of technology.
 
 ## What is a Neural System? 🤔
 
