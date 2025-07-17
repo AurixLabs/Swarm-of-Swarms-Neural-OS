@@ -3,39 +3,39 @@ import { motion } from 'framer-motion';
 
 const HomePage = () => {
   const features = [
-    "Neural Architecture - Cognitive modular design with emergent intelligence capabilities",
-    "Robust Ethics - Built-in ethical safeguards with strong security protections", 
-    "Hardware Integration - Native WASM support for high-performance cognitive computing",
-    "Self-Healing - Automatic recovery and adaptation to system failures",
-    "Intent-Driven UI - Interface that adapts to user intentions and cognitive patterns",
-    "Open Source - MIT licensed with full transparency and community contributions",
-    "Modular Runtime - Modules can be added or removed during runtime without cascade system failure",
-    "Distributed Intelligence - More users online = stronger, smarter system through swarm collective intelligence",
-    "Swarm of Swarms Architecture - AI chatbots communicate with each other creating AGI effects",
-    "Chip Agnostic - Works on Raspberry Pi, ESP32, Neuromorphic, Photonic, and Quantum chips ($20 to enterprise)",
-    "Privacy Focused - Each user is a mesh network node with local data storage and optional cloud backup",
-    "Rust WASM Compilation - Optimized computational performance with reduced data footprint compared to traditional multi-GB models",
-    "Chipped Modules - Each module is an operating system within an operating system",
-    "Ultra-Lightweight AI - Compact AI agents (MB not GB) vs competitors' multi-GB models, optimized for low-resource regions",
-    "Collective Intelligence - Distributed users create emergent intelligence through agent communication networks",
-    "Asymmetrical Architecture - Small distributed nodes can work efficiently alongside larger centralized systems",
-    "Decentralized Power - Distributed architecture following decentralized principles",
-    "Temporal Computing Foundation - Modular time-state management enabling distributed temporal reasoning and causality preservation",
-    "Quantum-Ready Temporal Modules - Architecture supports quantum temporal computing through distributed quantum state management",
-    "Causal Consistency Engine - Robust ethics layer ensures temporal paradox prevention and causality enforcement",
-    "Multi-Timeline Processing - Swarm intelligence can simulate and process multiple temporal branches simultaneously",
-    "Meta-Kernel Architecture - Protective shell that orchestrates and safeguards system kernels with self-healing capabilities",
-    "Multi-Kernel Intelligence - 12+ specialized cognitive kernels (AI, Memory, Ethics, Security) vs traditional single-kernel monolithic systems",
+    "Modular Architecture - Development preview of cognitive modular design concepts",
+    "Ethics-First Design - Built-in ethical considerations as architectural principle", 
+    "Hardware Integration - Planned WASM support for computational efficiency",
+    "Resilient Design - Architecture designed for fault tolerance and recovery",
+    "Adaptive Interface - UI concepts for intention-driven user interactions",
+    "Open Source Foundation - Built on MIT licensed technologies with transparent development",
+    "Runtime Modularity - Architectural design for dynamic module management",
+    "Development Preview - Early-stage demonstration of distributed intelligence concepts",
+    "Multi-Agent Architecture - Conceptual framework for agent communication patterns",
+    "Platform Flexibility - Architecture designed for various hardware platforms",
+    "Privacy-First Design - Local-first processing principles built into architecture",
+    "Efficient Computing - Rust WASM integration for improved performance characteristics",
+    "Modular Components - Operating system within operating system architectural concepts",
+    "Lightweight Design - Architecture optimized for resource-constrained environments",
+    "Distributed Concepts - Framework for collective intelligence through agent networks",
+    "Asymmetrical Design - Architecture supporting varied node configurations",
+    "Decentralized Principles - Built following distributed system design patterns",
+    "Temporal Architecture - Modular time-state management design concepts",
+    "Future-Ready Design - Architecture planning for advanced computing paradigms",
+    "Causal Architecture - Ethics layer designed for logical consistency",
+    "Multi-Timeline Concepts - Architectural support for complex temporal reasoning",
+    "Meta-Kernel Design - Protective orchestration layer for system components",
+    "Multi-Kernel Concepts - Specialized kernel architecture vs monolithic systems",
     
-    // TECHNICAL INNOVATIONS
-    "Unified WASM Processing - Shared memory architecture for cognitive module communication",
-    "Neuromorphic Processing - Real-time spike pattern processing capabilities", 
-    "Bridge-Free Architecture - Module communication through synchronized temporal state",
-    "Multi-Agent Processing - Intelligent agents with multiple cognitive modules",
-    "Secure Ethics Integration - Cryptographically secured ethics implementation",
-    "Dynamic Module Discovery - Runtime detection and loading of specialized cognitive capabilities",
+    // TECHNICAL CONCEPTS
+    "Unified WASM Planning - Shared memory architecture for module communication",
+    "Neuromorphic Concepts - Architectural support for spike pattern processing", 
+    "Bridge-Free Design - Module communication through synchronized state",
+    "Multi-Agent Framework - Foundation for intelligent agent development",
+    "Secure Ethics Framework - Cryptographically secured ethics implementation concepts",
+    "Dynamic Discovery - Runtime detection and loading of specialized capabilities",
     "Shared Memory Communication - Inter-module communication through shared memory spaces",
-    "Real-Time Assessment - Live assessment of AI agent cognitive processing capabilities"
+    "Development Assessment - Tools for evaluating AI agent cognitive processing capabilities"
   ];
 
   return (
@@ -53,7 +53,7 @@ const HomePage = () => {
           </h1>
           
           <h2 className="text-2xl md:text-4xl font-semibold mb-8 text-foreground">
-            CMA Swarm of Swarms Neural AI Operating System
+            CMA Neural OS - Development Preview
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
@@ -118,49 +118,49 @@ const HomePage = () => {
             <h3 className="text-2xl font-bold mb-8 text-foreground">⚡ Rust WASM Innovation: Advanced Cognitive Computing</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                Why CMA's Rust WebAssembly approach offers advantages for AI computing compared to traditional JavaScript/Python AI:
+                CMA's planned Rust WebAssembly approach aims to offer advantages for cognitive computing compared to traditional JavaScript/Python approaches:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-destructive/10 p-6 rounded-lg border border-destructive/20">
-                  <h4 className="font-bold text-destructive mb-3">⚠️ Traditional AI Limitations</h4>
+                  <h4 className="font-bold text-destructive mb-3">⚠️ Traditional Limitations</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• <strong>JavaScript AI:</strong> 10-100x slower execution, memory leaks, GC pauses</li>
-                    <li>• <strong>Python Dependencies:</strong> Massive runtime overhead (GB-scale models)</li>
-                    <li>• <strong>Memory Unsafe:</strong> Buffer overflows, use-after-free vulnerabilities</li>
-                    <li>• <strong>Platform Dependent:</strong> Different behavior across devices/browsers</li>
-                    <li>• <strong>Interpreted Code:</strong> Runtime parsing overhead kills performance</li>
-                    <li>• <strong>Network Dependent:</strong> Requires cloud APIs for serious AI processing</li>
+                    <li>• <strong>JavaScript:</strong> Slower execution for computational tasks, memory management challenges</li>
+                    <li>• <strong>Python Dependencies:</strong> Large runtime overhead for complex AI frameworks</li>
+                    <li>• <strong>Memory Management:</strong> Garbage collection can impact performance</li>
+                    <li>• <strong>Platform Variance:</strong> Different behavior across devices/browsers</li>
+                    <li>• <strong>Interpreted Code:</strong> Runtime parsing can impact performance</li>
+                    <li>• <strong>Network Dependency:</strong> Many solutions require cloud APIs for processing</li>
                   </ul>
                 </div>
                 
                 <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
-                  <h4 className="font-bold text-primary mb-3">🚀 Rust WASM Advantages</h4>
+                  <h4 className="font-bold text-primary mb-3">🚀 Planned Rust WASM Benefits</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• <strong>Near-Native Speed:</strong> Generally faster performance than interpreted languages in browser environments</li>
-                    <li>• <strong>Memory Safety:</strong> Low-cost abstractions help reduce crashes/exploits</li>
-                    <li>• <strong>Compact Binaries:</strong> MB-sized AI models vs GB Python frameworks</li>
-                    <li>• <strong>Universal Execution:</strong> Identical behavior on any device/platform</li>
+                    <li>• <strong>Performance:</strong> Near-native execution speed in browser environments</li>
+                    <li>• <strong>Memory Safety:</strong> Rust's ownership system helps prevent common bugs</li>
+                    <li>• <strong>Compact Size:</strong> Smaller binary sizes compared to large frameworks</li>
+                    <li>• <strong>Platform Consistency:</strong> Consistent behavior across platforms</li>
                     <li>• <strong>Pre-Compiled:</strong> No runtime compilation overhead</li>
-                    <li>• <strong>Offline-Capable:</strong> AI processing without constant internet dependency</li>
+                    <li>• <strong>Local Processing:</strong> Designed for offline-capable applications</li>
                   </ul>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-primary/20 via-secondary/10 to-accent/20 rounded-lg border-2 border-primary/30 p-6 mb-6">
-                <h4 className="font-bold text-primary mb-4">🧠 Why Rust WASM for Cognitive AI</h4>
+                <h4 className="font-bold text-primary mb-4">🧠 Planned Rust WASM for Cognitive Computing</h4>
                 <div className="grid md:grid-cols-3 gap-4">
                   <div>
-                    <h5 className="font-semibold text-foreground mb-2">Neuromorphic Processing:</h5>
-                    <p className="text-sm text-muted-foreground">Rust's low-cost abstractions enable efficient spike pattern processing with improved precision compared to JavaScript. Beneficial for brain-like computing approaches.</p>
+                    <h5 className="font-semibold text-foreground mb-2">Neuromorphic Architecture:</h5>
+                    <p className="text-sm text-muted-foreground">Rust's performance characteristics are designed to support efficient pattern processing with good precision. Architecture planned for brain-inspired computing approaches.</p>
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Memory Architecture:</h5>
-                    <p className="text-sm text-muted-foreground">Shared WASM memory allows multiple cognitive modules to communicate efficiently - enabling parallel cognitive processing.</p>
+                    <p className="text-sm text-muted-foreground">Planned shared WASM memory to allow multiple cognitive modules to communicate efficiently - designed for parallel cognitive processing concepts.</p>
                   </div>
                   <div>
                     <h5 className="font-semibold text-foreground mb-2">Edge Computing:</h5>
-                    <p className="text-sm text-muted-foreground">Rust WASM runs consistently on $20 Raspberry Pi or enterprise servers - democratizing AI for resource-limited regions.</p>
+                    <p className="text-sm text-muted-foreground">Rust WASM designed to run consistently on low-cost hardware like Raspberry Pi or enterprise servers - aimed at democratizing computing for resource-limited regions.</p>
                   </div>
                 </div>
               </div>
@@ -225,7 +225,7 @@ const HomePage = () => {
                 </ul>
                 <div className="mt-4 p-4 bg-primary/20 rounded border border-primary/30">
                   <p className="text-sm text-foreground font-semibold">
-                    Result: AI systems that aim to be faster, safer, smaller, and more accessible than traditional approaches.
+                    Goal: Computing systems that aim to be faster, safer, smaller, and more accessible than traditional approaches.
                   </p>
                 </div>
               </div>
@@ -234,116 +234,116 @@ const HomePage = () => {
 
           {/* Regional Use Cases Section */}
           <div className="max-w-3xl mx-auto mt-16">
-            <h3 className="text-2xl font-bold mb-8 text-foreground">Empowering Resource-Limited Regions</h3>
+            <h3 className="text-2xl font-bold mb-8 text-foreground">Architecture for Resource-Limited Environments</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                Designed for regions with limited internet, infrastructure, and capital resources:
+                Architecture designed for environments with limited infrastructure and computing resources:
               </p>
               
               <div className="space-y-4">
                 <div className="bg-muted/20 p-4 rounded-lg">
-                  <h4 className="font-semibold text-foreground mb-2">🌍 Sub-Saharan Africa (Kenya, Nigeria, Ghana, Tanzania)</h4>
-                  <p className="text-sm text-muted-foreground">Low-cost smartphones, intermittent internet, local AI processing for agriculture, healthcare, and education</p>
+                  <h4 className="font-semibold text-foreground mb-2">🌍 Developing Regions</h4>
+                  <p className="text-sm text-muted-foreground">Architecture optimized for low-cost devices, intermittent connectivity, local processing capabilities</p>
                 </div>
                 
                 <div className="bg-muted/20 p-4 rounded-lg">
-                  <h4 className="font-semibold text-foreground mb-2">🇮🇳 Rural India & Southeast Asia</h4>
-                  <p className="text-sm text-muted-foreground">Village-level distributed computing, local language processing, agricultural optimization, micro-finance</p>
+                  <h4 className="font-semibold text-foreground mb-2">🌏 Rural & Remote Areas</h4>
+                  <p className="text-sm text-muted-foreground">Distributed computing concepts, local language support, agricultural optimization, community services</p>
                 </div>
                 
                 <div className="bg-muted/20 p-4 rounded-lg">
-                  <h4 className="font-semibold text-foreground mb-2">🌎 Rural Latin America (Bolivia, Peru, Guatemala)</h4>
-                  <p className="text-sm text-muted-foreground">Indigenous language support, remote healthcare diagnostics, agricultural planning, disaster response</p>
+                  <h4 className="font-semibold text-foreground mb-2">🌎 Underserved Communities</h4>
+                  <p className="text-sm text-muted-foreground">Indigenous language support, remote healthcare concepts, agricultural planning, emergency response</p>
                 </div>
                 
                 <div className="bg-muted/20 p-4 rounded-lg">
-                  <h4 className="font-semibold text-foreground mb-2">🏝️ Island Nations & Remote Communities</h4>
-                  <p className="text-sm text-muted-foreground">Pacific Islands, Caribbean, Arctic communities - mesh networks for isolated populations</p>
+                  <h4 className="font-semibold text-foreground mb-2">🏝️ Isolated Communities</h4>
+                  <p className="text-sm text-muted-foreground">Island nations, remote areas - mesh networking concepts for distributed populations</p>
                 </div>
               </div>
               
               <div className="mt-8 p-6 bg-primary/10 rounded-lg border border-primary/20">
-                <h4 className="font-semibold text-primary mb-2">💡 Real-World Impact</h4>
+                <h4 className="font-semibold text-primary mb-2">💡 Design Goals</h4>
                 <ul className="text-sm text-muted-foreground space-y-2">
-                  <li>• $100 smartphones running substantial AI capabilities locally</li>
-                  <li>• Offline-capable design with mesh networking for connectivity</li>
-                  <li>• Local data privacy - no need to send sensitive information to distant servers</li>
-                  <li>• Collective intelligence grows stronger as more local users join</li>
-                  <li>• Solar-powered ESP32 nodes for rural deployment</li>
+                  <li>• Low-cost device compatibility (budget smartphones and computing devices)</li>
+                  <li>• Offline-capable design with mesh networking for limited connectivity</li>
+                  <li>• Local data privacy - designed to minimize need for external data transmission</li>
+                  <li>• Collective intelligence concepts - distributed user participation</li>
+                  <li>• Energy-efficient hardware support for rural deployment</li>
                 </ul>
               </div>
             </div>
           </div>
 
-          {/* Temporal Computing Foundation Section */}
+          {/* Development Architecture Section */}
           <div className="max-w-4xl mx-auto mt-16">
-            <h3 className="text-2xl font-bold mb-8 text-foreground">🕐 Temporal Computing Foundation</h3>
+            <h3 className="text-2xl font-bold mb-8 text-foreground">🏗️ Development Architecture Preview</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                CMA provides the foundation for advanced temporal computing - computation across time dimensions:
+                Current development preview showcases foundational architecture concepts:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-gradient-to-br from-primary/10 to-primary/5 p-6 rounded-lg border border-primary/20">
-                  <h4 className="font-bold text-primary mb-3">🔄 Modular Time-State Architecture</h4>
+                  <h4 className="font-bold text-primary mb-3">🔄 Modular Architecture</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• Runtime-swappable temporal modules for different time states</li>
-                    <li>• Each module represents a distinct temporal computation layer</li>
-                    <li>• Hot-swap temporal algorithms without system downtime</li>
-                    <li>• Isolated time-state processing prevents temporal contamination</li>
+                    <li>• Runtime-swappable modules for different computational layers</li>
+                    <li>• Each module represents a distinct processing capability</li>
+                    <li>• Hot-swap algorithms without system downtime (planned)</li>
+                    <li>• Isolated processing prevents module interference</li>
                   </ul>
                 </div>
                 
                 <div className="bg-gradient-to-br from-secondary/10 to-secondary/5 p-6 rounded-lg border border-secondary/20">
-                  <h4 className="font-bold text-secondary mb-3">🌐 Distributed Temporal Networks</h4>
+                  <h4 className="font-bold text-secondary mb-3">🌐 Distributed Architecture</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• Mesh network nodes represent temporal anchors across time</li>
-                    <li>• Swarm intelligence processes multiple timeline branches</li>
-                    <li>• Distributed quantum state management for temporal computing</li>
-                    <li>• Collective temporal reasoning emerges from agent communication</li>
+                    <li>• Mesh network nodes for distributed processing</li>
+                    <li>• Multi-agent communication patterns</li>
+                    <li>• Distributed state management concepts</li>
+                    <li>• Collective reasoning through agent coordination</li>
                   </ul>
                 </div>
                 
                 <div className="bg-gradient-to-br from-accent/10 to-accent/5 p-6 rounded-lg border border-accent/20">
-                  <h4 className="font-bold text-accent mb-3">⚡ Quantum Temporal Processing</h4>
+                  <h4 className="font-bold text-accent mb-3">⚡ Hardware Integration</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• Chip-agnostic design supports quantum temporal chips</li>
-                    <li>• WASM compilation enables quantum-classical hybrid processing</li>
-                    <li>• Neuromorphic chips simulate biological temporal processing</li>
-                    <li>• Photonic chips enable light-speed temporal calculations</li>
+                    <li>• Platform-agnostic design for various hardware types</li>
+                    <li>• WASM compilation for efficient processing</li>
+                    <li>• Embedded system support (ESP32, Raspberry Pi)</li>
+                    <li>• Scalable from low-power to high-performance systems</li>
                   </ul>
                 </div>
                 
                 <div className="bg-gradient-to-br from-destructive/10 to-destructive/5 p-6 rounded-lg border border-destructive/20">
-                  <h4 className="font-bold text-destructive mb-3">🛡️ Causal Consistency Engine</h4>
+                  <h4 className="font-bold text-destructive mb-3">🛡️ Ethics-First Design</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• Robust ethics layer prevents temporal paradoxes</li>
-                    <li>• Built-in causality enforcement algorithms</li>
-                    <li>• Temporal integrity verification across time states</li>
-                    <li>• Automatic rollback on causal violation detection</li>
+                    <li>• Ethics layer integrated into architecture</li>
+                    <li>• Safety checks built into system design</li>
+                    <li>• Design validation for logical consistency</li>
+                    <li>• System integrity verification</li>
                   </ul>
                 </div>
               </div>
               
               <div className="mt-8 p-6 bg-gradient-to-r from-primary/20 via-secondary/10 to-accent/20 rounded-lg border-2 border-primary/30">
-                <h4 className="font-bold text-primary mb-4">🚀 Why CMA Solves Temporal Computing</h4>
+                <h4 className="font-bold text-primary mb-4">🚀 Development Architecture Benefits</h4>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
-                    <h5 className="font-semibold text-foreground mb-2">Traditional Computing Limitations:</h5>
+                    <h5 className="font-semibold text-foreground mb-2">Traditional Limitations:</h5>
                     <ul className="text-sm text-muted-foreground space-y-1">
-                      <li>• Monolithic architectures can't handle temporal modularity</li>
-                      <li>• Centralized systems create temporal bottlenecks</li>
-                      <li>• No built-in causality enforcement</li>
-                      <li>• Limited to single timeline processing</li>
+                      <li>• Monolithic architectures limit modularity</li>
+                      <li>• Centralized systems create bottlenecks</li>
+                      <li>• Limited runtime flexibility</li>
+                      <li>• Single-threaded processing constraints</li>
                     </ul>
                   </div>
                   <div>
-                    <h5 className="font-semibold text-foreground mb-2">CMA Temporal Advantages:</h5>
+                    <h5 className="font-semibold text-foreground mb-2">CMA Architecture Goals:</h5>
                     <ul className="text-sm text-muted-foreground space-y-1">
-                      <li>• Modular design enables temporal component isolation</li>
-                      <li>• Distributed architecture processes parallel timelines</li>
-                      <li>• Robust ethics = strong causality laws</li>
-                      <li>• Swarm intelligence simulates quantum temporal effects</li>
+                      <li>• Modular design enables component isolation</li>
+                      <li>• Distributed architecture for parallel processing</li>
+                      <li>• Strong ethics integration from the ground up</li>
+                      <li>• Multi-agent coordination for enhanced capabilities</li>
                     </ul>
                   </div>
                 </div>
@@ -353,52 +353,52 @@ const HomePage = () => {
 
           {/* Ethics-Focused Architecture Section */}
           <div className="max-w-4xl mx-auto mt-16">
-            <h3 className="text-2xl font-bold mb-8 text-foreground">🛡️ Ethics-Focused: Advanced Standards Approach</h3>
+            <h3 className="text-2xl font-bold mb-8 text-foreground">🛡️ Ethics-Focused Architecture</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                CMA implements robust ethics that exceed current world organization standards:
+                CMA architecture incorporates ethical considerations as a foundational design principle:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-destructive/10 p-6 rounded-lg border border-destructive/20">
-                  <h4 className="font-bold text-destructive mb-3">⚠️ Current World Standards (UNESCO, WHO, IEEE)</h4>
+                <div className="bg-muted/10 p-6 rounded-lg border border-muted/20">
+                  <h4 className="font-bold text-muted-foreground mb-3">⚠️ Common Approaches</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• <strong>Guidelines & Recommendations</strong> - Not legally binding</li>
-                    <li>• <strong>Post-Implementation Ethics</strong> - Added as afterthought</li>
-                    <li>• <strong>Voluntary Compliance</strong> - Can be bypassed by developers</li>
+                    <li>• <strong>Guidelines & Recommendations</strong> - Often optional</li>
+                    <li>• <strong>Post-Implementation Ethics</strong> - Added after development</li>
+                    <li>• <strong>External Compliance</strong> - Relies on external oversight</li>
                     <li>• <strong>Framework-Based</strong> - Principles without enforcement</li>
-                    <li>• <strong>External Oversight</strong> - Requires external monitoring</li>
+                    <li>• <strong>Voluntary Adoption</strong> - Requires developer commitment</li>
                     <li>• <strong>Mutable Standards</strong> - Can be changed or removed</li>
                   </ul>
                 </div>
                 
                 <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
-                  <h4 className="font-bold text-primary mb-3">✅ CMA Robust Ethics Standard</h4>
+                  <h4 className="font-bold text-primary mb-3">✅ CMA Ethics-First Design</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• <strong>Robust Core</strong> - Strong protections against bypass or modification</li>
-                    <li>• <strong>Built-In Foundation</strong> - Ethics layer integrated at OS level</li>
-                    <li>• <strong>Mandatory Compliance</strong> - System won't function without ethics</li>
-                    <li>• <strong>Real-Time Enforcement</strong> - Active violation prevention</li>
-                    <li>• <strong>Self-Monitoring</strong> - Continuous integrity verification</li>
-                    <li>• <strong>Cryptographic Protection</strong> - Strong ethical constraints</li>
+                    <li>• <strong>Architectural Integration</strong> - Ethics considerations built into system design</li>
+                    <li>• <strong>Foundation Layer</strong> - Ethics layer planned as core component</li>
+                    <li>• <strong>Design Requirement</strong> - Ethics validation as architectural principle</li>
+                    <li>• <strong>Development Focus</strong> - Ethical considerations in design process</li>
+                    <li>• <strong>Integrity Checks</strong> - Built-in validation mechanisms</li>
+                    <li>• <strong>Security Design</strong> - Protected ethics implementation concepts</li>
                   </ul>
                 </div>
               </div>
               
               <div className="bg-gradient-to-r from-primary/20 via-secondary/10 to-accent/20 rounded-lg border-2 border-primary/30 p-6">
-                <h4 className="font-bold text-primary mb-4">🌍 Why CMA Ethics Exceeds World Standards</h4>
+                <h4 className="font-bold text-primary mb-4">🌍 Ethics-First Development Approach</h4>
                 <div className="grid md:grid-cols-3 gap-4">
                   <div>
-                    <h5 className="font-semibold text-foreground mb-2">Enforcement Level:</h5>
-                    <p className="text-sm text-muted-foreground">World standards are <em>recommendations</em>. CMA ethics are <strong>architectural requirements</strong> - the system cannot operate without them.</p>
+                    <h5 className="font-semibold text-foreground mb-2">Design Integration:</h5>
+                    <p className="text-sm text-muted-foreground">Ethics considerations are architectural requirements built into the system design from the ground up.</p>
                   </div>
                   <div>
-                    <h5 className="font-semibold text-foreground mb-2">Immutability:</h5>
-                    <p className="text-sm text-muted-foreground">World standards can be changed by committees. CMA ethics are <strong>cryptographically secured</strong> - designed to be difficult to bypass without detection.</p>
+                    <h5 className="font-semibold text-foreground mb-2">Development Focus:</h5>
+                    <p className="text-sm text-muted-foreground">Ethics validation is a core design principle integrated into the development process.</p>
                   </div>
                   <div>
-                    <h5 className="font-semibold text-foreground mb-2">Coverage:</h5>
-                    <p className="text-sm text-muted-foreground">World standards focus on data and bias. CMA covers <strong>sentience recognition, animal welfare, and temporal causality</strong> - domains beyond current standards.</p>
+                    <h5 className="font-semibold text-foreground mb-2">Architecture Scope:</h5>
+                    <p className="text-sm text-muted-foreground">Comprehensive ethics framework covering safety, privacy, and responsible AI development principles.</p>
                   </div>
                 </div>
               </div>
