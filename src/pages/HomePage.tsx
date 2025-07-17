@@ -56,7 +56,10 @@ const HomePage = () => {
             CMA Neural OS - Neural Platform
           </h2>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-8">
+          <p className="text-lg text-muted-foreground mb-2">
+            Cognitive Modular Architecture (CMA) Neural Platform
+          </p>
+          <p className="text-base text-muted-foreground mb-8">
             Production Neural Platform for Enterprise AI Applications
           </p>
 
