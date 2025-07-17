@@ -1,52 +1,54 @@
 
-# 🚀 Quick Start Guide: Your First Steps
+# CMA Neural OS - Development Preview Guide
 
-## Hello New Friend! 👋
+## Overview
 
-Welcome! This guide will help you start using our system right away. It's as easy as 1-2-3!
+This is a development preview of CMA Neural OS, demonstrating cognitive modular architecture principles and ethics-first design.
 
-## Step 1: Getting In 🔑
+## Current Status
 
-1. Click the big blue "Start" button
-2. Type your name
-3. Press "Let's Go!"
+This system is currently in **development preview** status. The interface showcases the planned architecture and design principles, but full AI capabilities are still being implemented.
 
-That's it! You're in!
+## What You Can Explore
 
-## Step 2: Ask Your First Question 💬
+### Architecture Concepts
+- Multi-kernel cognitive architecture design
+- Ethics-first system principles
+- Modular component organization
+- Privacy-preserving design patterns
 
-1. Look for the box at the bottom of the screen
-2. Type anything you'd like to know
-3. Press the paper airplane button or hit Enter
+### Interface Navigation
+- **Documentation**: Learn about the architectural concepts
+- **Examples**: See conceptual demonstrations of planned features
+- **Developer Tools**: Explore the development environment
+- **Community**: Connect with other developers
 
-For example, you could type:
-- "Show me cute animal pictures"
-- "What's the weather like today?"
-- "Help me make a birthday card"
+### Developer Environment
+- Navigate to `/developer` to access development tools
+- Examine the codebase structure in `src/core/`
+- Review ethics implementations in `src/core/ethics/`
 
-## Step 3: Watch The Magic Happen ✨
+## Important Notes
 
-Now watch as our helper brains work together to answer your question!
+- This is a **conceptual demonstration** of cognitive AI architecture
+- Full AI processing capabilities are in development
+- All demonstrations show planned functionality, not current implementation
+- The system prioritizes ethics, privacy, and safety by design
 
-You might see:
-- Pictures appearing
-- Text being written
-- Buttons you can click
+## Getting Started
 
-## What If You Need Help? 🆘
+1. **Explore the Architecture**: Visit `/docs/architecture` to understand the multi-kernel design
+2. **Review Examples**: Check `/examples/` for conceptual demonstrations  
+3. **Access Developer Tools**: Navigate to `/developer` for the development environment
+4. **Read Documentation**: Browse `/docs/` for detailed information
 
-Just type "help" or click the question mark button in the top corner.
+## Development Focus
 
-## Cool Things To Try 🎮
+This preview demonstrates:
+- Modular kernel architecture design
+- Ethics validation systems
+- Privacy-first principles
+- WebAssembly integration planning
+- Multi-agent coordination concepts
 
-- Say "Show me what you can do" for a demo
-- Try asking the same question in different ways
-- Ask it to explain its answer in simpler terms
-
-## That's All, Friend! 🌈
-
-You're all set to start using our super smart system! Remember, there's no wrong way to use it - just explore and have fun!
-
-If grown-ups want more detailed information, they can check the "Advanced Guide" button.
-
-Happy exploring! 🎉
+The system is designed for developers and researchers interested in cognitive AI architecture and ethics-first design principles.

@@ -50,7 +50,7 @@ const SmartHomePage = () => {
               Smart Home Control
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Cognitive home automation system with privacy-first design
+              Development preview demonstrating cognitive home automation architecture
             </p>
             <div className="flex justify-center gap-3">
               <Badge variant="secondary">IoT Integration</Badge>
@@ -117,12 +117,12 @@ const SmartHomePage = () => {
                 )}
 
                 <div className="bg-background rounded-lg p-4">
-                  <h4 className="font-semibold text-foreground mb-2">Recent AI Decisions</h4>
+                  <h4 className="font-semibold text-foreground mb-2">Architectural Concepts</h4>
                   <div className="space-y-2 text-sm text-muted-foreground">
-                    <p>• Reduced heating by 2°C - no occupancy detected in guest room</p>
-                    <p>• Activated security mode - all residents confirmed away</p>
-                    <p>• Switched to local processing - internet latency detected</p>
-                    <p>• Adjusted lighting schedule - daylight savings time change</p>
+                    <p>• Multi-kernel coordination for IoT management</p>
+                    <p>• Privacy-first local processing design</p>
+                    <p>• Ethics validation for automated decisions</p>
+                    <p>• Modular sensor integration architecture</p>
                   </div>
                 </div>
               </div>
@@ -219,29 +219,21 @@ const SmartHomePage = () => {
                 </div>
 
                 <div className="bg-background p-4 rounded border">
-                  <h4 className="font-semibold text-foreground mb-2">Implementation Example</h4>
+                  <h4 className="font-semibold text-foreground mb-2">Architecture Concept</h4>
                   <pre className="text-xs text-muted-foreground overflow-x-auto">
-{`// Initialize smart home system
-const smartHome = new CognitiveHomeSystem({
-  kernels: ['iot', 'pattern', 'environment', 'security', 'ethics'],
-  privacy: {
-    localProcessing: true,
-    dataMinimization: true,
-    userControlled: true
-  },
-  optimization: {
-    energy: 'aggressive',
-    comfort: 'balanced',
-    security: 'high'
-  }
-});
+{`// Planned IoT integration architecture
+// This demonstrates the design principles
 
-// Add device and configure automation
-await smartHome.addDevice({
-  type: 'thermostat',
-  protocols: ['matter', 'zigbee'],
-  capabilities: ['heating', 'cooling', 'scheduling']
-});`}
+interface IoTArchitecture {
+  kernels: ['iot', 'security', 'ethics'];
+  principles: {
+    privacyFirst: boolean;
+    localProcessing: boolean;
+    ethicsValidation: boolean;
+  };
+}
+
+// Development preview - implementation in progress`}
                   </pre>
                 </div>
               </div>

@@ -22,7 +22,7 @@ const AssistantPage = () => {
               Personal AI Assistant
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Build your own cognitive AI assistant using CMA Neural OS
+              Development preview showing cognitive AI assistant concepts
             </p>
             <div className="flex justify-center gap-3">
               <Badge variant="secondary">Cognitive AI</Badge>
@@ -58,62 +58,29 @@ const AssistantPage = () => {
 
                 <div className="bg-background rounded-lg p-4 mb-4">
                   <div className="space-y-4">
-                    <div className="flex">
-                      <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-sm font-bold mr-3">
-                        U
-                      </div>
-                      <div className="bg-muted p-3 rounded-lg flex-1">
-                        <p className="text-sm">Can you help me plan a sustainable weekly meal plan?</p>
-                      </div>
+                    <div className="text-center text-muted-foreground">
+                      <p className="text-sm mb-3">
+                        This is a conceptual demonstration of the multi-kernel architecture.
+                      </p>
+                      <p className="text-xs">
+                        Actual AI processing capabilities are currently in development.
+                      </p>
                     </div>
-
-                    {isRunning ? (
-                      <div className="flex">
-                        <div className="w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-secondary-foreground text-sm font-bold mr-3">
-                          AI
-                        </div>
-                        <div className="bg-secondary/20 p-3 rounded-lg flex-1">
-                          <div className="flex items-center">
-                            <div className="animate-pulse flex space-x-1">
-                              <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                              <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                              <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                            </div>
-                            <span className="ml-2 text-sm text-muted-foreground">Thinking...</span>
-                          </div>
-                        </div>
-                      </div>
-                    ) : (
-                      <div className="flex">
-                        <div className="w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-secondary-foreground text-sm font-bold mr-3">
-                          AI
-                        </div>
-                        <div className="bg-secondary/20 p-3 rounded-lg flex-1">
-                          <p className="text-sm">I'd be happy to help! I've analyzed your dietary preferences and created a sustainable meal plan focusing on local, seasonal ingredients. Here's what I recommend:</p>
-                          <ul className="text-sm mt-2 space-y-1">
-                            <li>• Monday: Quinoa bowl with roasted vegetables</li>
-                            <li>• Tuesday: Lentil curry with brown rice</li>
-                            <li>• Wednesday: Chickpea salad with whole grain bread</li>
-                            <li>• ... (complete plan generated based on ethics-approved guidelines)</li>
-                          </ul>
-                        </div>
-                      </div>
-                    )}
                   </div>
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-4 text-sm">
                   <div className="flex items-center text-muted-foreground">
                     <Brain className="w-4 h-4 text-primary mr-2" />
-                    Cognitive reasoning applied
+                    Architecture concept
                   </div>
                   <div className="flex items-center text-muted-foreground">
                     <Shield className="w-4 h-4 text-destructive mr-2" />
-                    Ethics validation passed
+                    Ethics-first design
                   </div>
                   <div className="flex items-center text-muted-foreground">
                     <Code className="w-4 h-4 text-accent mr-2" />
-                    WASM acceleration used
+                    WASM integration planned
                   </div>
                 </div>
               </div>
@@ -124,58 +91,58 @@ const AssistantPage = () => {
               <h2 className="text-2xl font-bold mb-6 text-foreground">Key Features</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-muted/20 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-foreground mb-3">Multi-Domain Intelligence</h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-3">Planned Multi-Domain Intelligence</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    The assistant can handle diverse topics from personal productivity to technical questions, 
-                    using specialized cognitive kernels for each domain.
+                    The architecture is designed to support specialized cognitive kernels for different domains 
+                    when implemented.
                   </p>
                   <ul className="text-xs text-muted-foreground space-y-1">
-                    <li>• Personal productivity and planning</li>
-                    <li>• Technical problem solving</li>
-                    <li>• Creative ideation and brainstorming</li>
-                    <li>• Data analysis and insights</li>
+                    <li>• Modular kernel design</li>
+                    <li>• Domain-specific processing</li>
+                    <li>• Architectural flexibility</li>
+                    <li>• Future extensibility</li>
                   </ul>
                 </div>
 
                 <div className="bg-muted/20 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-foreground mb-3">Ethical Guidelines</h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-3">Ethics-First Design</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Every response is validated through the Ethics Kernel to ensure helpful, 
-                    harmless, and honest assistance.
+                    The architecture incorporates ethical considerations as a foundational design principle, 
+                    not an afterthought.
                   </p>
                   <ul className="text-xs text-muted-foreground space-y-1">
-                    <li>• Privacy protection by design</li>
-                    <li>• Bias detection and mitigation</li>
-                    <li>• Harm prevention protocols</li>
-                    <li>• Transparency in reasoning</li>
+                    <li>• Ethics embedded in architecture</li>
+                    <li>• Validation-first approach</li>
+                    <li>• Safety by design</li>
+                    <li>• Transparent principles</li>
                   </ul>
                 </div>
 
                 <div className="bg-muted/20 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-foreground mb-3">Contextual Memory</h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-3">Planned Memory Architecture</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Maintains conversation context and learns from interactions while 
-                    respecting privacy boundaries.
+                    Designed to support contextual memory with privacy-preserving principles 
+                    when fully implemented.
                   </p>
                   <ul className="text-xs text-muted-foreground space-y-1">
-                    <li>• Session-based context retention</li>
-                    <li>• Preference learning</li>
-                    <li>• Conversation continuity</li>
-                    <li>• Secure memory management</li>
+                    <li>• Memory kernel design</li>
+                    <li>• Privacy-first approach</li>
+                    <li>• Modular memory systems</li>
+                    <li>• Security considerations</li>
                   </ul>
                 </div>
 
                 <div className="bg-muted/20 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-foreground mb-3">Offline Capability</h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-3">WASM Integration Goals</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Core functionality works offline using local WASM modules, 
-                    ensuring privacy and availability.
+                    Architecture designed to support WebAssembly integration for 
+                    local processing capabilities.
                   </p>
                   <ul className="text-xs text-muted-foreground space-y-1">
-                    <li>• Local processing capability</li>
-                    <li>• No mandatory cloud dependency</li>
-                    <li>• Instant response times</li>
-                    <li>• Data stays on device</li>
+                    <li>• Local-first design</li>
+                    <li>• WASM module support</li>
+                    <li>• Privacy-preserving</li>
+                    <li>• Offline-first approach</li>
                   </ul>
                 </div>
               </div>
@@ -209,23 +176,21 @@ const AssistantPage = () => {
                   </div>
 
                   <div className="bg-background p-4 rounded border">
-                    <h4 className="font-semibold text-foreground mb-2">Key Code Components</h4>
+                    <h4 className="font-semibold text-foreground mb-2">Architectural Concept</h4>
                     <pre className="text-xs text-muted-foreground overflow-x-auto">
-{`// Initialize assistant with multiple kernels
-const assistant = new PersonalAssistant({
-  kernels: ['language', 'reasoning', 'memory', 'ethics'],
-  config: {
-    privacyMode: 'strict',
-    offlineCapable: true,
-    ethicsValidation: 'required'
-  }
-});
+{`// Conceptual architecture design
+// This represents the planned system structure
 
-// Process user query
-const response = await assistant.process({
-  query: "Help me plan my day",
-  context: userContext
-});`}
+interface CognitiveSystem {
+  kernels: string[];
+  configuration: {
+    ethicsFirst: boolean;
+    modularDesign: boolean;
+    wasmIntegration: boolean;
+  };
+}
+
+// Development preview - not yet implemented`}
                     </pre>
                   </div>
                 </div>
