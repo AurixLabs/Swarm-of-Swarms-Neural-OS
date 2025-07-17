@@ -188,75 +188,226 @@ const HomePage = () => {
             </ul>
           </div>
 
-          <div className="max-w-4xl mx-auto mt-16">
-            <h3 className="text-2xl font-bold mb-8 text-foreground text-center">🏭 Industry Applications</h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="bg-green-50 p-6 rounded-lg border border-green-200">
-                <h4 className="font-semibold text-green-800 mb-3">🌾 Smart Agriculture</h4>
-                <ul className="text-sm text-green-700 space-y-1">
+          <div className="max-w-6xl mx-auto mt-16">
+            <h3 className="text-2xl font-bold mb-8 text-foreground text-center">🏭 Industry Applications & Market Opportunities</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+              
+              <div className="bg-green-50 p-4 rounded-lg border border-green-200">
+                <h4 className="font-semibold text-green-800 mb-2">🌾 Agriculture & Food</h4>
+                <ul className="text-xs text-green-700 space-y-1">
                   <li>• Sensor mesh networks across farmland</li>
-                  <li>• Coordinated irrigation and monitoring</li>
-                  <li>• Distributed crop analysis agents</li>
-                  <li>• Weather pattern coordination</li>
-                </ul>
-              </div>
-              
-              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-                <h4 className="font-semibold text-blue-800 mb-3">🏭 Manufacturing</h4>
-                <ul className="text-sm text-blue-700 space-y-1">
-                  <li>• Coordinated robot swarms</li>
-                  <li>• Quality control agent networks</li>
+                  <li>• Coordinated irrigation systems</li>
+                  <li>• Crop monitoring agent swarms</li>
+                  <li>• Livestock health tracking</li>
                   <li>• Supply chain optimization</li>
-                  <li>• Predictive maintenance systems</li>
+                  <li>• Weather prediction networks</li>
                 </ul>
               </div>
               
-              <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-                <h4 className="font-semibold text-purple-800 mb-3">🏥 Healthcare</h4>
-                <ul className="text-sm text-purple-700 space-y-1">
-                  <li>• Distributed patient monitoring</li>
-                  <li>• Coordinated diagnostic agents</li>
+              <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                <h4 className="font-semibold text-blue-800 mb-2">🏭 Manufacturing & Industry</h4>
+                <ul className="text-xs text-blue-700 space-y-1">
+                  <li>• Coordinated robot swarms</li>
+                  <li>• Quality control networks</li>
+                  <li>• Predictive maintenance</li>
+                  <li>• Supply chain coordination</li>
+                  <li>• Assembly line optimization</li>
+                  <li>• Inventory management</li>
+                </ul>
+              </div>
+              
+              <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
+                <h4 className="font-semibold text-purple-800 mb-2">🏥 Healthcare & Medical</h4>
+                <ul className="text-xs text-purple-700 space-y-1">
+                  <li>• Patient monitoring networks</li>
+                  <li>• Diagnostic agent coordination</li>
                   <li>• Hospital resource optimization</li>
-                  <li>• Emergency response coordination</li>
+                  <li>• Emergency response systems</li>
+                  <li>• Drug discovery coordination</li>
+                  <li>• Telemedicine networks</li>
                 </ul>
               </div>
               
-              <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
-                <h4 className="font-semibold text-orange-800 mb-3">🚗 Transportation</h4>
-                <ul className="text-sm text-orange-700 space-y-1">
+              <div className="bg-orange-50 p-4 rounded-lg border border-orange-200">
+                <h4 className="font-semibold text-orange-800 mb-2">🚗 Transportation & Logistics</h4>
+                <ul className="text-xs text-orange-700 space-y-1">
                   <li>• Fleet coordination systems</li>
                   <li>• Traffic optimization networks</li>
-                  <li>• Autonomous vehicle swarms</li>
                   <li>• Route planning coordination</li>
+                  <li>• Autonomous vehicle swarms</li>
+                  <li>• Warehouse automation</li>
+                  <li>• Delivery optimization</li>
                 </ul>
               </div>
               
-              <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
-                <h4 className="font-semibold text-yellow-800 mb-3">⚡ Energy</h4>
-                <ul className="text-sm text-yellow-700 space-y-1">
+              <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                <h4 className="font-semibold text-yellow-800 mb-2">⚡ Energy & Utilities</h4>
+                <ul className="text-xs text-yellow-700 space-y-1">
                   <li>• Smart grid coordination</li>
                   <li>• Distributed energy storage</li>
                   <li>• Solar panel optimization</li>
                   <li>• Load balancing networks</li>
+                  <li>• Wind farm coordination</li>
+                  <li>• Power distribution</li>
                 </ul>
               </div>
               
-              <div className="bg-red-50 p-6 rounded-lg border border-red-200">
-                <h4 className="font-semibold text-red-800 mb-3">🛡️ Security</h4>
-                <ul className="text-sm text-red-700 space-y-1">
-                  <li>• Distributed surveillance systems</li>
-                  <li>• Threat detection networks</li>
-                  <li>• Coordinated response agents</li>
+              <div className="bg-red-50 p-4 rounded-lg border border-red-200">
+                <h4 className="font-semibold text-red-800 mb-2">🛡️ Security & Safety</h4>
+                <ul className="text-xs text-red-700 space-y-1">
                   <li>• Perimeter monitoring swarms</li>
+                  <li>• Threat detection networks</li>
+                  <li>• Emergency response coordination</li>
+                  <li>• Disaster management systems</li>
+                  <li>• Fire detection networks</li>
+                  <li>• Cybersecurity coordination</li>
                 </ul>
               </div>
+
+              <div className="bg-cyan-50 p-4 rounded-lg border border-cyan-200">
+                <h4 className="font-semibold text-cyan-800 mb-2">🏢 Real Estate & Construction</h4>
+                <ul className="text-xs text-cyan-700 space-y-1">
+                  <li>• Smart building management</li>
+                  <li>• Construction site coordination</li>
+                  <li>• Property monitoring networks</li>
+                  <li>• HVAC optimization swarms</li>
+                  <li>• Maintenance scheduling</li>
+                  <li>• Energy efficiency networks</li>
+                </ul>
+              </div>
+
+              <div className="bg-indigo-50 p-4 rounded-lg border border-indigo-200">
+                <h4 className="font-semibold text-indigo-800 mb-2">🎓 Education & Research</h4>
+                <ul className="text-xs text-indigo-700 space-y-1">
+                  <li>• Personalized learning systems</li>
+                  <li>• Research collaboration networks</li>
+                  <li>• Campus resource optimization</li>
+                  <li>• Student support coordination</li>
+                  <li>• Laboratory management</li>
+                  <li>• Knowledge sharing networks</li>
+                </ul>
+              </div>
+
+              <div className="bg-pink-50 p-4 rounded-lg border border-pink-200">
+                <h4 className="font-semibold text-pink-800 mb-2">🛍️ Retail & E-commerce</h4>
+                <ul className="text-xs text-pink-700 space-y-1">
+                  <li>• Inventory coordination networks</li>
+                  <li>• Customer experience optimization</li>
+                  <li>• Supply chain visibility</li>
+                  <li>• Price optimization systems</li>
+                  <li>• Store operations coordination</li>
+                  <li>• Demand forecasting networks</li>
+                </ul>
+              </div>
+
+              <div className="bg-teal-50 p-4 rounded-lg border border-teal-200">
+                <h4 className="font-semibold text-teal-800 mb-2">🌊 Environmental & Climate</h4>
+                <ul className="text-xs text-teal-700 space-y-1">
+                  <li>• Climate monitoring networks</li>
+                  <li>• Pollution tracking systems</li>
+                  <li>• Wildlife conservation coordination</li>
+                  <li>• Ocean monitoring swarms</li>
+                  <li>• Forest fire detection</li>
+                  <li>• Carbon footprint tracking</li>
+                </ul>
+              </div>
+
+              <div className="bg-violet-50 p-4 rounded-lg border border-violet-200">
+                <h4 className="font-semibold text-violet-800 mb-2">💰 Finance & Banking</h4>
+                <ul className="text-xs text-violet-700 space-y-1">
+                  <li>• Fraud detection networks</li>
+                  <li>• Risk assessment coordination</li>
+                  <li>• Trading algorithm swarms</li>
+                  <li>• Compliance monitoring</li>
+                  <li>• Customer service optimization</li>
+                  <li>• Payment processing networks</li>
+                </ul>
+              </div>
+
+              <div className="bg-emerald-50 p-4 rounded-lg border border-emerald-200">
+                <h4 className="font-semibold text-emerald-800 mb-2">🎬 Media & Entertainment</h4>
+                <ul className="text-xs text-emerald-700 space-y-1">
+                  <li>• Content distribution networks</li>
+                  <li>• Audience engagement optimization</li>
+                  <li>• Live event coordination</li>
+                  <li>• Streaming optimization</li>
+                  <li>• Gaming server coordination</li>
+                  <li>• Social media monitoring</li>
+                </ul>
+              </div>
+
+              <div className="bg-amber-50 p-4 rounded-lg border border-amber-200">
+                <h4 className="font-semibold text-amber-800 mb-2">🏨 Hospitality & Tourism</h4>
+                <ul className="text-xs text-amber-700 space-y-1">
+                  <li>• Guest experience optimization</li>
+                  <li>• Hotel operations coordination</li>
+                  <li>• Tourism resource management</li>
+                  <li>• Restaurant optimization</li>
+                  <li>• Event management systems</li>
+                  <li>• Travel recommendation networks</li>
+                </ul>
+              </div>
+
+              <div className="bg-rose-50 p-4 rounded-lg border border-rose-200">
+                <h4 className="font-semibold text-rose-800 mb-2">⚕️ Pharmaceuticals & Biotech</h4>
+                <ul className="text-xs text-rose-700 space-y-1">
+                  <li>• Drug discovery coordination</li>
+                  <li>• Clinical trial management</li>
+                  <li>• Research collaboration networks</li>
+                  <li>• Quality control systems</li>
+                  <li>• Supply chain tracking</li>
+                  <li>• Regulatory compliance</li>
+                </ul>
+              </div>
+
+              <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                <h4 className="font-semibold text-slate-800 mb-2">🚀 Aerospace & Defense (Civilian)</h4>
+                <ul className="text-xs text-slate-700 space-y-1">
+                  <li>• Air traffic coordination</li>
+                  <li>• Satellite communication networks</li>
+                  <li>• Weather monitoring systems</li>
+                  <li>• Space exploration coordination</li>
+                  <li>• Aviation safety networks</li>
+                  <li>• Logistics optimization</li>
+                </ul>
+              </div>
+
+              <div className="bg-stone-50 p-4 rounded-lg border border-stone-200">
+                <h4 className="font-semibold text-stone-800 mb-2">🌐 Telecommunications</h4>
+                <ul className="text-xs text-stone-700 space-y-1">
+                  <li>• Network optimization systems</li>
+                  <li>• 5G infrastructure coordination</li>
+                  <li>• Customer service automation</li>
+                  <li>• Bandwidth management</li>
+                  <li>• Service quality monitoring</li>
+                  <li>• Infrastructure maintenance</li>
+                </ul>
+              </div>
+
             </div>
             
             <div className="mt-8 p-6 bg-gray-50 rounded-lg border">
-              <p className="text-sm text-gray-700 text-center">
-                <strong>Architecture Foundation:</strong> The platform provides the coordination framework and communication protocols. 
-                Developers implement domain-specific logic using the swarm coordination APIs and hardware integration capabilities.
-              </p>
+              <h4 className="font-semibold text-gray-800 mb-3 text-center">🎯 Cross-Industry Benefits</h4>
+              <div className="grid md:grid-cols-3 gap-4 text-sm">
+                <div className="text-center">
+                  <div className="font-semibold text-blue-800">💡 Innovation Potential</div>
+                  <div className="text-gray-700">Every industry can benefit from coordinated intelligence and distributed processing</div>
+                </div>
+                <div className="text-center">
+                  <div className="font-semibold text-green-800">💰 Cost Efficiency</div>
+                  <div className="text-gray-700">Reduced infrastructure costs through intelligent resource sharing and optimization</div>
+                </div>
+                <div className="text-center">
+                  <div className="font-semibold text-purple-800">⚡ Scalability</div>
+                  <div className="text-gray-700">From small deployments to enterprise-scale coordination systems</div>
+                </div>
+              </div>
+              <div className="mt-4 p-4 bg-white rounded border text-center">
+                <p className="text-sm text-gray-700">
+                  <strong>Developer Foundation:</strong> The platform provides coordination APIs, mesh networking capabilities, and agent communication protocols. 
+                  Industry-specific logic and business rules are implemented by developers using these foundational tools.
+                </p>
+              </div>
             </div>
           </div>
 
