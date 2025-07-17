@@ -9,11 +9,11 @@ import { ProtectedCode } from '../ProtectedCode';
 
 // Example 1: Protected Function
 // This algorithm will be encrypted at rest and only decrypted when executed
-const calculateBreakthrough = ProtectedCode.createProtectedFunction(
-  'breakthrough-algorithm-v1',
+const calculateInnovation = ProtectedCode.createProtectedFunction(
+  'innovation-algorithm-v1',
   (parameters: any) => {
     // Your critical algorithm implementation
-    console.log('Executing protected breakthrough algorithm');
+    console.log('Executing protected innovation algorithm');
     
     const result = {
       probability: 0.87,
@@ -76,7 +76,7 @@ const getApiEndpoints = ProtectedCode.createProtectedValue(
 // Export the protected items - note that they appear as normal functions/classes
 // but their implementation is encrypted at rest
 export {
-  calculateBreakthrough,
+  calculateInnovation,
   ProtectedIntelligenceAnalyzer,
   getApiEndpoints
 };

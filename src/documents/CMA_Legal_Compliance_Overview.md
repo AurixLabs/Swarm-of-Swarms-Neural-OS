@@ -224,7 +224,7 @@ The CMA is designed for adaptation to evolving regulatory landscapes:
 - **Regulatory Monitoring**: Systems to track emerging regulations and requirements.
 - **Flexible Compliance Framework**: Adaptable architecture that can accommodate new regulatory requirements.
 - **Regional Variations**: Support for different regulatory regimes across jurisdictions.
-- **Compliance Roadmap**: Strategic planning for future regulatory changes.
+- **Compliance Framework**: Current compliance policies and procedures.
 
 ## Conclusion
 

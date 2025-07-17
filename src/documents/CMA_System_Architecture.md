@@ -135,9 +135,8 @@ Each Rust module should follow this structure:
 ## Reference Documentation
 
 For more detailed implementation notes and guidance, refer to:
-- [CMA_Implementation_Notes.md](./CMA_Implementation_Notes.md)
-- [Vision_For_Future_Assistants.md](./Vision_For_Future_Assistants.md)
-- [Project_Continuity_Guide.md](./Project_Continuity_Guide.md)
+- [CMA_Competitive_Edge.md](./CMA_Competitive_Edge.md)
+- [CMA_System_Comprehensive_Overview.md](./CMA_System_Comprehensive_Overview.md)
 
 ## Version History
 

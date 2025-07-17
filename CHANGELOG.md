@@ -30,7 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Core CMA Architecture**: Initial implementation of Cognitive Modular Architecture
 - **System Kernel**: Basic kernel system with event-driven communication
 - **AI Kernel**: Foundation for AI model integration and management
-- **Ethics Framework**: Immutable ethics system with cryptographic verification
+- **Ethics Framework**: Robust ethics system with cryptographic verification
 - **WASM Integration**: Basic WebAssembly module support for hardware control
 - **React Frontend**: Modern React application with TypeScript support
 - **State Management**: Zustand-based state management with kernel integration

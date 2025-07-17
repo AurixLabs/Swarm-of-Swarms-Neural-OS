@@ -22,7 +22,7 @@ const HomePage = () => {
     "Decentralized Power - Distributed architecture following decentralized principles",
     "Temporal Computing Foundation - Modular time-state management enabling distributed temporal reasoning and causality preservation",
     "Quantum-Ready Temporal Modules - Architecture supports quantum temporal computing through distributed quantum state management",
-    "Causal Consistency Engine - Immutable ethics layer ensures temporal paradox prevention and causality enforcement",
+    "Causal Consistency Engine - Robust ethics layer ensures temporal paradox prevention and causality enforcement",
     "Multi-Timeline Processing - Swarm intelligence can simulate and process multiple temporal branches simultaneously",
     "Meta-Kernel Architecture - Universal protective shell that orchestrates and safeguards all system kernels with self-healing capabilities",
     "Multi-Kernel Intelligence - 12+ specialized cognitive kernels (AI, Memory, Ethics, Security) vs traditional single-kernel monolithic systems",
@@ -317,7 +317,7 @@ const HomePage = () => {
                 <div className="bg-gradient-to-br from-destructive/10 to-destructive/5 p-6 rounded-lg border border-destructive/20">
                   <h4 className="font-bold text-destructive mb-3">🛡️ Causal Consistency Engine</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>• Immutable ethics layer prevents temporal paradoxes</li>
+                    <li>• Robust ethics layer prevents temporal paradoxes</li>
                     <li>• Built-in causality enforcement algorithms</li>
                     <li>• Temporal integrity verification across all time states</li>
                     <li>• Automatic rollback on causal violation detection</li>
@@ -342,7 +342,7 @@ const HomePage = () => {
                     <ul className="text-sm text-muted-foreground space-y-1">
                       <li>• Modular design enables temporal component isolation</li>
                       <li>• Distributed architecture processes parallel timelines</li>
-                      <li>• Immutable ethics = unbreakable causality laws</li>
+                      <li>• Robust ethics = unbreakable causality laws</li>
                       <li>• Swarm intelligence simulates quantum temporal effects</li>
                     </ul>
                   </div>
@@ -356,7 +356,7 @@ const HomePage = () => {
             <h3 className="text-2xl font-bold mb-8 text-foreground">🛡️ Ethics-First: Beyond World Standards</h3>
             <div className="text-left space-y-6">
               <p className="text-lg text-muted-foreground mb-6">
-                CMA implements immutable ethics that exceed current world organization standards:
+                CMA implements robust ethics that exceed current world organization standards:
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -373,7 +373,7 @@ const HomePage = () => {
                 </div>
                 
                 <div className="bg-primary/10 p-6 rounded-lg border border-primary/20">
-                  <h4 className="font-bold text-primary mb-3">✅ CMA Immutable Ethics Standard</h4>
+                  <h4 className="font-bold text-primary mb-3">✅ CMA Robust Ethics Standard</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
                     <li>• <strong>Robust Core</strong> - Strong protections against bypass or modification</li>
                     <li>• <strong>Built-In Foundation</strong> - Ethics layer integrated at OS level</li>
@@ -412,7 +412,7 @@ const HomePage = () => {
                       <ul className="text-sm text-muted-foreground space-y-1">
                         <li>• Current AI systems can override ethical guidelines</li>
                         <li>• Economic pressure often trumps ethical considerations</li>
-                        <li>• AGI without immutable ethics = existential risk</li>
+                        <li>• AGI without robust ethics = existential risk</li>
                         <li>• Post-deployment ethical patches are insufficient</li>
                       </ul>
                     </div>
@@ -698,8 +698,8 @@ const HomePage = () => {
                     <li>• <strong>✅ Multi-Domain Architecture:</strong> More complex than any major launch</li>
                     <li>• <strong>✅ Production Documentation:</strong> Comprehensive system guides</li>
                     <li>• <strong>✅ Hardware Integration:</strong> Real ESP32/WASM implementation</li>
-                    <li>• <strong>✅ Built-in Ethics/Security:</strong> Unprecedented at launch</li>
-                    <li>• <strong>✅ Real WASM Compilation:</strong> Cutting-edge implementation</li>
+                    <li>• <strong>✅ Built-in Ethics/Security:</strong> Advanced ethics at launch</li>
+                    <li>• <strong>✅ Real WASM Compilation:</strong> Advanced implementation</li>
                     <li>• <strong>✅ Kernel System:</strong> Production-ready fault tolerance</li>
                   </ul>
                 </div>
@@ -712,7 +712,7 @@ const HomePage = () => {
                     <li>• Multi-kernel cognitive architecture</li>
                     <li>• Neuromorphic WASM processors</li>
                     <li>• Distributed temporal computing</li>
-                    <li>• Immutable ethics enforcement</li>
+                    <li>• Robust ethics enforcement</li>
                     <li>• Cross-platform hardware abstraction</li>
                   </ul>
                 </div>

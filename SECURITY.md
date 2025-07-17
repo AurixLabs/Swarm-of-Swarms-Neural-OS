@@ -90,7 +90,7 @@ Include:
 ## 🚀 Security Features
 
 ### Built-in Security
-- **Immutable Ethics Framework**: Cryptographically verified ethical constraints
+- **Robust Ethics Framework**: Cryptographically verified ethical constraints
 - **Kernel Isolation**: Each kernel runs in its own security context
 - **Event Validation**: All inter-kernel communication is validated
 - **Audit Logging**: Comprehensive logging of all system operations
