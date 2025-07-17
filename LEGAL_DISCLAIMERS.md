@@ -21,7 +21,7 @@
 
 - **Innovation Claims**: Claims about technological innovation are based on our current understanding and may be subject to revision as the field evolves.
 - **Competitive Comparisons**: Comparisons to other technologies are based on publicly available information and our analysis, which may be incomplete or outdated.
-- **Future Development**: Development roadmaps and feature promises are subject to change based on technical feasibility and business priorities.
+- **Future Development**: Future feature plans are subject to change based on technical feasibility and business priorities.
 
 ## Limitation of Liability
 
